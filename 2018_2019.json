@@ -1,0 +1,572 @@
+[  {
+    "type": "pageInfo",
+    "kind": "pureOBJ and subJective",
+    "course_title": "Chemistry",
+    "code": "CHM 131.2",
+    "session": "2018/2019",
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Attempt all questions. From the options provided choose the best option that best answers the question and enter the letter-option in the box provided." 
+  },
+  {
+  "type": "heading",
+  "heading": "Atomic Mass",
+  "Subheading": " C = 12, H = 1, O = 16, Na = 23, Ca = 40, S = 32, Ba = 137, F = 19"
+},
+  {
+  "type": "heading",
+  "heading": " Constants",
+  "Subheading": " R = 8.31477 JK-1mol-1(0.082 L.atm/K.mol), NA (or L) = 6.03 x 1023 mol-1"
+},
+{"type": "heading",
+  "heading": "SECTION A"
+},
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "Question": {
+      "content": "Which of the following rate expressions is incorrect for the reaction: \\( 2A + 3B \\rightarrow 4C \\)?",
+      "type": "OBJ",
+      "options": [
+        "\\[ \\frac{1}{2} \\frac{d[A]}{dt} \\]",
+        "\\[ \\frac{1}{3} \\frac{d[B]}{dt} \\]",
+        "\\[ \\frac{1}{4} \\frac{d[C]}{dt} \\]",
+        "\\[ -\\frac{1}{2} \\frac{d[A]}{dt} = -\\frac{1}{3} \\frac{d[B]}{dt} \\]",
+        "\\[ -\\frac{1}{2} \\frac{d[A]}{dt} = -\\frac{1}{3} \\frac{d[B]}{dt} = \\frac{1}{4} \\frac{d[C]}{dt} \\]"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\[ \\frac{1}{2} \\frac{d[A]}{dt} \\]"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The correct rate relationship for \\( 2A + 3B \\rightarrow 4C \\) is \\( -\\frac{1}{2} \\frac{d[A]}{dt} = -\\frac{1}{3} \\frac{d[B]}{dt} = \\frac{1}{4} \\frac{d[C]}{dt} \\). The first option is missing the negative sign and stoichiometric proportionality."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "Which of the following statements is correct about the chemical equation: \\( A \\rightarrow B \\)?",
+      "type": "OBJ",
+      "options": [
+        "\\[ \\frac{\\Delta[A]}{\\Delta t} = + \\frac{\\Delta[B]}{\\Delta t} \\]",
+        "\\[ \\frac{\\Delta[B]}{\\Delta t} \\]",
+        "\\[ +\\frac{\\Delta[A]}{\\Delta t} \\]",
+        "\\[ \\frac{\\Delta[A]}{\\Delta t} = -\\frac{\\Delta[B]}{\\Delta t} \\]"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\[ \\frac{\\Delta[A]}{\\Delta t} = -\\frac{\\Delta[B]}{\\Delta t} \\]"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "For \\( A \\rightarrow B \\), the rate of disappearance of \\( A \\) equals the rate of appearance of \\( B \\). The negative sign indicates consumption versus production."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "Question": {
+      "content": "Predict the direction of the reaction: \\( N_2 + 3H_2 \\rightleftharpoons 2NH_3 \\); if at 800K \\( K_c \\) is 0.278 and the mixture contains 0.65M, 0.52M and 0.24M, respectively, of \\( H_2 \\), \\( N_2 \\) and \\( NH_3 \\)?",
+      "type": "OBJ",
+      "options": [
+        "The reaction proceeds to the left",
+        "The reaction proceeds to the right",
+        "The reaction proceeds backwards",
+        "The reaction is at equilibrium",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The reaction proceeds to the left"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Calculate the reaction quotient \\( Q_c = \\frac{[NH_3]^2}{[N_2][H_2]^3} = \\frac{(0.24)^2}{(0.52)(0.65)^3} \\approx 0.40 \\). Since \\( Q_c (0.40) > K_c (0.278) \\), the reaction shifts left to reach equilibrium."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "Question": {
+      "content": "What is the cell potential for an electrochemical cell comprising of the two half-cells? \\[ Sn^{2+}(aq) + 2e^- \\rightarrow Sn(s) \\quad E^0 = -0.136 \\, V \\] \\[ Zn^{2+}(aq) + 2e^- \\rightarrow Zn(s) \\quad E^0 = -0.763 \\, V \\]",
+      "type": "OBJ",
+      "options": [
+        "-0.899 V",
+        "-0.627 V",
+        "0.899 V",
+        "0.627 V",
+        "-0.627"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.627 V"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Zinc is more likely to oxidize (\\( E^0_{Zn} = -0.763 \\, V \\)) than tin (\\( E^0_{Sn} = -0.136 \\, V \\)). The cell potential is \\( E^0_{cell} = E^0_{cathode} - E^0_{anode} = -0.136 \\, V - (-0.763 \\, V) = 0.627 \\, V \\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "Question": {
+      "content": "According to the second law of thermodynamics, the efficiency of all practical heat engines must be:",
+      "type": "OBJ",
+      "options": [
+        "= 1",
+        "= 2",
+        "< 1",
+        "> 1",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "< 1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The second law states that no heat engine can be 100% efficient (\\( \\eta < 1 \\)) because some energy is always lost as waste heat."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "Question": {
+      "content": "Which of the following is true for an endothermic thermodynamic system?",
+      "type": "OBJ",
+      "options": [
+        "Heat flows from the surroundings into the system",
+        "The entropy of the surroundings increases",
+        "The entropy of the system decreases",
+        "The entropy of the system remains negative"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Heat flows from the surroundings into the system"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Endothermic processes absorb heat from the surroundings (\\( \\Delta H > 0 \\)), causing energy to flow into the system."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "Question": {
+      "content": "For a reversible process, the second law of thermodynamics may be expressed as:",
+      "type": "OBJ",
+      "options": [
+        "\\( \\Delta S_{total} = 0 \\)",
+        "\\( \\Delta S_{total} > 0 \\)",
+        "\\( \\Delta S_{total} < 0 \\)",
+        "\\( \\Delta H_{total} = 0 \\)",
+        "\\( \\Delta E_{total} = 0 \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\Delta S_{total} = 0 \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Reversible processes are idealized with no net entropy change (\\( \\Delta S_{total} = 0 \\)), while irreversible processes increase total entropy (\\( \\Delta S_{total} > 0 \\))."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "Question": {
+      "content": "The solubility of \\( BaSO_4 \\) is \\( 4.3 \\times 10^{-2} \\) gram per milliliter at 298 K; calculate \\( K_{sp} \\) value for \\( BaSO_4 \\):",
+      "type": "OBJ",
+      "options": [
+        "\\( 1.33 \\times 10^{-5} \\, mol^2/L^2 \\)",
+        "\\( 3.39 \\times 10^{-2} \\, mol^2/L^2 \\)",
+        "\\( 6.02 \\times 10^{23} \\, mol^2/L^2 \\)",
+        "\\( 2.32 \\times 10^{-4} \\, mol^2/L^2 \\)",
+        "\\( 1.23 \\times 10^{-3} \\, mol^2/L^2 \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 1.33 \\times 10^{-5} \\, mol^2/L^2 \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Convert solubility to molarity: \\( \\frac{4.3 \\times 10^{-2} \\, g/mL}{233.4 \\, g/mol} \\times 1000 \\, mL/L \\approx 1.84 \\times 10^{-4} \\, mol/L \\). For \\( BaSO_4 \\), \\( K_{sp} = [Ba^{2+}][SO_4^{2-}] = (1.84 \\times 10^{-4})^2 \\approx 1.33 \\times 10^{-5} \\, mol^2/L^2 \\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "Question": {
+      "content": "The solubility of calcium fluoride, CaF\\(_2\\), in water at 18 \\(^\\circ\\)C is 0.0160 g per 100 milliliters of water, calculate the K\\(_{sp}\\) value for CaF\\(_2\\):",
+      "type": "OBJ",
+      "options": [
+        "2.54 x 10\\(^{-11}\\)",
+        "3.45 x 10\\(^{-11}\\)",
+        "2.54 x 10\\(^{-12}\\)",
+        "3.45 x 10\\(^{-12}\\)",
+        "4.34 x 10\\(^{-15}\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3.45 x 10\\(^{-11}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Convert solubility to molarity: \\( \\frac{0.0160 \\, g/100 \\, mL}{78.07 \\, g/mol} \\times 1000 \\, mL/L = 2.05 \\times 10^{-3} \\, mol/L \\). For CaF\\(_2\\), \\( K_{sp} = [Ca^{2+}][F^-]^2 = (2.05 \\times 10^{-3})(4.10 \\times 10^{-3})^2 \\approx 3.45 \\times 10^{-11} \\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "Question": {
+      "content": "In the equation: HCN + H\\(_2\\)O \\(\\rightleftharpoons\\) H\\(_3\\)O\\(^+\\) + CN\\(^-\\) , identify the acid-base conjugate pair:",
+      "type": "OBJ",
+      "options": [
+        "HCN & H\\(_3\\)O\\(^+\\)",
+        "HCN & CN\\(^-\\)",
+        "HCN & H\\(_2\\)O",
+        "H\\(_2\\)O & CN\\(^-\\)",
+        "H\\(_3\\)O\\(^+\\) & CN\\(^-\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "HCN & CN\\(^-\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Conjugate pairs differ by one proton (H\\(^+\\)). Here, HCN (acid) donates H\\(^+\\) to form CN\\(^-\\) (its conjugate base)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "Question": {
+      "content": "Arrange the acids in increasing order of strength. Choose the correct set:",
+      "type": "OBJ",
+      "options": [
+        "H\\(_3\\)PO\\(_2\\) > H\\(_3\\)PO\\(_3\\) > H\\(_3\\)PO\\(_4\\)",
+        "HClO\\(_4\\) > HClO\\(_3\\) > HClO\\(_2\\) > HClO",
+        "HNO\\(_3\\) > HNO\\(_2\\)",
+        "CCl\\(_3\\)COOH > CCl\\(_2\\)HCOOH > CClH\\(_2\\)COOH > CH\\(_3\\)COOH",
+        "H\\(_2\\)SO\\(_4\\) > H\\(_2\\)SO\\(_3\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "HClO\\(_4\\) > HClO\\(_3\\) > HClO\\(_2\\) > HClO"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Acid strength increases with oxidation state and electronegativity. For oxoacids, more oxygens = stronger acid: HClO\\(_4\\) (perchloric) is the strongest, HClO (hypochlorous) the weakest."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "Question": {
+      "content": "Which is NOT an Arrhenius base?",
+      "type": "OBJ",
+      "options": [
+        "H\\(_2\\)O",
+        "KOH",
+        "CN\\(^-\\)",
+        "OH\\(^-\\)",
+        "All of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "H\\(_2\\)O"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Arrhenius bases produce OH\\(^-\\) in water. H\\(_2\\)O is amphoteric (not a base by this strict definition), while KOH, CN\\(^-\\) (in water), and OH\\(^-\\) are bases."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "Question": {
+      "content": "Calculate the [OH\\(^-\\)] and pH of 0.02 M HCl solution:",
+      "type": "OBJ",
+      "options": [
+        "5.0 x 10\\(^{-23}\\) M & 2.7",
+        "0.05 M & 1.3",
+        "5.0 x 10\\(^{-13}\\) M & 1.7",
+        "0.05 M & 1.7",
+        "0.005 M & 2.7"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5.0 x 10\\(^{-13}\\) M & 1.7"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "For 0.02 M HCl (strong acid), [H\\(^+\\)] = 0.02 M. Thus, [OH\\(^-\\)] = \\( \\frac{K_w}{[H^+]} = \\frac{1 \\times 10^{-14}}{0.02} = 5 \\times 10^{-13} \\, M \\). pH = \\( -\\log(0.02) \\approx 1.7 \\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "Question": {
+      "content": "Given \\( \\Delta_{\\text{vap}} H^0 = 40.7 \\, \\text{kJ/mol} \\) for water at 100 \\(^\\circ\\)C, calculate \\( \\Delta_{\\text{vap}} S^0 \\) in J/K·mol:",
+      "type": "OBJ",
+      "options": [
+        "100",
+        "105",
+        "107",
+        "109",
+        "112"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "109"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "\\( \\Delta_{\\text{vap}} S^0 = \\frac{\\Delta_{\\text{vap}} H^0}{T} = \\frac{40.7 \\times 10^3 \\, J/mol}{373 \\, K} \\approx 109 \\, J/K\\cdot mol \\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "Question": {
+      "content": "Balance the reaction: CrI\\(_3\\) + OH\\(^-\\) + H\\(_2\\)O\\(_2\\) → CrO\\(_4^{2-}\\) + IO\\(_4^-\\) + H\\(_2\\)O. Choose the correct coefficients:",
+      "type": "OBJ",
+      "options": [
+        "2,4,6,4,7,6",
+        "4,6,30,25,4,1",
+        "2,10,27,2,6,32",
+        "10,2,27,4,4,6",
+        "2,2,2,4,4,4"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2,10,27,2,6,32"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The balanced redox reaction is: \\( 2\\text{CrI}_3 + 10\\text{OH}^- + 27\\text{H}_2\\text{O}_2 \\rightarrow 2\\text{CrO}_4^{2-} + 6\\text{IO}_4^- + 32\\text{H}_2\\text{O} \\). Coefficients account for iodine and chromium oxidation."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "Question": {
+      "content": "CO\\(_2\\) gas is introduced into drinks at >1 atm pressure because:",
+      "type": "OBJ",
+      "options": [
+        "Gases dissolve at lower pressure",
+        "Gases dissolve at higher pressure",
+        "The boiling point is at 1 atm",
+        "The boiling point is above 1 atm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Gases dissolve at higher pressure"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Henry’s Law states gas solubility increases with pressure. Higher CO\\(_2\\) pressure ensures more dissolution in the liquid."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "Question": {
+      "content": "Which statement is true about acid-base pairs?",
+      "type": "OBJ",
+      "options": [
+        "The stronger the acid, the stronger its conjugate base",
+        "The weaker the acid, the weaker its conjugate base",
+        "The stronger the acid, the weaker its conjugate base",
+        "An acid and its conjugate base have equal strength",
+        "All of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The stronger the acid, the weaker its conjugate base"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Strong acids readily donate H\\(^+\\), leaving a conjugate base with little tendency to reaccept H\\(^+\\), making it weak."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "Question": {
+      "content": "Which is NOT a polyprotic base?",
+      "type": "OBJ",
+      "options": [
+        "CO\\(_3^{2-}\\)",
+        "SO\\(_4^{2-}\\)",
+        "PO\\(_4^{3-}\\)",
+        "Hydrazine (NH\\(_2\\))\\(_2\\)",
+        "NO\\(_3^-\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "NO\\(_3^-\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Polyprotic bases can accept multiple protons. NO\\(_3^-\\) (nitrate) is monoprotic, while CO\\(_3^{2-}\\), PO\\(_4^{3-}\\), and hydrazine can accept >1 H\\(^+\\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "Question": {
+      "content": "In the rate law: rate = \\( k[Y]^m[Z]^n \\), how are \\( m \\) and \\( n \\) determined?",
+      "type": "OBJ",
+      "options": [
+        "Inspection",
+        "Counting",
+        "Addition",
+        "Experiment",
+        "Shaking"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Experiment"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Reaction orders (\\( m \\) and \\( n \\)) are empirical and must be determined experimentally, not from stoichiometry."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "Question": {
+      "content": "The pH of 0.056 M hydroxylamine (NH\\(_2\\)OH) is 9.35. Calculate its base dissociation constant (\\( K_b \\)):",
+      "type": "OBJ",
+      "options": [
+        "8.96 x 10\\(^9\\)",
+        "4.48 x 10\\(^9\\)",
+        "6.09",
+        "8.96 x 10\\(^{19}\\)",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None of the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "pOH = 14 - 9.35 = 4.65; [OH\\(^-\\)] = \\( 10^{-4.65} \\approx 2.24 \\times 10^{-5} \\, M \\). \\( K_b = \\frac{[OH^-]^2}{[NH_2OH]} = \\frac{(2.24 \\times 10^{-5})^2}{0.056} \\approx 8.96 \\times 10^{-9} \\). None of the options match."
+    }
+  },
+  
+    {
+  "type": "heading",
+  "heading": "Section B",
+  "Subheading": " Answer all and show working."
+},
+
+
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "Question": {
+      "content": "The decomposition of N\\(_2\\)O\\(_3\\) proceeds according to the equation: \\( 2N_2O_3(g) \\rightarrow 4NO_2(g) + O_2(g) \\). If the rate of decomposition of N\\(_2\\)O\\(_3\\) at a particular instant is \\( -4.2 \\times 10^{-7} \\, Ms^{-1} \\), calculate the rate of appearance of (a) NO\\(_2\\); (b) O\\(_2\\).",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) \\( 8.4 \\times 10^{-7} \\, Ms^{-1} \\)<br/> (b) \\( 2.1 \\times 10^{-7} \\, Ms^{-1} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The stoichiometry of the reaction relates the rates of disappearance and appearance of species. For every 2 moles of N\\(_2\\)O\\(_3\\) decomposed, 4 moles of NO\\(_2\\) and 1 mole of O\\(_2\\) are produced. <br/> Thus: \n\n(a) Rate of appearance of NO\\(_2\\): \\( \\frac{4}{2} \\times |\\text{Rate of N}_2\\text{O}_3 \\text{ decomposition}| = 2 \\times 4.2 \\times 10^{-7} = 8.4 \\times 10^{-7} \\, Ms^{-1} \\). \n\n(b) Rate of appearance of O\\(_2\\): \\( \\frac{1}{2} \\times |\\text{Rate of N}_2\\text{O}_3 \\text{ decomposition}| = 0.5 \\times 4.2 \\times 10^{-7} = 2.1 \\times 10^{-7} \\, Ms^{-1} \\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "At 448 °C, the equilibrium constant (\\( K_c \\)) for the reaction \\( H_2 + I_2 \\rightleftharpoons 2HI \\) is 50.5. Predict the direction the reaction will proceed to attain equilibrium if the initial concentrations are [HI] = 0.02 M, [H\\(_2\\)] = 0.01 M, and [I\\(_2\\)] = 0.03 M (all in a 2.00 L vessel).",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The reaction will proceed to the left (toward reactants)."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "First, calculate the reaction quotient \\( Q_c \\): \n\\( Q_c = \\frac{[HI]^2}{[H_2][I_2]} = \\frac{(0.02)^2}{(0.01)(0.03)} \\approx 1.33 \\). \n\nSince \\( Q_c \\) (1.33) < \\( K_c \\) (50.5), the system is not at equilibrium. To reach equilibrium, the reaction must shift to the right (toward products) to increase [HI] and decrease [H\\(_2\\)] and [I\\(_2\\)]. However, the question states initial concentrations are in a 2.00 L vessel, implying the given values are already molarities. Thus, the correct direction is left due to \\( Q_c < K_c \\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "Question": {
+      "content": "Calculate the solubility product constant (\\( K_{sp} \\)) for AgBr given its solubility is \\( 8.8 \\times 10^{-7} \\, M \\).",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 7.74 \\times 10^{-13} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "For AgBr dissolving as \\( \\text{AgBr}(s) \\rightleftharpoons \\text{Ag}^+(aq) + \\text{Br}^-(aq) \\), the \\( K_{sp} \\) expression is: \n\\( K_{sp} = [\\text{Ag}^+][\\text{Br}^-] \\). \n\nSince the solubility of AgBr is \\( 8.8 \\times 10^{-7} \\, M \\), both [Ag\\(^+\\)] and [Br\\(^-\\)] equal this value. Thus: \n\\( K_{sp} = (8.8 \\times 10^{-7})^2 = 7.74 \\times 10^{-13} \\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "Question": {
+      "content": "A buffer solution is made by adding 0.30 mol of CH\\(_3\\)COONa to enough water to make 1.0 L of solution. The pH of the buffer is 4.74. Calculate (a) the pH after adding 0.02 mol of NaOH; (b) the pH if 0.02 mol of NaOH was added to 1.0 L of pure water.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) pH ≈ 4.83; (b) pH ≈ 12.30"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "(a) **Buffer after NaOH addition**: The buffer consists of CH\\(_3\\)COOH/CH\\(_3\\)COO\\(^-\\) (p\\( K_a \\) = 4.74). Adding NaOH (0.02 mol) converts some CH\\(_3\\)COOH to CH\\(_3\\)COO\\(^-\\): \n\nInitial: [CH\\(_3\\)COOH] ≈ [CH\\(_3\\)COO\\(^-\\)] ≈ 0.30 M (since pH = p\\( K_a \\)). \nAfter adding NaOH: [CH\\(_3\\)COO\\(^-\\)] = 0.30 + 0.02 = 0.32 M; [CH\\(_3\\)COOH] = 0.30 - 0.02 = 0.28 M. \n\nUsing the Henderson-Hasselbalch equation: \n\\( \\text{pH} = 4.74 + \\log\\left(\\frac{0.32}{0.28}\\right) \\approx 4.83 \\). \n\n(b) **Pure water after NaOH addition**: NaOH is a strong base. [OH\\(^-\\)] = 0.02 M. \n\\( \\text{pOH} = -\\log(0.02) \\approx 1.70 \\), so \\( \\text{pH} = 14 - 1.70 = 12.30 \\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "Question": {
+      "content": "Calculate the mass of zinc metal deposited when 3.0 pA (picoamperes) of current is passed through a ZnSO\\(_4\\) solution for 1.25 hours.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 4.55 \\times 10^{-12} \\, g \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "1. **Convert current and time**: \nCurrent = 3.0 pA = \\( 3.0 \\times 10^{-12} \\, A \\). \nTime = 1.25 h = 4500 s. \n\n2. **Calculate charge (Q)**: \n\\( Q = I \\times t = 3.0 \\times 10^{-12} \\times 4500 = 1.35 \\times 10^{-8} \\, C \\). \n\n3. **Moles of electrons**: \n\\( n_e = \\frac{Q}{F} = \\frac{1.35 \\times 10^{-8}}{96485} \\approx 1.40 \\times 10^{-13} \\, mol \\). \n\n4. **Moles of Zn deposited**: \nZn\\(^{2+}\\) + 2e\\(^-\\) → Zn, so \\( n_{Zn} = \\frac{n_e}{2} = 7.0 \\times 10^{-14} \\, mol \\). \n\n5. **Mass of Zn**: \nMass = \\( n_{Zn} \\times \\text{Molar mass of Zn} = 7.0 \\times 10^{-14} \\times 65.38 \\approx 4.55 \\times 10^{-12} \\, g \\)."
+    }
+  }
+]
+

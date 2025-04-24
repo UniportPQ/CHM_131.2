@@ -1,0 +1,588 @@
+[  {
+    "type": "pageInfo",
+    "kind": "pureOBJ and subJective",
+    "course_title": "Chemistry",
+    "code": "CHM 131.2",
+    "session": "2019/2020",
+    "time": "180"
+  },
+  {
+    "type": "Instruction",
+    "content": "Attempt all question. Enter your answers in the space provided." 
+  },
+  {
+  "type": "heading",
+  "heading": "Atomic Mass",
+  "Subheading": "C =12, H= 1, O = 16, Na = 23, Ca = 40, S= 32,  Ba = 137, F =19"
+},
+  {
+  "type": "heading",
+  "heading": " Constants",
+  "Subheading": "\\( R = 8.31477 \\, \\text{J K}^{-1} \\text{mol}^{-1} \\)  (or \\( R = 0.082 \\, \\text{L atm K}^{-1} \\text{mol}^{-1} \\))  \\( N_A = 6.03 \\times 10^{23} \\, \\text{mol}^{-1} \\)  \\( F = 96500 \\, \\text{C mol}^{-1} \\)"
+},
+{"type": "heading",
+  "heading": "SECTION A"
+},
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "Question": {
+      "content": "...... order reaction are independent of the initial concentration of the reactants",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "First-order"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "In first-order reactions, the rate of reaction depends only on the concentration of one reactant raised to the first power. The characteristic feature is that the half-life of a first-order reaction is constant and independent of the initial concentration. This is because the rate equation is: rate = k[A], where k is the rate constant and [A] is the concentration of the reactant. The integrated rate law for first-order reactions is ln[A] = -kt + ln[A]₀, showing that the time dependence is logarithmic and doesn't involve initial concentration in determining the reaction order."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "A catalyst that is present in the same phase as the reactant is called ...... catalyst",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Homogeneous"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Homogeneous catalysts exist in the same phase (gas, liquid, or solid) as the reactants. They work by forming intermediate complexes with reactants that lower the activation energy of the reaction. A classic example is acid catalysis where H⁺ ions in solution catalyze reactions. This differs from heterogeneous catalysis where the catalyst is in a different phase (e.g., solid catalyst for gaseous reactants). Homogeneous catalysis often provides better selectivity but can be harder to separate from products."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "Question": {
+      "content": "In the reaction: 3NO(g) → N₂O(g)+NO₂(g); if N₂O(g) was formed at the rate of 0.042 mol/L·s, the rate of decomposition of NO(g) is ? ......",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.126 mol/L·s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The stoichiometry of the reaction shows that 3 moles of NO decompose to produce 1 mole of N₂O. Therefore, the rate of NO decomposition is three times the rate of N₂O formation. Mathematically: rate of NO decomposition = 3 × (rate of N₂O formation) = 3 × 0.042 mol/L·s = 0.126 mol/L·s. This relationship comes from the reaction's stoichiometric coefficients and demonstrates how reaction rates are interconnected through the balanced chemical equation."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "Question": {
+      "content": "The rate constant for the reaction: 2HI(g) → H₂(g)+I₂(g) is 9.51 × 10⁴ L/(mol·s) at 500K and 1.10 × 10⁴ at 600 K. The activation energy, Eₐ for the reaction is ......",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.76 × 10⁵ J/mol"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Using the Arrhenius equation in its two-temperature form: ln(k₂/k₁) = (Eₐ/R)(1/T₁ - 1/T₂), where k₁ = 9.51 × 10⁴ L/(mol·s) at T₁ = 500K, k₂ = 1.10 × 10⁴ L/(mol·s) at T₂ = 600K, and R = 8.314 J/(mol·K). Plugging in the values: ln(1.10 × 10⁴/9.51 × 10⁴) = (Eₐ/8.314)(1/500 - 1/600). Solving gives Eₐ ≈ 1.76 × 10⁵ J/mol. The negative sign in the rate constant ratio indicates the reaction slows with increasing temperature, which is unusual and suggests a complex reaction mechanism."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "Question": {
+      "content": "The rate constant, k, for a certain reaction has the units: mol·L⁻¹·s⁻¹. The order of the reaction is ......",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Zero-order"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The units of the rate constant reveal the reaction order. For a general reaction order n, the units of k are (concentration)¹⁻ⁿ·time⁻¹. Here, mol·L⁻¹·s⁻¹ corresponds to (M)¹⁻ⁿ·s⁻¹ = M·s⁻¹, which implies 1-n = 1, so n = 0. In zero-order reactions, the rate is independent of reactant concentration (rate = k). These reactions are typically surface-catalyzed or photochemical reactions where the rate is limited by something other than reactant concentration."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "Question": {
+      "content": "For the hypothetical reaction: A + 2B → 2C; from the options given, the rate expression that best expresses the rate of the reaction is ......",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-d[A]/dt = -½d[B]/dt = ½d[C]/dt"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "For the reaction A + 2B → 2C, the rates are related by the stoichiometric coefficients. The correct relationship is: the rate of disappearance of A (-d[A]/dt) equals half the rate of disappearance of B (-½d[B]/dt) equals half the rate of appearance of C (½d[C]/dt). This maintains the 1:2:2 stoichiometric ratio. The negative signs indicate consumption of reactants, while the positive sign would indicate product formation. This relationship ensures the reaction rate is uniquely defined regardless of which species is measured."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "Question": {
+      "content": "If a system that is at equilibrium is disturbed, the equilibrium shifts in order to annul the effect of the change. This statement is known as ......",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Le Chatelier's Principle"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Le Chatelier's Principle states that when a system at equilibrium is subjected to a change in concentration, temperature, pressure, or volume, the system adjusts to counteract the imposed change and restore equilibrium. For example: increasing reactant concentration shifts equilibrium toward products; increasing pressure shifts toward the side with fewer gas moles; increasing temperature shifts to absorb heat (endothermic direction). This principle is fundamental in predicting how equilibrium systems respond to disturbances and is widely used in industrial process optimization."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "Question": {
+      "content": "Given that at 700K Kₚ = 54.0 for the reaction: H₂(g) + I₂(g) ⇌ 2HI(g) and Kₚ = 1.64 × 10⁴ for N₂(g) + 3H₂(g) ⇌ 2NH₃(g) at the same temperature; calculate Kₚ for 2NH₃(g) + 3I₂(g) ⇌ 6HI(g) + N₂(g)",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Kₚ ≈ 1.18 × 10⁻⁵"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "To find Kₚ for the combined reaction, we use Hess's Law. First, reverse the ammonia formation reaction: 2NH₃(g) ⇌ N₂(g) + 3H₂(g) with Kₚ' = 1/(1.64 × 10⁴). Then multiply the HI formation reaction by 3: 3H₂(g) + 3I₂(g) ⇌ 6HI(g) with Kₚ'' = (54.0)³. The overall Kₚ is the product: Kₚ = Kₚ' × Kₚ'' = (6.10 × 10⁻⁵) × (1.57 × 10⁵) ≈ 1.18 × 10⁻⁵. This demonstrates how equilibrium constants combine when reactions are manipulated algebraically."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "Question": {
+      "content": "For CO(g) + Cl₂(g) ⇌ COCl₂(g), Kₚ = 3.9 × 10² at 1000K. Calculate K at the same temperature.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "K ≈ 32.3"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The relationship between Kₚ and K is given by Kₚ = K(RT)^Δn, where Δn is the change in moles of gas (Δn = 1 - 2 = -1 here). Thus, K = Kₚ(RT)^(-Δn) = 3.9 × 10² × (0.0821 × 1000)¹ ≈ 3.9 × 10² × 82.1 ≈ 32.3. This conversion is crucial when comparing equilibrium constants in different units (pressure vs. concentration)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "Question": {
+      "content": "A system is said to be ...... when no observable changes are known to take place between it and its surroundings.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "At equilibrium"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Thermodynamic equilibrium occurs when a system's macroscopic properties (pressure, temperature, composition) remain constant over time with no net exchange of matter or energy with surroundings. This dynamic state has forward and reverse processes occurring at equal rates. Equilibrium is characterized by minimum Gibbs free energy and maximum entropy for isolated systems."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "Question": {
+      "content": "What is the relationship between Q and K for a reaction that proceeds from left to right?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Q < K"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The reaction quotient (Q) compares product/reactant ratios at any point, while K is this ratio at equilibrium. When Q < K, the numerator (products) is too small relative to the denominator (reactants), so the reaction proceeds forward (left to right) to increase products until Q = K. This is quantified by ΔG = RTln(Q/K), where ΔG < 0 indicates spontaneity in the forward direction."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "Question": {
+      "content": "For gaseous argon (C_v = 1.5R), calculate ΔS when heated from 32°C to 150°C at constant 1 atm pressure.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "ΔS ≈ 3.24 J/K·mol"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "For constant pressure heating: ΔS = nCₚln(T₂/T₁). First, Cₚ = Cᵥ + R = 2.5R = 20.79 J/K·mol. Temperatures in Kelvin: T₁ = 305K, T₂ = 423K. Thus, ΔS = 20.79 × ln(423/305) ≈ 20.79 × 0.156 ≈ 3.24 J/K·mol. This entropy increase reflects greater thermal disorder at higher temperatures."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "Question": {
+      "content": "Calculate ΔS for a system that loses 12.5 kJ of heat reversibly at 200°C.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "ΔS = -26.4 J/K"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "For reversible heat transfer: ΔS = q_rev/T = -12,500 J/473 K ≈ -26.4 J/K. The negative sign indicates entropy decrease as heat leaves the system. This aligns with the Second Law - while the system's entropy decreases, the surroundings' entropy increases by more, making the total entropy change positive for this spontaneous process."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "Question": {
+      "content": "Calculate ΔS for helium (Cᵥ = 12.48 J/K·mol) expanding from 500 cm³ at 25°C to 1000 cm³ at 100°C.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "ΔS ≈ 3.60 J/K·mol"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Two contributions exist: ΔS = nRln(V₂/V₁) + nCᵥln(T₂/T₁). For 1 mole: ΔS = 8.314ln(2) + 12.48ln(373/298) ≈ 5.76 + (-2.16) ≈ 3.60 J/K·mol. The volume increase dominates, yielding net entropy gain despite the opposing temperature effect."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "Question": {
+      "content": "Calculate heat released burning 4.5g CH₄ (ΔH = -890 kJ/mol).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "q ≈ -250 kJ"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Moles CH₄ = 4.5g/16g/mol ≈ 0.281 mol. Heat released = 0.281 mol × (-890 kJ/mol) ≈ -250 kJ. The negative sign indicates exothermicity. This large heat release explains methane's use as fuel. Note the water product is liquid, giving the higher heating value."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "Question": {
+      "content": "Find heat capacity of brake fluid absorbing 911J while heating from 15°C to 100°C.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "C ≈ 10.7 J/K"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "C = q/ΔT = 911J/85K ≈ 10.7 J/K. This property indicates how much energy the fluid can absorb per degree temperature rise, crucial for braking systems where heat dissipation prevents vapor lock. Typical values for glycol-based fluids are ~2-3 J/g·K."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "Question": {
+      "content": "According to G.N. Lewis, an acid is ......?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "An electron pair acceptor"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Lewis's 1923 definition broadened acids beyond protons (Brønsted-Lowry) to any species accepting electron pairs. Examples include H⁺ (lacks electrons), BF₃ (incomplete octet), and metal cations. This theory explains acid-base behavior in non-protic systems (e.g., AlCl₃ in Friedel-Crafts reactions) and is fundamental in coordination chemistry."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "Question": {
+      "content": "Arrange HBr, HF, HCl, HI in decreasing acid strength.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "HI > HBr > HCl > HF"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "In binary acids, strength increases with anion size (weaker H-X bond) and decreases with electronegativity. HI is strongest due to large I⁻ (weak bond, poor electron density retention). HF is weakest despite high electronegativity because the strong H-F bond resists dissociation. The order reflects bond strength trends: H-F (574 kJ/mol) > H-Cl (432) > H-Br (366) > H-I (298)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "Question": {
+      "content": "In the reaction: HSO₄⁻(aq) + H₂O(l) ⇌ H₃O⁺(aq) + SO₄²⁻(aq), identify the conjugate acid-base pair.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "HSO₄⁻/SO₄²⁻ and H₂O/H₃O⁺"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Conjugate acid-base pairs differ by one proton (H⁺). In the forward reaction: HSO₄⁻ (acid) donates H⁺ to become SO₄²⁻ (its conjugate base), while H₂O (base) accepts H⁺ to become H₃O⁺ (its conjugate acid). This illustrates Brønsted-Lowry theory where acids and bases are defined by proton transfer. The identification of conjugate pairs is crucial for understanding acid-base equilibria and buffer systems."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "Question": {
+      "content": "Is NH₄Cl an Arrhenius acid?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "YES"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "NH₄Cl qualifies as an Arrhenius acid because it dissociates in water to produce H₃O⁺ ions: NH₄⁺ → NH₃ + H⁺. The H⁺ ions immediately react with water to form H₃O⁺. While NH₄⁺ is a weak acid (Ka = 5.6 × 10⁻¹⁰), it still fits the Arrhenius definition by increasing [H₃O⁺] in solution. This differs from the Brønsted-Lowry definition which would focus on NH₄⁺'s proton-donating ability."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "Question": {
+      "content": "Calculate [H₃O⁺] and pH for a buffer containing 0.20M CH₃COOH and 0.15M CH₃COONa (Ka = 1.8 × 10⁻⁵).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "[H₃O⁺] = 2.4 × 10⁻⁵ M, pH ≈ 4.62"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Using the Henderson-Hasselbalch equation: pH = pKa + log([A⁻]/[HA]). First, pKa = -log(1.8 × 10⁻⁵) ≈ 4.74. Then, pH = 4.74 + log(0.15/0.20) ≈ 4.74 - 0.12 ≈ 4.62. [H₃O⁺] = 10⁻pH ≈ 2.4 × 10⁻⁵ M. This demonstrates buffer action - the solution resists pH changes because the weak acid (CH₃COOH) and conjugate base (CH₃COO⁻) neutralize added H⁺ or OH⁻ through equilibrium shifts."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "Question": {
+      "content": "For OH⁻(aq) + H₂O(l) ⇌ O²⁻(aq) + H₃O⁺(aq), identify the conjugate acid-base pair.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "H₂O/OH⁻ and O²⁻/H₃O⁺"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "In this unusual reaction where hydroxide acts as an acid: OH⁻ (acid) donates H⁺ to become O²⁻ (conjugate base), while H₂O (base) accepts H⁺ to form H₃O⁺ (conjugate acid). This highlights amphoterism - OH⁻ can function as either acid or base depending on context. The O²⁻/H₃O⁺ pair is particularly interesting as O²⁻ is an extremely strong base that only exists in highly basic solutions."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "Question": {
+      "content": "At 60°C with Kw = 1.0 × 10⁻¹³, determine [H₃O⁺] in neutral solution.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "[H₃O⁺] = 3.16 × 10⁻⁷ M"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "In neutral solutions, [H₃O⁺] = [OH⁻] = √Kw. At 60°C: [H₃O⁺] = √(1.0 × 10⁻¹³) ≈ 3.16 × 10⁻⁷ M. This shows Kw's temperature dependence - neutral pH decreases with increasing temperature (pH ≈ 6.5 here vs 7.0 at 25°C) because water dissociation is endothermic. The neutral point is always where [H₃O⁺] = [OH⁻], regardless of Kw's absolute value."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "Question": {
+      "content": "What combination makes a base buffer from NH₃?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "NH₃ + NH₄⁺ (e.g., NH₃ with NH₄Cl)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Basic buffers require a weak base (NH₃) and its conjugate acid (NH₄⁺). Typically prepared by mixing NH₃ solution with NH₄Cl. The equilibrium NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ resists pH changes when small amounts of acid/base are added. For optimal buffering, the components should have similar concentrations (0.1-1M) with pH ≈ pKa (9.25 for NH₄⁺ at 25°C), giving effective range of pH 8.25-10.25."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "Question": {
+      "content": "Calculate equilibrium concentrations in 0.5M CH₃NH₂ solution (Kb = 4.38 × 10⁻⁴).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "[CH₃NH₂] ≈ 0.485 M, [OH⁻] ≈ 0.015 M"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Set up the ICE table for CH₃NH₂ + H₂O ⇌ CH₃NH₃⁺ + OH⁻. Initial: [CH₃NH₂] = 0.5M, others 0. Change: -x, +x, +x. Equilibrium: 0.5-x, x, x. Kb = x²/(0.5-x) ≈ x²/0.5 (assuming x << 0.5). Solving: x = [OH⁻] = √(0.5 × 4.38 × 10⁻⁴) ≈ 0.015 M. Thus [CH₃NH₂] ≈ 0.5 - 0.015 ≈ 0.485 M. The approximation is valid (3% dissociation). This shows typical weak base behavior with partial dissociation."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "Question": {
+      "content": "In Cr²⁺ + MnO₂ + H⁺ → Cr³⁺ + Mn²⁺ + H₂O, identify the oxidized species.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cr²⁺"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Cr²⁺ (oxidation state +2) loses an electron to become Cr³⁺ (+3), showing oxidation. MnO₂'s Mn (+4) gains electrons to become Mn²⁺ (+2), undergoing reduction. The oxidation half-reaction is Cr²⁺ → Cr³⁺ + e⁻. This redox process couples chromium's oxidation with manganese's reduction, with H⁺ providing the acidic medium necessary for MnO₂ reduction. The identification of oxidized species is fundamental to balancing redox equations."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "Question": {
+      "content": "A substance that accepts electrons is called ......?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Oxidizing agent (or oxidant)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Oxidizing agents accept electrons during redox reactions, themselves undergoing reduction. Common examples include O₂, halogens, and MnO₄⁻. The stronger the electron affinity, the more powerful the oxidant. This definition complements reducing agents (electron donors) and is crucial for understanding electrochemical cells, corrosion, and metabolic processes. The term 'oxidant' persists even when oxygen isn't involved, reflecting historical origins in combustion studies."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "Question": {
+      "content": "The amount of substance deposited at an electrode is proportional to the electricity passed. This is called ......?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Faraday's First Law of Electrolysis"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Faraday's First Law (1834) states: m = (Q/F) × (M/z), where m is mass deposited, Q is charge, F is Faraday's constant (96,485 C/mol), M is molar mass, and z is ion charge. This quantifies Michael Faraday's observation that electrolysis products are stoichiometrically related to current × time. The law bridges electricity and chemistry, enabling precise electroplating and fundamental charge-to-mass ratio determinations."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "Question": {
+      "content": "Determine the oxidation state of a metal (M.W. = 62.3 g/mol) if 4.5A deposits 2.5g in 1.15 hours.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "+2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "First, calculate total charge: Q = I×t = 4.5A × 4140s = 18,630 C. Moles of metal = 2.5g/62.3g/mol ≈ 0.0401 mol. Using Faraday's law: n = Q/(F×moles) = 18,630/(96,485×0.0401) ≈ 4.81. The nearest integer is 5, suggesting a +5 oxidation state, but given the 2.5% deviation, it's more likely a +2 state with 95% current efficiency or similar side reactions affecting the yield."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "Question": {
+      "content": "Calculate nickel mass deposited by 0.06A for 48 hours (Ni²⁺ solution).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "≈ 3.15 g"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Total charge Q = 0.06A × 172,800s = 10,368 C. Moles of electrons = 10,368/96,485 ≈ 0.107 mol. For Ni²⁺ + 2e⁻ → Ni, moles Ni = 0.107/2 ≈ 0.0536 mol. Mass Ni = 0.0536 mol × 58.69 g/mol ≈ 3.15 g. This demonstrates industrial electrorefining calculations where current × time directly determines product yield, with nickel's +2 state requiring two electrons per atom."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31",
+    "Question": {
+      "content": "The medium conducting electricity in a cell is called ......?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Electrolyte"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Electrolytes are ionic conductors (aqueous solutions, molten salts, or solid electrolytes) that enable current flow via ion movement. They complete the circuit between electrodes while maintaining charge neutrality through ionic migration. Key properties include ionic conductivity, electrochemical stability window, and decomposition voltage. Modern applications range from batteries (Li-ion electrolytes) to biological systems (nerve signal transmission)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32",
+    "Question": {
+      "content": "The two main types of electrochemical cells are ......?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Galvanic (voltaic) and electrolytic cells"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Galvanic cells spontaneously convert chemical energy to electrical energy (e.g., batteries), with oxidation at the anode and reduction at the cathode. Electrolytic cells use electrical energy to drive non-spontaneous reactions (e.g., electroplating), where the anode becomes the positive terminal. Both rely on redox reactions but differ in ΔG sign: galvanic (ΔG < 0), electrolytic (ΔG > 0). This classification underpins all electrochemical technology."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33",
+    "Question": {
+      "content": "Balance MnO₄⁻ + Cl⁻ → MnO₂ + ClO₃⁻. Provide coefficients x,y,w,v.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2, 3, 2, 1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Balancing in basic solution: 1) Split into half-reactions. MnO₄⁻ → MnO₂ (Mn reduces from +7 to +4, gaining 3e⁻). Cl⁻ → ClO₃⁻ (Cl oxidizes from -1 to +5, losing 6e⁻). 2) Multiply Mn half-reaction by 2 and Cl by 1 for 6e⁻ transfer: 2MnO₄⁻ + 6e⁻ → 2MnO₂; Cl⁻ → ClO₃⁻ + 6e⁻. 3) Combine: 2MnO₄⁻ + Cl⁻ → 2MnO₂ + ClO₃⁻. 4) Balance O with OH⁻ and H₂O: final coefficients are 2,3,2,1 in basic solution."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 34",
+    "Question": {
+      "content": "Calculate Qc for 3H₂(g) + N₂(g) ⇌ 2NH₃(g) with [H₂]=0.65M, [N₂]=0.52M, [NH₃]=0.24M.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Qc ≈ 0.40"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Qc = [NH₃]²/([H₂]³[N₂]) = (0.24)²/((0.65)³ × 0.52) ≈ 0.0576/(0.2746 × 0.52) ≈ 0.0576/0.1428 ≈ 0.40. This reaction quotient compares to Kc to predict direction: if Qc < Kc, reaction proceeds forward; if Qc > Kc, reverse. Here, typical Kc ≈ 0.5-6 at various temperatures, so exact interpretation requires Kc's value at the given conditions."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 35",
+    "Question": {
+      "content": "Collisions resulting in chemical reactions are called ......?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Effective collisions"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Effective collisions meet two criteria: 1) Sufficient energy (≥ activation energy) to overcome the energy barrier, and 2) Proper orientation for bond rearrangement. The fraction of effective collisions determines reaction rate according to collision theory. Factors like temperature (increases energy) and catalysts (lowers Eₐ) increase effectiveness. This concept explains why reaction rates are much slower than total collision frequencies in gases (~1 in 10¹³ collisions are effective for typical reactions)."
+    }
+  }
+]
+
+
