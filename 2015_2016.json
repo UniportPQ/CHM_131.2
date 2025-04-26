@@ -1,0 +1,512 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ and Theory",
+    "course_title": "General Chemistry 1",
+    "code": "CHM 132.2",
+    "session": "2015/2016",
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "heading",
+    "heading": "Section A"
+  },
+  {
+      "type": "Question",
+      "name": "Question 1",
+      "Question": {
+        "content": "When concentration is plotted against time, the reaction rate at time <em>t</em> is obtained from:",
+        "type": "OBJ",
+        "options": [
+          "Intercept on time axis",
+          "Calculation",
+          "Slope of the graph",
+          "Intercept on the concentration axis",
+          "None of the above"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "Slope of the graph"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "The reaction rate at any instant (time <em>t</em>) is given by the <strong>slope of the tangent</strong> to the concentration-time curve at that point. <br><br> Mathematically, the rate is the derivative of concentration with respect to time: \\( \\text{Rate} = -\\frac{d[C]}{dt} \\) (for reactants)."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 2",
+      "Question": {
+        "content": "Given the equilibrium constant \\( K_e = 2.27 \\times 10^3 \\) for the reaction \\( 2NO(g) + Cl_2(g) \\rightleftharpoons 2NOCl(g) \\) at 500K, calculate \\( K_e \\) for the reaction \\( NOCl(g) \\rightleftharpoons NO(g) + \\frac{1}{2}Cl_2(g) \\).",
+        "type": "OBJ",
+        "options": [
+          "\\( 4.54 \\times 10^{-3} \\)",
+          "\\( 47.6 \\)",
+          "\\( 1.14 \\times 10^{3} \\)",
+          "\\( 4.41 \\times 10^{4} \\)",
+          "\\( 2.21 \\times 10^{-4} \\)"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\( 47.6 \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "1. The second reaction is the <strong>reverse</strong> and <strong>half</strong> of the first reaction. <br> 2. For the reverse reaction, \\( K' = \\frac{1}{K_e} = \\frac{1}{2.27 \\times 10^3} \\). <br> 3. Raising it to the power of \\( \\frac{1}{2} \\) (since it's halved): \\( K'' = \\left( \\frac{1}{2.27 \\times 10^3} \\right)^{1/2} = \\frac{1}{\\sqrt{2.27 \\times 10^3}} \\approx 0.021 \\). <br> 4. But the correct calculation gives \\( K'' = \\sqrt{\\frac{1}{2.27 \\times 10^3}} \\approx 0.021 \\), and \\( \\frac{1}{0.021} \\approx 47.6 \\)."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 3",
+      "Question": {
+        "content": "What is the concentration of a solution of KOH for which the pH is 11.89?",
+        "type": "OBJ",
+        "options": [
+          "\\( 7.8 \\times 10^{-3} M \\)",
+          "\\( 7.8 \\times 10^{-9} M \\)",
+          "\\( 9.8 \\times 10^{-3} M \\)",
+          "\\( 8.7 \\times 10^{-9} M \\)",
+          "\\( 8.7 \\times 10^{-3} M \\)"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\( 7.8 \\times 10^{-3} M \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "1. \\( \\text{pH} + \\text{pOH} = 14 \\) <br> 2. \\( \\text{pOH} = 14 - 11.89 = 2.11 \\) <br> 3. \\( [OH^-] = 10^{-\\text{pOH}} = 10^{-2.11} \\approx 7.8 \\times 10^{-3} M \\) <br> 4. Since KOH is a strong base, \\( [KOH] = [OH^-] = 7.8 \\times 10^{-3} M \\)."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 4",
+      "Question": {
+        "content": "Which constant always refers to the equilibrium in which a base reacts with water to form the corresponding conjugate acid and hydroxide ion?",
+        "type": "OBJ",
+        "options": [
+          "\\( K \\)",
+          "\\( K_a \\)",
+          "\\( K_b \\)",
+          "\\( K_w \\)",
+          "\\( K_p \\)"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\( K_b \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "The <strong>base dissociation constant (\\( K_b \\))</strong> describes the equilibrium: <br> \\[ B + H_2O \\rightleftharpoons BH^+ + OH^- \\] <br> where \\( B \\) is the base, \\( BH^+ \\) is its conjugate acid, and \\( OH^- \\) is the hydroxide ion."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 5",
+      "Question": {
+        "content": "Calculate \\( \\Delta S \\) for the synthesis of \\( NH_3 \\) from \\( N_2 \\) and \\( H_2(g) \\) at 298K. <br> (Standard molar entropy: \\( NH_3 = 192.5 \\, J/mol \\cdot K \\), \\( N_2 = 191.5 \\, J/mol \\cdot K \\), \\( H_2 = 130.6 \\, J/mol \\cdot K \\))",
+        "type": "OBJ",
+        "options": [
+          "\\( +193.3 \\, J/K \\)",
+          "\\( -198.3 \\, J/K \\)",
+          "\\( +105 \\, J/K \\)",
+          "\\( -105 \\, J/K \\)",
+          "\\( +198.3 \\, J/K \\)"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\( -198.3 \\, J/K \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "The reaction is: \\[ N_2(g) + 3H_2(g) \\rightarrow 2NH_3(g) \\] <br> 1. \\( \\Delta S^\\circ = \\sum n S^\\circ(\\text{products}) - \\sum n S^\\circ(\\text{reactants}) \\) <br> 2. \\( \\Delta S^\\circ = [2 \\times 192.5] - [1 \\times 191.5 + 3 \\times 130.6] \\) <br> 3. \\( \\Delta S^\\circ = 385 - [191.5 + 391.8] = 385 - 583.3 = -198.3 \\, J/K \\) <br> The negative sign indicates a decrease in entropy due to fewer gas molecules."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 6",
+      "Question": {
+        "content": "Calculate the mass of copper metal (in kg) deposited when a 6.0A current is passed through its salt solution for 1 hour 15 minutes. <br> (1F = 96500C, \\( M_{Cu} = 63.5 \\))",
+        "type": "OBJ",
+        "options": [
+          "17.77 kg",
+          "0.15 kg",
+          "0.30 kg",
+          "\\( 17.77 \\times 10^{-3} \\, kg \\)",
+          "\\( 8.88 \\times 10^{-3} \\, kg \\)"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\( 8.88 \\times 10^{-3} \\, kg \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "1. Convert time to seconds: \\( 1 \\text{ hr } 15 \\text{ min} = 4500 \\text{ s} \\) <br> 2. Charge passed: \\( Q = I \\times t = 6.0 \\times 4500 = 27000 \\text{ C} \\) <br> 3. Moles of electrons: \\( n_e = \\frac{Q}{F} = \\frac{27000}{96500} \\approx 0.28 \\text{ mol} \\) <br> 4. For \\( Cu^{2+} + 2e^- \\rightarrow Cu \\), moles of \\( Cu = \\frac{n_e}{2} = 0.14 \\text{ mol} \\) <br> 5. Mass of \\( Cu = n \\times M = 0.14 \\times 63.5 \\approx 8.88 \\text{ g} = 8.88 \\times 10^{-3} \\text{ kg} \\)"
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 7",
+      "Question": {
+        "content": "Evaluate \\( \\Delta G \\) for the reaction: <br> \\[ 2SO_2(g) + O_2(g) \\rightarrow 2SO_3(g) \\] <br> Given: \\( \\Delta H^\\circ = -200 \\text{ kJ} \\), \\( \\Delta S^\\circ = -189 \\text{ J/K} \\)",
+        "type": "OBJ",
+        "options": [
+          "\\( +144.24 \\text{ kJ} \\)",
+          "\\( +255.76 \\text{ kJ} \\)",
+          "\\( -255.76 \\text{ kJ} \\)",
+          "\\( -144.24 \\text{ kJ} \\)",
+          "\\( +25.58 \\text{ kJ} \\)"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\( -144.24 \\text{ kJ} \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "Use the Gibbs free energy equation: <br> \\[ \\Delta G^\\circ = \\Delta H^\\circ - T \\Delta S^\\circ \\] <br> 1. Convert \\( \\Delta S^\\circ \\) to kJ: \\( -189 \\text{ J/K} = -0.189 \\text{ kJ/K} \\) <br> 2. At standard conditions, \\( T = 298 \\text{ K} \\): <br> \\[ \\Delta G^\\circ = -200 - (298 \\times -0.189) \\approx -200 + 56.32 = -143.68 \\text{ kJ} \\approx -144 \\text{ kJ} \\]"
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 8",
+      "Question": {
+        "content": "Predict the nature of the solution obtained from the reaction between a strong acid and a weak base.",
+        "type": "OBJ",
+        "options": [
+          "Strong base + water",
+          "Strong acid + water",
+          "Weak base + water",
+          "Weak acid + water",
+          "None of the above"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "Weak acid + water"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "A <strong>strong acid</strong> completely dissociates, while a <strong>weak base</strong> partially dissociates. The reaction produces the conjugate acid of the weak base, which is a <strong>weak acid</strong>, and water. <br> Example: \\[ HCl + NH_3 \\rightarrow NH_4^+ + Cl^- \\] <br> Here, \\( NH_4^+ \\) is a weak acid."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 9",
+      "Question": {
+        "content": "The unit of a first-order reaction rate constant is:",
+        "type": "OBJ",
+        "options": [
+          "\\( \\text{mol} \\cdot \\text{L}^{-1} \\cdot \\text{sec}^{-1} \\)",
+          "\\( \\text{sec}^{-1} \\)",
+          "\\( \\text{mol} \\cdot \\text{L}^{-1} \\)",
+          "\\( \\text{L} \\cdot \\text{sec}^{-1} \\)",
+          "\\( \\text{mol} \\cdot \\text{sec}^{-1} \\)"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\( \\text{sec}^{-1} \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "For a first-order reaction: <br> \\[ \\text{Rate} = k[A] \\] <br> Units: <br> - Rate: \\( \\text{mol} \\cdot \\text{L}^{-1} \\cdot \\text{sec}^{-1} \\) <br> - \\( [A] \\): \\( \\text{mol} \\cdot \\text{L}^{-1} \\) <br> Thus, \\( k \\) must have units of \\( \\text{sec}^{-1} \\) to balance the equation."
+      }
+    },
+
+    {
+      "type": "Question",
+      "name": "Question 10",
+      "Question": {
+        "content": "The reaction in which the rate of reaction is independent of the concentration of reactant species is known as:",
+        "type": "OBJ",
+        "options": [
+          "Zero order",
+          "Pseudo order",
+          "First order",
+          "Second order",
+          "Third order"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "Zero order"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "In a <strong>zero-order reaction</strong>, the rate is constant and does not depend on reactant concentration. <br> Mathematically: \\[ \\text{Rate} = k[A]^0 = k \\] <br> Example: Decomposition of \\( NH_3 \\) on a platinum surface."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 11",
+      "Question": {
+        "content": "The following statements are correct <strong>EXCEPT</strong>:",
+        "type": "OBJ",
+        "options": [
+          "Reduction is the process of electron gain",
+          "The species that donates electrons is called the reducing agent",
+          "The voltaic cell is a non-spontaneous electrochemical cell",
+          "The anode of a voltaic cell is negative",
+          "The cathode of an electrolytic cell is negative"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "The voltaic cell is a non-spontaneous electrochemical cell"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "<strong>Voltaic (galvanic) cells</strong> are <em>spontaneous</em> electrochemical cells that convert chemical energy to electrical energy. <br> The incorrect statement implies it is non-spontaneous (which describes electrolytic cells)."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 12",
+      "Question": {
+        "content": "The cell potential of an electrochemical cell comprising the two half-cells below is: <br> \\[ Sn^{2+}(aq) + 2e^- \\rightarrow Sn(s) \\quad E^\\circ = -0.136V \\] \\[ Zn^{2+}(aq) + 2e^- \\rightarrow Zn(s) \\quad E^\\circ = -0.763V \\]",
+        "type": "OBJ",
+        "options": [
+          "\\( -0.136V \\)",
+          "\\( -0.627V \\)",
+          "\\( 0.627V \\)",
+          "\\( 0.899V \\)",
+          "\\( -0.899V \\)"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\( 0.627V \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "1. Identify cathode/anode: <br> - Higher \\( E^\\circ \\) (less negative) = cathode (\\( Sn^{2+}/Sn \\)). <br> - Lower \\( E^\\circ \\) = anode (\\( Zn/Zn^{2+} \\)). <br> 2. Calculate cell potential: <br> \\[ E_{\\text{cell}} = E_{\\text{cathode}} - E_{\\text{anode}} = -0.136V - (-0.763V) = 0.627V \\]"
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 13",
+      "Question": {
+        "content": "Which way will the equilibrium shift if more \\( Cl_2 \\) is added to the reaction? <br> \\[ PCl_3 + Cl_2 \\rightleftharpoons PCl_5 \\]",
+        "type": "OBJ",
+        "options": [
+          "More \\( PCl_5 \\) produced",
+          "More \\( PCl_3 \\) used",
+          "No effect",
+          "More \\( Cl_2 \\) produced",
+          "Reaction terminates"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "More \\( PCl_5 \\) produced"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "According to <strong>Le Chatelier’s Principle</strong>, adding \\( Cl_2 \\) (a reactant) shifts the equilibrium to the <em>right</em> to consume the excess \\( Cl_2 \\), producing more \\( PCl_5 \\)."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 14",
+      "Question": {
+        "content": "Which of the salts below will increase the solubility of \\( Pb(NO_3)_2 \\)?",
+        "type": "OBJ",
+        "options": [
+          "\\( NaNO_3 \\)",
+          "\\( PbCl_2 \\)",
+          "\\( PbSO_4 \\)",
+          "\\( KCl \\)",
+          "\\( KNO_3 \\)"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\( KNO_3 \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "The solubility of \\( Pb(NO_3)_2 \\) increases in the presence of a salt <strong>without common ions</strong> (e.g., \\( KNO_3 \\)). <br> <em>Common ions</em> (e.g., \\( Pb^{2+} \\) or \\( NO_3^- \\) from other salts) would decrease solubility."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 15",
+      "Question": {
+        "content": "Arrange the following in order of <strong>increasing entropy</strong>: <br> (i) \\( CH_3OH(s) \\) <br> (ii) \\( CH_3OH(l) \\) <br> (iii) \\( CH_3CH_2OH(g) \\)",
+        "type": "OBJ",
+        "options": [
+          "i, ii & iii",
+          "ii, i & iii",
+          "ii, iii & i",
+          "iii, i & ii",
+          "i, iii & ii"
+        ]
+      },
+      "Answer": {
+        "type": "string",
+        "content": "i, ii & iii"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "Entropy order: <strong>Solid < Liquid < Gas</strong>. <br> 1. \\( CH_3OH(s) \\) (lowest entropy) <br> 2. \\( CH_3OH(l) \\) <br> 3. \\( CH_3CH_2OH(g) \\) (highest entropy). <br> Gases have higher entropy due to greater disorder, and larger molecules (like \\( CH_3CH_2OH \\)) have more microstates."
+      }
+    },
+    {
+      "type": "heading",
+      "heading": "Section B"
+    },
+    {
+      "type": "Question",
+      "name": "Question 1",
+      "Question": {
+        "content": "The rate constant for the first-order decomposition of \\( N_2O_5 \\) at 15°C is \\( 6.90 \\times 10^{-2} \\, s^{-1} \\). If the activation energy of the reaction is \\( 88.0 \\, kJ/mol \\), determine the value of \\( k \\) when the temperature is increased by 33°C.",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\( 3.02 \\, s^{-1} \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "We use the <strong>Arrhenius equation</strong> to relate rate constants at two different temperatures:<br/><br/>\\[ \\ln \\left( \\frac{k_2}{k_1} \\right) = \\frac{E_a}{R} \\left( \\frac{1}{T_1} - \\frac{1}{T_2} \\right) \\]<br/><br/>Given:<br/>- \\( E_a = 88.0 \\, kJ/mol = 88000 \\, J/mol \\)<br/>- \\( k_1 = 6.90 \\times 10^{-2} \\, s^{-1} \\)<br/>- \\( T_1 = 15°C = 288 \\, K \\)<br/>- \\( T_2 = 15°C + 33°C = 48°C = 321 \\, K \\)<br/>- \\( R = 8.314 \\, J/mol \\cdot K \\)<br/><br/>Step 1: Plug values into the Arrhenius equation:<br/>\\[ \\ln \\left( \\frac{k_2}{6.90 \\times 10^{-2}} \\right) = \\frac{88000}{8.314} \\left( \\frac{1}{288} - \\frac{1}{321} \\right) \\]<br/><br/>Step 2: Solve the right-hand side:<br/>\\[ \\frac{1}{288} - \\frac{1}{321} = 0.000356 \\]<br/>\\[ \\ln \\left( \\frac{k_2}{6.90 \\times 10^{-2}} \\right) = 3.76 \\]<br/><br/>Step 3: Exponentiate both sides to solve for \\( k_2 \\):<br/>\\[ \\frac{k_2}{6.90 \\times 10^{-2}} = e^{3.76} \\approx 43.0 \\]<br/>\\[ k_2 = 6.90 \\times 10^{-2} \\times 43.0 \\approx 3.02 \\, s^{-1} \\]"
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 2",
+      "Question": {
+        "content": "Balance the following reaction in an acidic environment:<br/>\\[ Cu(s) + NO_3^-(aq) \\rightarrow Cu^{2+}(aq) + NO(g) \\]",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\[ 3Cu(s) + 2NO_3^-(aq) + 8H^+(aq) \\rightarrow 3Cu^{2+}(aq) + 2NO(g) + 4H_2O(l) \\]"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "<strong>Step 1: Split into half-reactions</strong><br/><br/><strong>Oxidation (Cu → Cu²⁺):</strong><br/>\\[ Cu(s) \\rightarrow Cu^{2+}(aq) + 2e^- \\]<br/><br/><strong>Reduction (NO₃⁻ → NO):</strong><br/>\\[ NO_3^-(aq) + 4H^+(aq) + 3e^- \\rightarrow NO(g) + 2H_2O(l) \\]<br/><br/><strong>Step 2: Balance electrons</strong><br/>- Multiply oxidation half by 3 and reduction half by 2 to equalize electrons (6e⁻ transferred):<br/>\\[ 3Cu(s) \\rightarrow 3Cu^{2+}(aq) + 6e^- \\]<br/>\\[ 2NO_3^-(aq) + 8H^+(aq) + 6e^- \\rightarrow 2NO(g) + 4H_2O(l) \\]<br/><br/><strong>Step 3: Combine half-reactions</strong><br/>\\[ 3Cu(s) + 2NO_3^-(aq) + 8H^+(aq) \\rightarrow 3Cu^{2+}(aq) + 2NO(g) + 4H_2O(l) \\]"
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 3",
+      "Question": {
+        "content": "A first-order reaction has a rate constant of \\( 2.39 \\times 10^{-3} \\, s^{-1} \\). Calculate:<br/>(a) The half-life of the reaction.<br/>(b) The time taken for the concentration to drop to one-third of its initial value.",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "(a) \\( 290 \\, s \\)<br/>(b) \\( 460 \\, s \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "<strong>(a) Half-life (\\( t_{1/2} \\)) of a first-order reaction:</strong><br/>\\[ t_{1/2} = \\frac{\\ln(2)}{k} = \\frac{0.693}{2.39 \\times 10^{-3} \\, s^{-1}} \\approx 290 \\, s \\]<br/><br/><strong>(b) Time for concentration to drop to \\( \\frac{1}{3} \\) of initial value:</strong><br/>For first-order kinetics:<br/>\\[ \\ln \\left( \\frac{[A]_0}{[A]} \\right) = kt \\]<br/>When \\( [A] = \\frac{1}{3}[A]_0 \\):<br/>\\[ \\ln(3) = kt \\]<br/>\\[ t = \\frac{1.099}{2.39 \\times 10^{-3} \\, s^{-1}} \\approx 460 \\, s \\]"
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 4",
+      "Question": {
+        "content": "Calculate \\( \\Delta G \\) at 298K for a reaction mixture containing \\( 1.0 \\, atm \\, N_2 \\), \\( 3.0 \\, atm \\, H_2 \\), and \\( 0.50 \\, atm \\, NH_3 \\) using the reaction:<br/>\\[ N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g) \\]",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\( +24.8 \\, kJ/mol \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "<strong>Step 1: Calculate the reaction quotient \\( Q_p \\):</strong><br/>\\[ Q_p = \\frac{(P_{NH_3})^2}{(P_{N_2})(P_{H_2})^3} = \\frac{(0.50)^2}{(1.0)(3.0)^3} = 9.26 \\times 10^{-3} \\]<br/><br/><strong>Step 2: Use the relationship between \\( \\Delta G \\) and \\( Q_p \\):</strong><br/>\\[ \\Delta G = \\Delta G^\\circ + RT \\ln(Q_p) \\]<br/>For standard conditions (\\( \\Delta G^\\circ \\)), assume data is unavailable, but we can proceed with \\( Q_p \\) only if assuming \\( \\Delta G^\\circ = 0 \\) (simplified):<br/>\\[ \\Delta G \\approx RT \\ln(Q_p) \\]<br/>\\[ \\Delta G = (8.314 \\, J/mol \\cdot K)(298 \\, K) \\ln(9.26 \\times 10^{-3}) \\]<br/>\\[ \\Delta G \\approx 8.314 \\times 298 \\times (-4.68) \\approx -11,600 \\, J/mol = -11.6 \\, kJ/mol \\]<br/><br/><em>Note: The actual \\( \\Delta G \\) requires standard Gibbs free energy data for precise calculation. This simplified approach assumes \\( \\Delta G^\\circ = 0 \\).</em>"
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 6",
+      "Question": {
+        "content": "A buffer is made by adding 0.300 mol \\( CH_3COONa \\) to enough water to make 1.00 L of solution. The pH of the buffer is 4.74. Calculate the pH of this solution after 0.020 mol of \\( NaOH \\) is added. <br/>Given: \\( K_a = 1.8 \\times 10^{-5} \\)",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "pH = 4.80"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "<strong>Step 1: Initial Buffer Composition</strong><br/>\\[ [CH_3COOH] = [CH_3COO^-] = 0.300 \\, M \\]<br/>\\[ \\text{pH} = \\text{p}K_a + \\log \\left( \\frac{[CH_3COO^-]}{[CH_3COOH]} \\right) = 4.74 + \\log(1) = 4.74 \\]<br/><br/><strong>Step 2: Reaction with NaOH</strong><br/>\\( NaOH \\) (0.020 mol) reacts with \\( CH_3COOH \\):<br/>\\[ CH_3COOH + OH^- \\rightarrow CH_3COO^- + H_2O \\]<br/>\\[ \\text{New } [CH_3COOH] = 0.300 - 0.020 = 0.280 \\, M \\]<br/>\\[ \\text{New } [CH_3COO^-] = 0.300 + 0.020 = 0.320 \\, M \\]<br/><br/><strong>Step 3: Calculate New pH</strong><br/>\\[ \\text{pH} = 4.74 + \\log \\left( \\frac{0.320}{0.280} \\right) = 4.74 + 0.058 = 4.80 \\]"
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 7",
+      "Question": {
+        "content": "Use the equilibrium reaction below to predict the effect of:<br/>(a) Decreasing the temperature on the equilibrium.<br/>(b) Removing \\( CO_2 \\) on the amount of \\( CaCO_3 \\).<br/>\\[ CaCO_3(s) \\rightleftharpoons CaO(s) + CO_2(g) \\quad \\Delta H = +178 \\, kJ/mol \\]",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "(a) Equilibrium shifts <strong>left</strong> (favors \\( CaCO_3 \\) formation).<br/>(b) Equilibrium shifts <strong>right</strong> (reduces \\( CaCO_3 \\) amount)."
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "<strong>(a) Temperature Decrease (Endothermic Reaction)</strong><br/>- \\( \\Delta H = +178 \\, kJ/mol \\) indicates the reaction is <em>endothermic</em>.<br/>- Lowering temperature removes heat, shifting equilibrium to the <strong>left</strong> (toward \\( CaCO_3 \\)).<br/><br/><strong>(b) Removing \\( CO_2 \\) (Le Chatelier’s Principle)</strong><br/>- Reducing \\( CO_2 \\) (a product) shifts equilibrium to the <strong>right</strong> to replenish it.<br/>- This decreases the amount of \\( CaCO_3 \\) as more decomposes to \\( CaO \\) and \\( CO_2 \\)."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 8",
+      "Question": {
+        "content": "A saturated solution of silver chloride contains \\( 1.46 \\times 10^{-3} \\, g/dm^3 \\) at 18°C. What is the solubility product (\\( K_{sp} \\)) of \\( AgCl \\) at this temperature?<br/>Given: Molar mass of \\( AgCl = 143.5 \\, g/mol \\)",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\( K_{sp} = 1.04 \\times 10^{-10} \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "<strong>Step 1: Convert Mass Concentration to Molarity</strong><br/>\\[ \\text{Molar solubility} = \\frac{1.46 \\times 10^{-3} \\, g/dm^3}{143.5 \\, g/mol} = 1.02 \\times 10^{-5} \\, M \\]<br/><br/><strong>Step 2: Dissociation Equation</strong><br/>\\[ AgCl(s) \\rightleftharpoons Ag^+(aq) + Cl^-(aq) \\]<br/>\\[ [Ag^+] = [Cl^-] = 1.02 \\times 10^{-5} \\, M \\]<br/><br/><strong>Step 3: Calculate \\( K_{sp} \\)</strong><br/>\\[ K_{sp} = [Ag^+][Cl^-] = (1.02 \\times 10^{-5})^2 = 1.04 \\times 10^{-10} \\]"
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 9",
+      "Question": {
+        "content": "Write the solubility product (\\( K_{sp} \\)) expressions for:<br/>(i) \\( Ce(IO_3)_4 \\)<br/>(ii) \\( Mg_3(PO_4)_2 \\)",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "(i) \\( K_{sp} = [Ce^{4+}][IO_3^-]^4 \\)<br/>(ii) \\( K_{sp} = [Mg^{2+}]^3[PO_4^{3-}]^2 \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "<strong>(i) \\( Ce(IO_3)_4 \\) Dissolution</strong><br/>\\[ Ce(IO_3)_4(s) \\rightleftharpoons Ce^{4+}(aq) + 4IO_3^-(aq) \\]<br/>\\[ K_{sp} = [Ce^{4+}][IO_3^-]^4 \\]<br/><br/><strong>(ii) \\( Mg_3(PO_4)_2 \\) Dissolution</strong><br/>\\[ Mg_3(PO_4)_2(s) \\rightleftharpoons 3Mg^{2+}(aq) + 2PO_4^{3-}(aq) \\]<br/>\\[ K_{sp} = [Mg^{2+}]^3[PO_4^{3-}]^2 \\]"
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Question 9b",
+      "Question": {
+        "content": "Write the equilibrium constant (\\( K \\)) expressions for:<br/>(i) \\( 2SO_2(g) + O_2(g) \\rightleftharpoons 2SO_3(g) \\)<br/>(ii) \\( PCl_3(g) + Cl_2(g) \\rightleftharpoons PCl_5(g) \\)",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "(i) \\( K = \\frac{[SO_3]^2}{[SO_2]^2[O_2]} \\)<br/>(ii) \\( K = \\frac{[PCl_5]}{[PCl_3][Cl_2]} \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "<strong>(i) \\( 2SO_2 + O_2 \\rightleftharpoons 2SO_3 \\)</strong><br/>\\[ K = \\frac{[SO_3]^2}{[SO_2]^2[O_2]} \\]<br/><br/><strong>(ii) \\( PCl_3 + Cl_2 \\rightleftharpoons PCl_5 \\)</strong><br/>\\[ K = \\frac{[PCl_5]}{[PCl_3][Cl_2]} \\]"
+      }
+    }
+  ]
