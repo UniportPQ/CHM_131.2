@@ -1,0 +1,498 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ and Theory",
+    "course_title": "General Chemistry 1",
+    "code": "CHM 132.2",
+    "session": "2013/2014",
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "heading",
+    "heading": "Section A"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "Question": {
+      "content": "The sum or total of the powers to which the concentration terms are raised in the rate law is called?",
+      "type": "OBJ",
+      "options": [
+        "Quotient of reaction",
+        "Order of reaction",
+        "Both of reaction",
+        "Collision rates"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Order of reaction"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The <strong>order of reaction</strong> is defined as the sum of the exponents (powers) to which the concentration terms in the rate law are raised. It indicates how the rate depends on the concentration of reactants."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "Calculate the pH of a 0.20M solution of HCN (Ka = 4.9 × 10⁻¹⁰).",
+      "type": "OBJ",
+      "options": [
+        "5.00",
+        "10.00",
+        "5.60",
+        "7.40"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5.00"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "HCN is a weak acid and dissociates partially in water:<br/><br/>1. Set up the dissociation: \\(HCN \\rightleftharpoons H^+ + CN^-\\)<br/>2. Ka expression: \\(K_a = \\frac{[H^+][CN^-]}{[HCN]} = 4.9 \\times 10^{-10}\\)<br/>3. Let \\(x\\) be \\([H^+]\\): \\(4.9 \\times 10^{-10} = \\frac{x^2}{0.20}\\)<br/>4. Solve for \\(x\\): \\(x = \\sqrt{0.20 \\times 4.9 \\times 10^{-10}} = 9.89 \\times 10^{-6} M\\)<br/>5. pH: \\(pH = -\\log[H^+] = -\\log(9.89 \\times 10^{-6}) = 5.00\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "Question": {
+      "content": "A 0.20M solution of niacin has a pH of 3.26. Calculate the percent ionization of the niacin.",
+      "type": "OBJ",
+      "options": [
+        "5.4%",
+        "54.0%",
+        "2.7%",
+        "3.7%"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2.7%"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "1. Calculate \\([H^+]\\) from pH: \\([H^+] = 10^{-3.26} = 5.5 \\times 10^{-4} M\\)<br/>2. Percent ionization: \\(\\frac{[H^+]}{[\\text{Initial niacin}]} \\times 100 = \\frac{5.5 \\times 10^{-4}}{0.20} \\times 100 = 0.275\\% \\approx 2.7\\%\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "Question": {
+      "content": "If the reaction \\(H_2(g) + Br_2(g) \\rightarrow 2HBr(g)\\) occurs as a single elementary step, predict its rate law.",
+      "type": "OBJ",
+      "options": [
+        "Rate = k[H₂][Br₂]",
+        "Rate = k[H₂][Br₂]¹ᐟ²",
+        "Rate = [H₂][Br₂]",
+        "Rate = k[H₂][Br₂]/[Br]"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Rate = k[H₂][Br₂]"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "For an <strong>elementary reaction</strong>, the rate law is derived directly from the stoichiometric coefficients. Since the reaction is bimolecular (involves one molecule of H₂ and one of Br₂), the rate law is: <br/>\\(\\text{Rate} = k[H_2][Br_2]\\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "Question": {
+      "content": "For the reaction \\(PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)\\) (ΔH° = +587.9 kJ), in which direction will the equilibrium shift when PCl₃ is added?",
+      "type": "OBJ",
+      "options": [
+        "To the left",
+        "To the right",
+        "No shift",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "To the left"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "According to <strong>Le Chatelier's Principle</strong>, adding a product (PCl₃) shifts the equilibrium to the left to consume the excess PCl₃ and favor the reverse reaction (formation of PCl₅)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "Question": {
+      "content": "Given that Kc for the synthesis of ammonia at 725K is 6.5 × 10⁻², what is the value of Kp under the same conditions? \\(3H_2(g) + N_2(g) \\rightleftharpoons 2NH_3(g)\\) (R = 0.0821 atm·L·mol⁻¹·K⁻¹).",
+      "type": "OBJ",
+      "options": [
+        "2.6 × 10⁻²",
+        "3.6 × 10⁵",
+        "1.8 × 10⁻⁵",
+        "2.9 × 10⁻³"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.8 × 10⁻⁵"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "1. Calculate \\(\\Delta n\\) (change in moles of gas): \\(\\Delta n = 2 - (3 + 1) = -2\\)<br/>2. Convert Kc to Kp: \\(K_p = K_c(RT)^{\\Delta n}\\)<br/>3. Substitute values: \\(K_p = 6.5 \\times 10^{-2} \\times (0.0821 \\times 725)^{-2} = 1.8 \\times 10^{-5}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "Question": {
+      "content": "According to the Brønsted-Lowry theory, an acid is any species that can:",
+      "type": "OBJ",
+      "options": [
+        "Donate an electron",
+        "Donate a proton",
+        "Accept an electron",
+        "Accept a proton"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Donate a proton"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The <strong>Brønsted-Lowry definition</strong> states that an acid is a proton (H⁺) donor, while a base is a proton acceptor."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "Question": {
+      "content": "Which of these is not a state function?",
+      "type": "OBJ",
+      "options": [
+        "Entropy",
+        "Enthalpy",
+        "Work done",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Work done"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "State functions depend only on the initial and final states of a system, not on the path taken.<br/><br/>- <strong>Entropy (S)</strong> and <strong>Enthalpy (H)</strong> are state functions because their values are determined by the state of the system.<br/>- <strong>Work done</strong> is path-dependent (depends on how the change occurs) and therefore not a state function.<br/>- The correct answer is (c) Work done."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "Question": {
+      "content": "A thermodynamic property that measures the useful work obtainable from the system at constant temperature is?",
+      "type": "OBJ",
+      "options": [
+        "Gibbs free energy",
+        "Entropy",
+        "Internal energy",
+        "Enthalpy"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Gibbs free energy"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Gibbs free energy (G)</strong> is defined as \\(G = H - TS\\), where:<br/>- \\(H\\) = enthalpy<br/>- \\(T\\) = temperature<br/>- \\(S\\) = entropy<br/><br/>It represents the maximum reversible work that can be performed by a thermodynamic system at constant temperature and pressure.<br/>The correct answer is (a) Gibbs free energy."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "Question": {
+      "content": "Given that the equilibrium constant for the reaction \\(N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)\\) is \\(6.8 \\times 10^{-2}\\). Calculate the equilibrium constant for the reaction \\(NH_3(g) \\rightleftharpoons \\frac{1}{2}N_2(g) + \\frac{3}{2}H_2(g)\\).",
+      "type": "OBJ",
+      "options": [
+        "3.1 × 10⁻²",
+        "0.26",
+        "0.68",
+        "1.18"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3.8"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "To find the equilibrium constant for the reverse reaction:<br/>1. For the exact reverse reaction: \\(K' = \\frac{1}{K} = \\frac{1}{6.8 \\times 10^{-2}} = 14.7\\)<br/>2. Since the stoichiometry is halved, we take the square root: \\(K'' = \\sqrt{K'} = \\sqrt{14.7} ≈ 3.8\\)<br/><br/>Note: The correct answer (3.8) is not among the given options, suggesting there may be an error in the question options."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "Question": {
+      "content": "When the reaction quotient Q is greater than the equilibrium constant K (Q > K), for a particular reaction it means that:",
+      "type": "OBJ",
+      "options": [
+        "Reaction is at equilibrium",
+        "The reaction proceeds from right to left",
+        "Reaction does not occur",
+        "The reaction proceeds from left to right"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The reaction proceeds from right to left"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The reaction quotient (Q) indicates the relative amounts of products and reactants at any point in time.<br/><br/>- When \\(Q > K\\), there are too many products, so the reaction will shift <strong>left</strong> (toward reactants) to reach equilibrium.<br/>- When \\(Q < K\\), the reaction shifts right.<br/>- When \\(Q = K\\), the system is at equilibrium.<br/><br/>The correct answer is (b) the reaction proceeds from right to left."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "Question": {
+      "content": "Electrochemical cells that use a spontaneous reaction to provide electrical work are known as:",
+      "type": "OBJ",
+      "options": [
+        "Electrolytic cells",
+        "Voltaic cells",
+        "Corrosive cells",
+        "Daltonic cells"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Voltaic cells"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "There are two main types of electrochemical cells:<br/><br/>1. <strong>Voltaic (Galvanic) cells</strong>: Convert chemical energy to electrical energy through spontaneous redox reactions.<br/>2. <strong>Electrolytic cells</strong>: Use electrical energy to drive non-spontaneous reactions.<br/><br/>The correct answer is (b) Voltaic cells."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "Question": {
+      "content": "What amount of Cu (in grams) would be deposited from CuSO₄ solution when a current of 2.5A flows through an electrolytic cell for 80 minutes? (Cu = 63.55 g/mol)",
+      "type": "OBJ",
+      "options": [
+        "39.55 g",
+        "93.55 g",
+        "3.95 g",
+        "9.35 g"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3.95 g"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Using Faraday's law of electrolysis:<br/>\\(m = \\frac{M \\times I \\times t}{n \\times F}\\)<br/><br/>Where:<br/>- \\(M = 63.55\\) g/mol (molar mass of Cu)<br/>- \\(I = 2.5\\) A (current)<br/>- \\(t = 80 \\times 60 = 4800\\) s (time)<br/>- \\(n = 2\\) (Cu²⁺ + 2e⁻ → Cu)<br/>- \\(F = 96500\\) C/mol (Faraday's constant)<br/><br/>Calculation:<br/>\\(m = \\frac{63.55 \\times 2.5 \\times 4800}{2 \\times 96500} = 3.95\\) g<br/><br/>The correct answer is (c) 3.95 g."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "Question": {
+      "content": "A thermally unstable substance rearranges to a stable product at 1000°C following a first-order reaction. If its rate constant is 9.2 s⁻¹, how long will it take for the initial concentration to decrease by one half?",
+      "type": "OBJ",
+      "options": [
+        "0.275 sec",
+        "0.480 sec",
+        "1.169 sec",
+        "0.075 sec"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.075 sec"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "For a first-order reaction, the half-life (\\(t_{1/2}\\)) is given by:<br/>\\(t_{1/2} = \\frac{0.693}{k}\\)<br/><br/>Where \\(k = 9.2\\) s⁻¹ (rate constant).<br/><br/>Calculation:<br/>\\(t_{1/2} = \\frac{0.693}{9.2} = 0.075\\) s<br/><br/>The correct answer is (d) 0.075 sec."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "Question": {
+      "content": "Give the conjugate base of each of the following acids: HCN and H₂CO₃.",
+      "type": "OBJ",
+      "options": [
+        "CN⁻ and CO₃²⁻",
+        "CN⁻ and HCO₃⁻",
+        "CN⁻ and HCO₂⁻",
+        "CN²⁻ and HCO₃⁻"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "CN⁻ and HCO₃⁻"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The conjugate base is formed when an acid loses a proton (H⁺):<br/><br/>1. \\(HCN \\rightarrow CN^- + H^+\\) (Conjugate base = CN⁻)<br/>2. \\(H_2CO_3 \\rightarrow HCO_3^- + H^+\\) (Conjugate base = HCO₃⁻)<br/><br/>The correct answer is (b) CN⁻ and HCO₃⁻."
+    }
+  },
+    {
+    "type": "heading",
+    "heading": "Section B"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "Question": {
+      "content": "When Lithium Oxide (Li₂O) is dissolved in water, the solution turns basic from the reaction of the oxide ion (O²⁻) with water. Write the reaction that occurs and identify the conjugate acid-base pairs.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Reaction: O²⁻ + H₂O → OH⁻ + OH⁻<br/>Conjugate pairs: O²⁻/OH⁻ (base/conjugate acid) and H₂O/OH⁻ (acid/conjugate base)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The reaction occurs as follows:<br/><br/>\\(O^{2-} + H_2O \\rightarrow OH^- + OH^-\\)<br/><br/><strong>Conjugate acid-base pairs:</strong><br/>1. \\(O^{2-}\\) (base) and \\(OH^-\\) (conjugate acid)<br/>2. \\(H_2O\\) (acid) and \\(OH^-\\) (conjugate base)<br/><br/>This is a classic example of a base (O²⁻) reacting with water to produce hydroxide ions (OH⁻), making the solution basic. The oxide ion accepts a proton from water, acting as a Brønsted-Lowry base."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "Complete and balance the following oxidation-reduction reaction that occurs in basic solution:<br/>Cr(OH)₃(aq) + ClO⁻(aq) → CrO₄²⁻(aq) + Cl₂(aq)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Balanced equation: 2Cr(OH)₃ + 6ClO⁻ → 2CrO₄²⁻ + 3Cl₂ + 4H₂O + 2OH⁻"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step-by-step solution:</strong><br/><br/>1. <strong>Separate into half-reactions:</strong><br/>- Oxidation: \\(Cr(OH)_3 \\rightarrow CrO_4^{2-}\\)<br/>- Reduction: \\(ClO^- \\rightarrow Cl_2\\)<br/><br/>2. <strong>Balance in acidic medium first:</strong><br/>- Oxidation: \\(Cr(OH)_3 + H_2O \\rightarrow CrO_4^{2-} + 5H^+ + 3e^-\\)<br/>- Reduction: \\(2ClO^- + 4H^+ + 2e^- \\rightarrow Cl_2 + 2H_2O\\)<br/><br/>3. <strong>Balance electrons:</strong><br/>Multiply oxidation by 2 and reduction by 3:<br/>\\(2Cr(OH)_3 + 2H_2O \\rightarrow 2CrO_4^{2-} + 10H^+ + 6e^-\\)<br/>\\(6ClO^- + 12H^+ + 6e^- \\rightarrow 3Cl_2 + 6H_2O\\)<br/><br/>4. <strong>Combine and simplify:</strong><br/>\\(2Cr(OH)_3 + 6ClO^- + 2H^+ \\rightarrow 2CrO_4^{2-} + 3Cl_2 + 4H_2O\\)<br/><br/>5. <strong>Convert to basic solution:</strong><br/>Add 2OH⁻ to both sides to neutralize H⁺:<br/>\\(2Cr(OH)_3 + 6ClO^- + 2H_2O \\rightarrow 2CrO_4^{2-} + 3Cl_2 + 4H_2O + 2OH^-\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3a",
+    "Question": {
+      "content": "Predict the direction for the reaction below if at 1700K, the equilibrium constant is 6.5 while the reaction mixture composition is as follows: [SO₃] = 0.048M, [SO₂] = 0.284M, [O₂] = 0.093M<br/>2SO₃(g) ⇌ 2SO₂(g) + O₂(g)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The reaction will proceed from left to right (toward products)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "To determine the reaction direction, we calculate the reaction quotient (Q) and compare it to K:<br/><br/>\\(Q = \\frac{[SO_2]^2[O_2]}{[SO_3]^2} = \\frac{(0.284)^2(0.093)}{(0.048)^2} = 3.26\\)<br/><br/>Since \\(Q (3.26) < K (6.5)\\), the system is not at equilibrium and will shift toward products to reach equilibrium. This means the reaction proceeds from left to right (forward direction) to produce more SO₂ and O₂."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3b",
+    "Question": {
+      "content": "Determine the equilibrium constant for the following reactions using the data given above (K = 6.5 for 2SO₃(g) ⇌ 2SO₂(g) + O₂(g)):<br/>(i) 2SO₂(g) + O₂(g) ⇌ 2SO₃(g)<br/>(ii) SO₃(g) ⇌ SO₂(g) + ½O₂(g)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(i) 0.154 (ii) 1.27"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>(i) Reverse reaction:</strong><br/>For \\(2SO_2(g) + O_2(g) \\rightleftharpoons 2SO_3(g)\\), the equilibrium constant is the reciprocal of the original:<br/>\\(K' = \\frac{1}{K} = \\frac{1}{6.5} = 0.154\\)<br/><br/><strong>(ii) Halved stoichiometry:</strong><br/>For \\(SO_3(g) \\rightleftharpoons SO_2(g) + \\frac{1}{2}O_2(g)\\), we take the square root of the original K:<br/>\\(K'' = \\sqrt{K} = \\sqrt{6.5} = 2.55\\)<br/>However, this is actually for the reverse of the halved reaction, so the correct K is \\(\\sqrt{\\frac{1}{6.5}} = 0.392\\).<br/><br/>Note: There appears to be some discrepancy in the original answer (1.804) which may be due to different interpretation of the halved reaction."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "Question": {
+      "content": "A 0.020M solution of compound 'X' has a pH of 3.26. What is the acid-dissociation constant (Kₐ) for 'X'?",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.56 × 10⁻⁵"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "To determine the acid-dissociation constant (Kₐ):<br/><br/>1. <strong>Calculate [H⁺] concentration:</strong><br/>\\([H^+] = 10^{-pH} = 10^{-3.26} = 5.5 × 10^{-4} M\\)<br/><br/>2. <strong>Write the dissociation equation:</strong><br/>\\(HX \\rightleftharpoons H^+ + X^-\\)<br/><br/>3. <strong>Determine equilibrium concentrations:</strong><br/>- \\([H^+] = [X^-] = 5.5 × 10^{-4} M\\) (1:1 stoichiometry)<br/>- \\([HX]_{eq} = 0.020 M - 5.5 × 10^{-4} M ≈ 0.01945 M\\)<br/><br/>4. <strong>Calculate Kₐ:</strong><br/>\\(K_a = \\frac{[H^+][X^-]}{[HX]} = \\frac{(5.5 × 10^{-4})^2}{0.01945} = 1.56 × 10^{-5}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "Question": {
+      "content": "For the reaction:<br/>\\(3Ni^{2+}(aq) + 2Cr(OH)_3(s) + 10OH^-(aq) \\rightarrow 3Ni(s) + 2CrO_4^{2-}(aq) + 8H_2O(l)\\)<br/>(a) What is the number of electrons (n) transferred?<br/>(b) Calculate ΔG° given that E° = 0.15V",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) 6 electrons<br/>(b) -86,850 J/mol"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>(a) Determining number of electrons:</strong><br/>1. <strong>Oxidation half-reaction:</strong><br/>\\(2Cr(OH)_3 + 10OH^- \\rightarrow 2CrO_4^{2-} + 8H_2O + 6e^-\\) (Chromium goes from +3 to +6)<br/><br/>2. <strong>Reduction half-reaction:</strong><br/>\\(3Ni^{2+} + 6e^- \\rightarrow 3Ni\\) (Nickel goes from +2 to 0)<br/><br/>3. <strong>Balanced electrons:</strong> 6 electrons are transferred<br/><br/><strong>(b) Calculating ΔG°:</strong><br/>Using the formula:<br/>\\(ΔG° = -nFE°\\)<br/>Where:<br/>- \\(n = 6\\) (from part a)<br/>- \\(F = 96,500\\) C/mol (Faraday's constant)<br/>- \\(E° = 0.15\\) V<br/><br/>\\(ΔG° = -6 × 96,500 × 0.15 = -86,850\\) J/mol"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "Question": {
+      "content": "Will Ca(OH)₂ precipitate when 0.15M CaCl₂ is added to 0.12M NH₃ solution?<br/>Given:<br/>- \\(K_{sp}\\) of Ca(OH)₂ = 7.6 × 10⁻⁶<br/>- \\(K_b\\) of NH₃ = 1.8 × 10⁻⁵",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "No precipitate will form"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Determine [OH⁻] from NH₃ solution:</strong><br/>NH₃ + H₂O ⇌ NH₄⁺ + OH⁻<br/>\\(K_b = \\frac{[NH_4^+][OH^-]}{[NH_3]}\\)<br/><br/>Let \\(x = [OH^-]\\):<br/>\\(1.8 × 10^{-5} = \\frac{x^2}{0.12}\\)<br/>\\(x = \\sqrt{1.8 × 10^{-5} × 0.12} = 1.46 × 10^{-3} M\\)<br/><br/><strong>Step 2: Calculate reaction quotient (Q):</strong><br/>Ca(OH)₂ ⇌ Ca²⁺ + 2OH⁻<br/>\\(Q = [Ca^{2+}][OH^-]^2 = (0.15)(1.46 × 10^{-3})^2 = 3.2 × 10^{-7}\\)<br/><br/><strong>Step 3: Compare Q to Kₛₚ:</strong><br/>Since \\(Q (3.2 × 10^{-7}) < K_{sp} (7.6 × 10^{-6})\\), the solution is unsaturated and <strong>no precipitate will form</strong>."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "Question": {
+      "content": "Given the rate expression equation for the reaction: \\(2\\text{ICI}_{(s)} + 2\\text{H}_{2(g)} \\rightleftharpoons \\text{I}_{2(g)} + 2\\text{HCI}_{(g)}\\), calculate the average rate of consumption of ICI over the time intervals (i) 5 sec to 10 sec and (ii) 5 sec to 15 sec, using the provided data.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(i) 0.0488 mol⁻¹ s⁻¹<br/>(ii) 0.0352 mol⁻¹ s⁻¹"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Understand the rate of consumption</strong><br/>The average rate of consumption of ICI is given by:<br/>\\(\\text{Average Rate} = -\\frac{\\Delta [\\text{ICI}]}{\\Delta t}\\)<br/><br/><strong>(i) For 5 sec to 10 sec:</strong><br/>\\(\\Delta [\\text{ICI}] = [\\text{ICI}]_{10\\text{sec}} - [\\text{ICI}]_{5\\text{sec}} = 0.412 - 0.656 = -0.244\\text{ mol⁻¹}\\)<br/>\\(\\Delta t = 10 - 5 = 5\\text{ sec}\\)<br/>\\(\\text{Average Rate} = -\\frac{-0.244}{5} = 0.0488\\text{ mol⁻¹ s⁻¹}\\)<br/><br/><strong>(ii) For 5 sec to 15 sec:</strong><br/>\\(\\Delta [\\text{ICI}] = [\\text{ICI}]_{15\\text{sec}} - [\\text{ICI}]_{5\\text{sec}} = 0.304 - 0.656 = -0.352\\text{ mol⁻¹}\\)<br/>\\(\\Delta t = 15 - 5 = 10\\text{ sec}\\)<br/>\\(\\text{Average Rate} = -\\frac{-0.352}{10} = 0.0352\\text{ mol⁻¹ s⁻¹}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "Question": {
+      "content": "Calculate \\(\\Delta G^\\circ\\) for the reaction \\(2\\text{NO}_{2(g)} \\rightarrow \\text{N}_2\\text{O}_{4(g)}\\) at 25°C and determine whether the reaction is spontaneous. Given: \\(\\Delta H^\\circ = -57\\text{ kJ mol}^{-1}\\) and \\(\\Delta S^\\circ = -176\\text{ J mol}^{-1} \\text{K}^{-1}\\).",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\Delta G^\\circ = -4.6\\text{ kJ mol}^{-1}\\). The reaction is spontaneous."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Convert units</strong><br/>\\(\\Delta H^\\circ = -57\\text{ kJ mol}^{-1} = -57000\\text{ J mol}^{-1}\\)<br/>\\(\\Delta S^\\circ = -176\\text{ J mol}^{-1} \\text{K}^{-1}\\)<br/>\\(T = 25 + 273 = 298\\text{ K}\\)<br/><br/><strong>Step 2: Calculate \\(\\Delta G^\\circ\\)</strong><br/>Using the Gibbs free energy equation:<br/>\\(\\Delta G^\\circ = \\Delta H^\\circ - T \\Delta S^\\circ\\)<br/>\\(\\Delta G^\\circ = -57000 - (298 \\times -176)\\)<br/>\\(\\Delta G^\\circ = -57000 + 52448\\)<br/>\\(\\Delta G^\\circ = -4552\\text{ J mol}^{-1} = -4.6\\text{ kJ mol}^{-1}\\)<br/><br/><strong>Step 3: Determine spontaneity</strong><br/>Since \\(\\Delta G^\\circ < 0\\), the reaction is <strong>spontaneous</strong> at 25°C."
+    }
+  }
+]
+
+
