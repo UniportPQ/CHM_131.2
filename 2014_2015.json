@@ -1,0 +1,480 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ and Theory",
+    "course_title": "General Chemistry 1",
+    "code": "CHM 132.2",
+    "session": "2014/2015",
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "heading",
+    "heading": "Section A"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "Question": {
+      "content": "The type of electrochemical cell in which electrical energy causes a chemical reaction to occur is a:",
+      "type": "OBJ",
+      "options": [
+        "Voltaic",
+        "Galvanic",
+        "Electrolytic",
+        "Chemical"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Electrolytic"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "An <strong>electrolytic cell</strong> uses electrical energy to drive a non-spontaneous chemical reaction (electrolysis). This contrasts with voltaic/galvanic cells which generate electricity from spontaneous reactions. The correct answer is (c) Electrolytic."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "Which of these will decrease the solubility of PbCl₂?",
+      "type": "OBJ",
+      "options": [
+        "NH₄NO₃",
+        "Ba(NO₃)₂",
+        "CaSO₄",
+        "Pb(NO₃)₂"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Pb(NO₃)₂"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The solubility of PbCl₂ decreases due to the <strong>common ion effect</strong>. Pb(NO₃)₂ provides Pb²⁺ ions, which shift the equilibrium \\(PbCl_2 \\rightleftharpoons Pb^{2+} + 2Cl^-\\) left, reducing solubility. The correct answer is (d) Pb(NO₃)₂."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "Question": {
+      "content": "Increase in pressure of the reaction \\(N_{2(g)} + 3H_{2(g)} \\rightleftharpoons 2NH_{3(g)}\\) causes the equilibrium to shift to:",
+      "type": "OBJ",
+      "options": [
+        "Left and right",
+        "Right",
+        "Left",
+        "None"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Right"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "According to <strong>Le Chatelier's Principle</strong>, increasing pressure shifts equilibrium toward the side with fewer moles of gas. Here, 4 moles (1 N₂ + 3 H₂) → 2 moles (NH₃), so it shifts <strong>right</strong>. The correct answer is (b) Right."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "Question": {
+      "content": "What is the Kₛₚ expression for \\(Mg_3(PO_4)_2\\)?",
+      "type": "OBJ",
+      "options": [
+        "[Mg²⁺][PO₄³⁻]",
+        "[Mg²⁺]²[PO₄³⁻]³",
+        "[Mg²⁺]³[PO₄³⁻]²",
+        "[Mg²⁺]²[PO₄³⁻]³"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "[Mg²⁺]³[PO₄³⁻]²"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "For \\(Mg_3(PO_4)_2 \\rightleftharpoons 3Mg^{2+} + 2PO_4^{3-}\\), the <strong>Kₛₚ expression</strong> is: <br/>\\(K_{sp} = [Mg^{2+}]^3 [PO_4^{3-}]^2\\). <br/>The correct answer is (c) [Mg²⁺]³[PO₄³⁻]²."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "Question": {
+      "content": "The limit to which a weak acid and its salt can resist pH changes is called:",
+      "type": "OBJ",
+      "options": [
+        "Buffer solution",
+        "Buffer indicator",
+        "Buffer capacity",
+        "Buffer salt"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Buffer capacity"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Buffer capacity</strong> measures how much acid/base can be added before the pH changes significantly. It depends on the concentrations of the weak acid and its conjugate base. The correct answer is (c) Buffer capacity."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "Question": {
+      "content": "In \\(NH_3 + H_2O \\rightleftharpoons NH_4^+ + OH^-\\), identify the conjugate acid and base:",
+      "type": "OBJ",
+      "options": [
+        "NH₄⁺ & OH⁻",
+        "NH₄⁺ & H₂O",
+        "OH⁻ & NH₃",
+        "NH₄⁺ & NH₃"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "NH₄⁺ & NH₃"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "- <strong>Conjugate acid</strong> of base NH₃: NH₄⁺ (gains H⁺)<br/>- <strong>Conjugate base</strong> of acid H₂O: OH⁻ (not listed)<br/>Pair in options: NH₄⁺ (C.A) and NH₃ (original base). The correct answer is (d) NH₄⁺ & NH₃."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "Question": {
+      "content": "For a spontaneous electrochemical reaction, ΔG° and E°cell must be:",
+      "type": "OBJ",
+      "options": [
+        "Positive and negative",
+        "Negative and negative",
+        "Positive and positive",
+        "Negative and positive"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Negative and positive"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Spontaneity requires:<br/>- <strong>ΔG° < 0</strong> (negative)<br/>- <strong>E°cell > 0</strong> (positive)<br/>From \\(ΔG° = -nFE°\\). The correct answer is (d) Negative and positive."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "Question": {
+      "content": "Apple juice has pH 3.76. Calculate [H⁺]:",
+      "type": "OBJ",
+      "options": [
+        "1.74 × 10⁻⁴ M",
+        "1.99 × 10⁻⁴ M",
+        "1.8 × 10⁻⁴ M",
+        "5.75 × 10⁻³ M"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.74 × 10⁻⁴ M"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "\\([H^+] = 10^{-pH} = 10^{-3.76} = 1.74 × 10^{-4} M\\). The correct answer is (a) 1.74 × 10⁻⁴ M."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "Question": {
+      "content": "A 0.10 M HCOOH solution has [H⁺] = 4.2 × 10⁻³ M. Calculate % ionization:",
+      "type": "OBJ",
+      "options": [
+        "4.2%",
+        "8.4%",
+        "16.8%",
+        "2.1%"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "4.2%"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "\\(\\% \\text{ionization} = \\frac{[H^+]}{[HCOOH]} × 100 = \\frac{4.2 × 10^{-3}}{0.10} × 100 = 4.2\\%\\). The correct answer is (a) 4.2%."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "Question": {
+      "content": "Calculate molar solubility of AgCl in water (Kₛₚ = 1.8 × 10⁻¹⁰):",
+      "type": "OBJ",
+      "options": [
+        "1.8 × 10⁻⁵ M",
+        "1.3 × 10⁻⁵ M",
+        "7.8 × 10⁻⁵ M",
+        "1.8 × 10⁻³ M"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.3 × 10⁻⁵ M"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "For \\(AgCl \\rightleftharpoons Ag^+ + Cl^-\\), \\(K_{sp} = [Ag^+][Cl^-] = x^2 = 1.8 × 10^{-10}\\)<br/>\\(x = \\sqrt{1.8 × 10^{-10}} = 1.34 × 10^{-5} M\\). The correct answer is (b) 1.3 × 10⁻⁵ M."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "Question": {
+      "content": "All are polyprotic bases except:",
+      "type": "OBJ",
+      "options": [
+        "CO₃²⁻",
+        "SO₄²⁻",
+        "PO₄³⁻",
+        "NO₃⁻"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "NO₃⁻"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Polyprotic bases</strong> can accept multiple H⁺ ions. NO₃⁻ (nitrate) accepts only 1 H⁺ to form HNO₃, while CO₃²⁻, SO₄²⁻, and PO₄³⁻ can accept 2 or more. The correct answer is (d) NO₃⁻."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "Question": {
+      "content": "Which of the following sequences is NOT correct for the decreasing strengths of acids?",
+      "type": "OBJ",
+      "options": [
+        "HOCl > HOBr > HOI",
+        "HClO₂ > HClO > HClO₄",
+        "H₃PO₂ > H₃PO₃ > H₃PO₄",
+        "CCl₃COOH > CH₃COOH > CCl₂COOH"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "HClO₂ > HClO > HClO₄"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The correct order of acid strength for chlorine oxoacids is: <strong>HClO₄ > HClO₃ > HClO₂ > HClO</strong>. The sequence in option (b) is reversed and thus incorrect. The correct answer is (b) HClO₂ > HClO > HClO₄."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "Question": {
+      "content": "For the reaction \\(2HI_{(g)} \\rightarrow H_{2(g)} + I_{2(g)}\\), the correct expression for its rate of reaction is:",
+      "type": "OBJ",
+      "options": [
+        "\\(-\\frac{d[HI]}{dt}\\)",
+        "\\(-\\frac{d[H_2]}{dt}\\)",
+        "\\(-\\frac{d[I_2]}{dt}\\)",
+        "\\(\\frac{1}{2}\\frac{d[HI]}{dt}\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(-\\frac{1}{2}\\frac{d[HI]}{dt}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The rate of reaction is defined as: <br/>\\(Rate = -\\frac{1}{2}\\frac{d[HI]}{dt} = +\\frac{d[H_2]}{dt} = +\\frac{d[I_2]}{dt}\\). <br/>The negative sign and stoichiometric coefficient (1/2) account for HI's consumption. The correct answer is (d) \\(-\\frac{1}{2}\\frac{d[HI]}{dt}\\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "Question": {
+      "content": "Calculate the mass of Zinc (g) deposited when 5000 mA of current is passed through a zinc sulfate solution for 5.7 hours. (Faraday’s constant = 96500 C/mol, Molar mass of Zn = 65.4 g/mol)",
+      "type": "OBJ",
+      "options": [
+        "35.07 g",
+        "7.01 g",
+        "0.002 g",
+        "14.02 g"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "35.07 g"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Using Faraday’s law: <br/>1. Convert units: <br/>- Current (\\(I\\)) = 5000 mA = 5.0 A <br/>- Time (\\(t\\)) = 5.7 hours = 20520 s <br/>2. Calculate charge (\\(Q\\)): <br/>\\(Q = I \\times t = 5.0 \\times 20520 = 102600\\text{ C}\\) <br/>3. Moles of electrons: <br/>\\(n_e = \\frac{Q}{F} = \\frac{102600}{96500} = 1.063\\text{ mol}\\) <br/>4. Moles of Zn (since \\(Zn^{2+} + 2e^- \\rightarrow Zn\\)): <br/>\\(n_{Zn} = \\frac{n_e}{2} = 0.5315\\text{ mol}\\) <br/>5. Mass of Zn: <br/>\\(m = n \\times M = 0.5315 \\times 65.4 = 35.07\\text{ g}\\). <br/>The correct answer is (a) 35.07 g."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "Question": {
+      "content": "An electric motor does 2000 J of work driving a belt and gains 40 kJ as heat in the process. What is the change in internal energy of the motor?",
+      "type": "OBJ",
+      "options": [
+        "2040 J",
+        "-42 kJ",
+        "42 kJ",
+        "38 kJ"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "38 kJ"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Using the first law of thermodynamics: <br/>\\(\\Delta U = q + W\\) <br/>- Heat gained (\\(q\\)) = +40 kJ <br/>- Work done by system (\\(W\\)) = -2000 J = -2 kJ <br/>\\(\\Delta U = 40 + (-2) = 38\\text{ kJ}\\). <br/>The correct answer is (d) 38 kJ."
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Section B"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "Question": {
+      "content": "The decomposition of N₂O₅ proceeds according to the equation: <br/>2N₂O₅(g) → 4NO₂(g) + O₂(g). <br/>If the rate of decomposition of N₂O₅ is 4.2 × 10⁻⁷ M/s, what is the rate of appearance of (a) NO₂ and (b) O₂?",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) 8.4 × 10⁻⁷ M/s <br/>(b) 2.1 × 10⁻⁷ M/s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Given:</strong> <br/>Rate of decomposition of N₂O₅ = -d[N₂O₅]/dt = 4.2 × 10⁻⁷ M/s <br/><br/><strong>Stoichiometric relationships:</strong> <br/>From the balanced equation: <br/>\\(-\\frac{1}{2}\\frac{d[N₂O₅]}{dt} = \\frac{1}{4}\\frac{d[NO₂]}{dt} = \\frac{d[O₂]}{dt}\\) <br/><br/><strong>(a) Rate of appearance of NO₂:</strong> <br/>\\(\\frac{d[NO₂]}{dt} = 2 × \\left(-\\frac{d[N₂O₅]}{dt}\\right) = 2 × 4.2 × 10⁻⁷ = 8.4 × 10⁻⁷ M/s\\) <br/><br/><strong>(b) Rate of appearance of O₂:</strong> <br/>\\(\\frac{d[O₂]}{dt} = \\frac{1}{2} × \\left(-\\frac{d[N₂O₅]}{dt}\\right) = 0.5 × 4.2 × 10⁻⁷ = 2.1 × 10⁻⁷ M/s\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "Balance the following redox reaction in acidic solution: <br/>MnO₄⁻(aq) + Cl⁻(aq) → Mn²⁺(aq) + Cl₂(g)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2MnO₄⁻ + 10Cl⁻ + 16H⁺ → 2Mn²⁺ + 5Cl₂ + 8H₂O"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Separate into half-reactions</strong><br/>Oxidation: \\(Cl⁻ → Cl₂\\) <br/>Reduction: \\(MnO₄⁻ → Mn²⁺\\) <br/><br/><strong>Step 2: Balance atoms and charges</strong><br/><strong>Oxidation half-reaction:</strong> <br/>\\(2Cl⁻ → Cl₂ + 2e⁻\\) <br/><strong>Reduction half-reaction:</strong> <br/>\\(MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O\\) <br/><br/><strong>Step 3: Equalize electrons</strong><br/>Multiply oxidation by 5 and reduction by 2: <br/>\\(10Cl⁻ → 5Cl₂ + 10e⁻\\) <br/>\\(2MnO₄⁻ + 16H⁺ + 10e⁻ → 2Mn²⁺ + 8H₂O\\) <br/><br/><strong>Step 4: Combine and simplify</strong><br/>\\(2MnO₄⁻ + 10Cl⁻ + 16H⁺ → 2Mn²⁺ + 5Cl₂ + 8H₂O\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "Question": {
+      "content": "Determine the pH and pOH of a 0.25M solution of ammonium chloride (NH₄Cl), given that the Kₐ for NH₄⁺ is 5.6 × 10⁻¹⁰.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "pH = 4.9 <br/>pOH = 9.1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>NH₄⁺ acts as a weak acid:</strong> <br/>\\(NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺\\) <br/><br/><strong>Set up ICE table:</strong> <br/>Initial: [NH₄⁺] = 0.25M, [H₃O⁺] = [NH₃] = 0 <br/>Change: -x +x +x <br/>Equilibrium: 0.25-x x x <br/><br/><strong>Acid dissociation expression:</strong> <br/>\\(K_a = \\frac{[NH₃][H₃O⁺]}{[NH₄⁺]} = 5.6 × 10⁻¹⁰ = \\frac{x²}{0.25-x}\\) <br/><br/><strong>Solve for x:</strong> <br/>Since Kₐ is very small, assume x << 0.25: <br/>\\(x² = 5.6 × 10⁻¹⁰ × 0.25 = 1.4 × 10⁻¹⁰\\) <br/>\\(x = [H₃O⁺] = \\sqrt{1.4 × 10⁻¹⁰} = 1.18 × 10⁻⁵ M\\) <br/><br/><strong>Calculate pH and pOH:</strong> <br/>\\(pH = -\\log[H₃O⁺] = -\\log(1.18 × 10⁻⁵) = 4.9\\) <br/>\\(pOH = 14 - pH = 14 - 4.9 = 9.1\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "Question": {
+      "content": "Calculate ΔG for the reaction: <br/>2SO₂(g) + O₂(g) ⇌ 2SO₃(g) <br/>at 305K with P<sub>SO₃</sub> = 2 atm, P<sub>SO₂</sub> = 0.50 atm, and P<sub>O₂</sub> = 0.67 atm.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-8049.7 J/mol"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Calculate reaction quotient (Q):</strong> <br/>\\(Q = \\frac{(P_{SO₃})²}{(P_{SO₂})²(P_{O₂})} = \\frac{(2)²}{(0.50)²(0.67)} = \\frac{4}{0.1675} = 23.9\\) <br/><br/><strong>Step 2: Calculate ΔG using:</strong> <br/>\\(ΔG = 2.303RT\\log Q\\) <br/>Where: <br/>- R = 8.314 J/mol·K <br/>- T = 305K <br/>\\(ΔG = 2.303 × 8.314 × 305 × \\log(23.9)\\) <br/>\\(ΔG = 2.303 × 8.314 × 305 × 1.378 = -8049.7 J/mol\\) <br/><br/>The negative value indicates the reaction is spontaneous under these conditions."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "Question": {
+      "content": "A buffer solution contains 0.1M CH₃COOH and 0.1M CH₃COONa. If 0.02 mole of NaOH is added to 1L of this solution: (i) What is the pH before addition? (ii) What is the pH after addition? (Kₐ = 1.8 × 10⁻⁵)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(i) pH = 4.74<br/>(ii) pH = 4.92"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Buffer system:</strong> CH₃COOH/CH₃COO⁻<br/><br/><strong>(i) Initial pH:</strong><br/>Using Henderson-Hasselbalch equation:<br/>\\(pH = pK_a + \\log\\left(\\frac{[CH_3COO^-]}{[CH_3COOH]}\\right)\\)<br/>\\(pK_a = -\\log(1.8 × 10^{-5}) = 4.74\\)<br/>\\(pH = 4.74 + \\log\\left(\\frac{0.1}{0.1}\\right) = 4.74\\)<br/><br/><strong>(ii) After adding 0.02M NaOH:</strong><br/>NaOH reacts with CH₃COOH:<br/>CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O<br/>New concentrations:<br/>\\([CH_3COOH] = 0.1 - 0.02 = 0.08M\\)<br/>\\([CH_3COO^-] = 0.1 + 0.02 = 0.12M\\)<br/>\\(pH = 4.74 + \\log\\left(\\frac{0.12}{0.08}\\right) = 4.92\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "Question": {
+      "content": "Calculate the molar solubility of silver chloride (AgCl) in 0.15M ammonia solution. (Kₛₚ(AgCl) = 1.8 × 10⁻¹⁰, Kf(Ag(NH₃)₂⁺) = 1.6 × 10⁷)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.3 × 10⁻³ M"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Complex ion formation</strong><br/>AgCl(s) + 2NH₃(aq) ⇌ Ag(NH₃)₂⁺(aq) + Cl⁻(aq)<br/><br/><strong>Step 2: Overall equilibrium constant (K):</strong><br/>\\(K = K_{sp} × K_f = (1.8 × 10^{-10})(1.6 × 10^7) = 2.88 × 10^{-3}\\)<br/><br/><strong>Step 3: ICE table:</strong><br/>Initial: [NH₃] = 0.15M, [Ag(NH₃)₂⁺] = [Cl⁻] = 0<br/>Change: -2x +x +x<br/>Equilibrium: 0.15-2x x x<br/><br/><strong>Step 4: Solve for x:</strong><br/>\\(K = \\frac{[Ag(NH₃)_2^+][Cl^-]}{[NH_3]^2} = \\frac{x^2}{(0.15-2x)^2} = 2.88 × 10^{-3}\\)<br/>\\(x = \\sqrt{2.88 × 10^{-3}} × (0.15) = 1.3 × 10^{-3} M\\) (assuming 2x << 0.15)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "Question": {
+      "content": "For the Daniell cell: Zn/Zn²⁺(1M)//Cu²⁺(1M)/Cu (E° = 1.1V):<br/>(a) Write anode, cathode, and overall reactions<br/>(b) Calculate equilibrium constant at 25°C",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) Anode: Zn → Zn²⁺ + 2e⁻<br/>Cathode: Cu²⁺ + 2e⁻ → Cu<br/>Overall: Zn + Cu²⁺ → Zn²⁺ + Cu<br/>(b) K = 1.6 × 10³⁷"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>(a) Half-reactions:</strong><br/>Anode (oxidation): Zn(s) → Zn²⁺(aq) + 2e⁻<br/>Cathode (reduction): Cu²⁺(aq) + 2e⁻ → Cu(s)<br/>Overall: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)<br/><br/><strong>(b) Calculating K:</strong><br/>Using Nernst equation at equilibrium (E=0):<br/>\\(E° = \\frac{0.0592}{n}\\log K\\)<br/>\\(1.1 = \\frac{0.0592}{2}\\log K\\)<br/>\\(\\log K = \\frac{2 × 1.1}{0.0592} = 37.16\\)<br/>\\(K = 10^{37.16} = 1.6 × 10^{37}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "Question": {
+      "content": "For the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g) at 725K, equilibrium concentrations are:<br/>[H₂] = 0.51M, [N₂] = 1.0M, [NH₃] = 0.095M.<br/>Calculate (a) Kc and (b) Kp (R = 0.0821 L·atm·mol⁻¹·K⁻¹)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) Kc = 0.068<br/>(b) Kp = 1.92 × 10⁻⁵ atm⁻²"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>(a) Calculating Kc:</strong><br/>\\(K_c = \\frac{[NH_3]^2}{[N_2][H_2]^3} = \\frac{(0.095)^2}{(1.0)(0.51)^3} = 0.068\\)<br/><br/><strong>(b) Calculating Kp:</strong><br/>\\(K_p = K_c(RT)^{Δn}\\)<br/>Where Δn = moles of gas products - moles of gas reactants = 2 - (1+3) = -2<br/>\\(K_p = 0.068 × (0.0821 × 725)^{-2}\\)<br/>\\(K_p = 0.068 × (59.52)^{-2} = 1.92 × 10^{-5} atm^{-2}\\)"
+    }
+  }
+]
