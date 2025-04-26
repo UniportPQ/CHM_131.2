@@ -1,0 +1,480 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "Coordinate Geometry",
+    "code": "CHM 124.2",
+    "session": "2012/2013",
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "heading",
+    "heading": "Section A"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "Question": {
+      "content": "Calculate Ke for the following equilibrium reaction given that Kp= 3.9x10⁻² at 1000K: CO(g) + Cl₂(g) ⇌ COCl₂(g) (R = 0.0821 atm·L·mol⁻¹·K⁻¹)",
+      "type": "OBJ",
+      "options": [
+        "4.20",
+        "1.60",
+        "3.20",
+        "0"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3.20"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "From: Kp = Ke × (RT)^Δn, where Δn = sum of coefficients of gas products - reactants. Here, Δn = 1 - (1 + 1) = -1. Given Kp = 3.9 × 10⁻², T = 1000K, R = 0.0821 atm·L·mol⁻¹·K⁻¹. Thus, Ke = Kp / (RT)^Δn = 3.9 × 10⁻² / (0.0821 × 1000)⁻¹ = 3.20. Option (c) is correct."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "A sample of freshly pressed apple juice has a pH of 3.76. Calculate [H⁺].",
+      "type": "OBJ",
+      "options": [
+        "1.0 × 10⁻⁷ M",
+        "1.7 × 10⁻⁴ M",
+        "0 M",
+        "2.54 × 10⁻⁴ M"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.7 × 10⁻⁴ M"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "From: pH = -log[H⁺], [H⁺] = 10^(-pH). Given pH = 3.76, [H⁺] = 10^(-3.76) ≈ 1.7 × 10⁻⁴ M. Option (b) is correct."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "Question": {
+      "content": "What is the conjugate acid of the following base CN⁻?",
+      "type": "OBJ",
+      "options": [
+        "CN",
+        "HCN",
+        "NC",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "HCN"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "A conjugate acid is formed by adding H⁺ to the base. Thus, CN⁻ + H⁺ → HCN. Option (b) is correct."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "Question": {
+      "content": "A buffer whose pH is equal or near the pKa of its acid component has the highest:",
+      "type": "OBJ",
+      "options": [
+        "Acid capacity",
+        "Basic capacity",
+        "Buffer capacity",
+        "pH capacity"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Buffer capacity"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "A buffer has the highest buffer capacity when pH ≈ pKa of its acid component, as it can neutralize added acid or base most effectively. Option (c) is correct."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "Question": {
+      "content": "A general reaction that occurs at a rate that appears independent of the concentrations of the reactants is called:",
+      "type": "OBJ",
+      "options": [
+        "First-order reaction",
+        "Zero-order reaction",
+        "Second-order reaction",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Zero-order reaction"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "In a zero-order reaction, the rate is independent of the reactant concentrations. Option (b) is correct."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "Question": {
+      "content": "What are the units of the rate constant?",
+      "type": "OBJ",
+      "options": [
+        "kg/L",
+        "M⁻¹·s⁻¹",
+        "mg/dm³",
+        "s⁻¹"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "M⁻¹·s⁻¹ & s⁻¹"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The units of the rate constant depend on the reaction order. For zero-order: M·s⁻¹; first-order: s⁻¹; second-order: M⁻¹·s⁻¹. Thus, options (b) and (d) are correct."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "Question": {
+      "content": "Calculate the value of [H⁺] in a neutral solution at 25°C.",
+      "type": "OBJ",
+      "options": [
+        "0 M",
+        "1.0 × 10⁻⁷ M",
+        "1.0 × 10⁷ M",
+        "1 × 10⁻¹⁴ M"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.0 × 10⁻⁷ M"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "For a neutral solution at 25°C, pH = 7. Thus, [H⁺] = 10^(-pH) = 1.0 × 10⁻⁷ M. Option (b) is correct."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "Question": {
+      "content": "For the reaction PCl₅ ⇌ PCl₃ + Cl₂, ΔH° = 87.9 kJ. In which direction will the equilibrium shift when Cl₂(g) is removed?",
+      "type": "OBJ",
+      "options": [
+        "Right",
+        "Left",
+        "Both directions",
+        "No shift"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Right"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Removing Cl₂ (a product) shifts the equilibrium to the right (toward products) to replenish the removed Cl₂ (Le Chatelier's Principle). Option (a) is correct."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "Question": {
+      "content": "For the equilibrium 2SO₃(g) ⇌ 2SO₂(g) + O₂(g), Ke is 4.08 × 10⁻³ at 1000K. Calculate the value of Kp.",
+      "type": "OBJ",
+      "options": [
+        "0.305",
+        "0.335",
+        "3.35",
+        "33.5"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.335"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "From: Kp = Ke × (RT)^Δn, where Δn = (2 + 1) - 2 = 1. Given Ke = 4.08 × 10⁻³, R = 0.0821 atm·L·mol⁻¹·K⁻¹, T = 1000K. Thus, Kp = 4.08 × 10⁻³ × (0.0821 × 1000)¹ ≈ 0.335. Option (b) is correct."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "Question": {
+      "content": "In a solution of \\(1 \\times 10^{-3}\\, M\\) NaOH, the concentration of \\(H^+\\) is equal to:",
+      "type": "OBJ",
+      "options": [
+        "\\(1 \\times 10^{-3}\\, M\\)",
+        "\\(1 \\times 10^{-11}\\, M\\)",
+        "\\(1 \\times 10^{-14}\\, M\\)",
+        "Zero"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(1 \\times 10^{-11}\\, M\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "NaOH dissociates as \\(\\text{NaOH} \\rightarrow \\text{Na}^+ + \\text{OH}^-\\). Given \\([\\text{NaOH}] = 1 \\times 10^{-3}\\, M\\), \\([\\text{OH}^-] = 1 \\times 10^{-3}\\, M\\). Using the ion product of water: \\([\\text{H}^+][\\text{OH}^-] = 1 \\times 10^{-14}\\), \\([\\text{H}^+] = \\frac{1 \\times 10^{-14}}{1 \\times 10^{-3}} = 1 \\times 10^{-11}\\, M\\). Option (b) is correct."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "Question": {
+      "content": "What is the reaction order of the reactant \\(\\text{H}_2\\) in \\(\\text{H}_2 + \\text{I}_2 \\rightarrow 2\\text{HI}\\)?",
+      "type": "OBJ",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The given reaction is a first-order reaction with respect to \\(\\text{H}_2\\), as the rate depends linearly on its concentration. Option (d) is correct."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "Question": {
+      "content": "Two types of electrochemical cells are:",
+      "type": "OBJ",
+      "options": [
+        "Voltaic cell and Galvanic cell",
+        "Electrolytic cell and Galvanic cell",
+        "Electrochemical cell and Electrolytic cell",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Electrolytic cell and Galvanic cell"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The two primary types of electrochemical cells are electrolytic cells (non-spontaneous, driven by external voltage) and galvanic/voltaic cells (spontaneous, produce voltage). Option (b) is correct."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "Question": {
+      "content": "Sodium reacts with oxygen to form sodium peroxide. The peroxide ion is given as:",
+      "type": "OBJ",
+      "options": [
+        "\\(\\text{O}_2^{2-}\\)",
+        "\\(\\text{O}_2\\)",
+        "\\(\\text{O}_2^-\\)",
+        "\\(\\text{O}^-\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\text{O}_2^{2-}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Sodium peroxide (\\(\\text{Na}_2\\text{O}_2\\)) contains the peroxide ion \\(\\text{O}_2^{2-}\\). Option (a) is correct."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "Question": {
+      "content": "For a buffer solution, the smallest change in pH upon addition of an acid or base occurs when:",
+      "type": "OBJ",
+      "options": [
+        "\\(\\text{pH} = \\text{p}K_a\\)",
+        "\\(\\text{pH} = \\text{p}K_a - 1\\)",
+        "\\(\\text{pH} < \\text{p}K_a\\)",
+        "\\(\\text{pH} > \\text{p}K_a\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\text{pH} = \\text{p}K_a\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "A buffer has maximum capacity (smallest pH change) when \\(\\text{pH} = \\text{p}K_a\\) of its acid component. Option (a) is correct."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "Question": {
+      "content": "In the electrochemical cell reaction, a positive cell potential is an indication that the process is:",
+      "type": "OBJ",
+      "options": [
+        "At equilibrium",
+        "Spontaneous",
+        "High temperature",
+        "All of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Spontaneous"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "A positive cell potential (\\(E^\\circ > 0\\)) indicates a spontaneous redox reaction under standard conditions. Option (b) is correct."
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Section B"
+  },
+  {
+    "type": "Question",
+    "name": "Question 101",
+    "Question": {
+      "content": "Give the conjugate base of the following acids: (i) HClO, (ii) H₂S, (iii) HIO₃, (iv) NH₄⁺",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(i) ClO⁻, (ii) HS⁻, (iii) IO₃⁻, (iv) NH₃"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The conjugate base is formed when an acid loses a proton (H⁺).<br/><br/>(i) HClO → ClO⁻ + H⁺<br/>(ii) H₂S → HS⁻ + H⁺<br/>(iii) HIO₃ → IO₃⁻ + H⁺<br/>(iv) NH₄⁺ → NH₃ + H⁺"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "Calculate [OH⁻] for each of the following solutions and indicate whether the solution is acidic, basic or neutral:<br/>(a) [H⁺] = 0.0045M<br/>(b) [H⁺] = 1.5 × 10⁻⁹M<br/>(c) [H⁺] = [OH⁻]",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) 2.22 × 10⁻¹²M, acidic<br/>(b) 6.67 × 10⁻⁶M, basic<br/>(c) 1 × 10⁻⁷M, neutral"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Using the ion product of water: \\([H^+][OH^-] = 1 \\times 10^{-14}\\)<br/><br/>(a) \\([OH^-] = \\frac{1 \\times 10^{-14}}{0.0045} = 2.22 \\times 10^{-12}M\\)<br/>Since \\([H^+] > [OH^-]\\), the solution is acidic.<br/><br/>(b) \\([OH^-] = \\frac{1 \\times 10^{-14}}{1.5 \\times 10^{-9}} = 6.67 \\times 10^{-6}M\\)<br/>Since \\([H^+] < [OH^-]\\), the solution is basic.<br/><br/>(c) When \\([H^+] = [OH^-]\\), substituting gives \\([OH^-]^2 = 1 \\times 10^{-14}\\) → \\([OH^-] = 1 \\times 10^{-7}M\\)<br/>This is the condition for a neutral solution."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "Question": {
+      "content": "The equilibrium constant for the reaction of N₂ with O₂ to form NO equals 1 × 10⁻³⁰ at 25°C. Write the equilibrium constant expression and calculate the equilibrium constant for the reverse reaction: 2NO ⇌ N₂ + O₂",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Equilibrium expression: \\(K = \\frac{[N_2][O_2]}{[NO]^2}\\)<br/>Equilibrium constant: 1 × 10³⁰"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Original reaction: \\(N_2 + O_2 \\rightleftharpoons 2NO\\) with \\(K_{forward} = 1 \\times 10^{-30}\\)<br/><br/>For the reverse reaction \\(2NO \\rightleftharpoons N_2 + O_2\\), the equilibrium expression is: <br/>\\(K_{reverse} = \\frac{[N_2][O_2]}{[NO]^2}\\)<br/><br/>The equilibrium constant for the reverse reaction is the reciprocal of the forward reaction:<br/>\\(K_{reverse} = \\frac{1}{K_{forward}} = \\frac{1}{1 \\times 10^{-30}} = 1 \\times 10^{30}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "Question": {
+      "content": "The decomposition of N₂O₅ proceeds according to the following equation: 2N₂O₅(g) → 4NO₂(g) + O₂(g). If the rate of decomposition of N₂O₅ at a particular instant is 4.2 × 10⁻⁷ M/s, what is the rate of appearance of (a) NO₂ and (b) O₂?",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) 8.4 × 10⁻⁷ M/s<br/>(b) 2.1 × 10⁻⁷ M/s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Given rate of decomposition: \\(-\\frac{d[N_2O_5]}{dt} = 4.2 \\times 10^{-7} M/s\\)<br/><br/>The stoichiometric relationship shows:<br/>\\(\\frac{1}{2} \\left(-\\frac{d[N_2O_5]}{dt}\\right) = \\frac{1}{4} \\frac{d[NO_2]}{dt} = \\frac{d[O_2]}{dt}\\)<br/><br/>(a) For NO₂: \\(\\frac{d[NO_2]}{dt} = 2 \\times \\left(-\\frac{d[N_2O_5]}{dt}\\right) = 2 \\times 4.2 \\times 10^{-7} = 8.4 \\times 10^{-7} M/s\\)<br/><br/>(b) For O₂: \\(\\frac{d[O_2]}{dt} = \\frac{1}{2} \\times \\left(-\\frac{d[N_2O_5]}{dt}\\right) = \\frac{1}{2} \\times 4.2 \\times 10^{-7} = 2.1 \\times 10^{-7} M/s\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "Question": {
+      "content": "Predict the acid strength for the following acids: HClO₂, HOCl, HClO₄, HClO₃ with reasons.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "HClO₄ > HClO₃ > HClO₂ > HOCl (decreasing acid strength)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "For chlorine oxoacids (HClOₓ), acid strength increases with:<br/>1. <strong>Number of oxygen atoms</strong> attached to chlorine (more oxygens → stronger acid due to greater electron withdrawal).<br/>2. <strong>Oxidation state of chlorine</strong> (higher oxidation state → stronger acid).<br/><br/>Order of strength:<br/>- <strong>HClO₄</strong> (perchloric acid, 4 oxygens, Cl⁺⁷) is the strongest.<br/>- <strong>HClO₃</strong> (chloric acid, 3 oxygens, Cl⁺⁵).<br/>- <strong>HClO₂</strong> (chlorous acid, 2 oxygens, Cl⁺³).<br/>- <strong>HOCl</strong> (hypochlorous acid, 1 oxygen, Cl⁺¹) is the weakest."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "Question": {
+      "content": "Calculate the concentration of H⁺ in:<br/>(a) a solution where [OH⁻] = 0.010 M<br/>(b) a solution where [OH⁻] = 1.8 × 10⁻⁹ M",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) 1.0 × 10⁻¹² M<br/>(b) 5.56 × 10⁻⁶ M"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Using the ion product of water: \\([H^+][OH^-] = 1 \\times 10^{-14}\\)<br/><br/>(a) \\([H^+] = \\frac{1 \\times 10^{-14}}{[OH^-]} = \\frac{1 \\times 10^{-14}}{0.010} = 1.0 \\times 10^{-12} M\\)<br/><br/>(b) \\([H^+] = \\frac{1 \\times 10^{-14}}{1.8 \\times 10^{-9}} = 5.56 \\times 10^{-6} M\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "Question": {
+      "content": "Determine the e.m.f of the galvanic cell constructed with the following half-cells:<br/>1. \\(SO_4^{2-}(aq) + 4H^+(aq) + 2e^- \\rightarrow H_2SO_3(aq) + H_2O(l)\\) (E° = +0.17 V)<br/>2. \\(Al^{3+}(aq) + 3e^- \\rightarrow Al(s)\\) (E° = -1.66 V)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "E°<sub>cell</sub> = 1.83 V"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Step 1: Identify the half-reactions:<br/>- Reduction: \\(SO_4^{2-} + 4H^+ + 2e^- \\rightarrow H_2SO_3 + H_2O\\) (E°<sub>red</sub> = +0.17 V)<br/>- Oxidation: \\(Al \\rightarrow Al^{3+} + 3e^-\\) (Reverse the given half-cell, E°<sub>ox</sub> = +1.66 V).<br/><br/>Step 2: Balance electrons (LCM of 2 and 3 = 6):<br/>- Multiply reduction half by 3: \\(3SO_4^{2-} + 12H^+ + 6e^- \\rightarrow 3H_2SO_3 + 3H_2O\\) (E°<sub>red</sub> remains +0.17 V).<br/>- Multiply oxidation half by 2: \\(2Al \\rightarrow 2Al^{3+} + 6e^-\\) (E°<sub>ox</sub> remains +1.66 V).<br/><br/>Step 3: Add the half-reactions and calculate E°<sub>cell</sub>:<br/>\\(E°_{cell} = E°_{red} + E°_{ox} = 0.17 + 1.66 = 1.83 V\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "Question": {
+      "content": "An environmental chemist needs a carbonate buffer (pH 10.0) to study soil acidification. What mass of Na₂CO₃ (in grams) must be added to 1.8 L of 0.20 M NaHCO₃ to make the buffer? (Ka of HCO₃⁻ = 4.7 × 10⁻¹¹; Molar masses: Na = 22.99, C = 12.01, O = 16.00)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "30.6 g"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Step 1: Use the Henderson-Hasselbalch equation for the buffer (HCO₃⁻/CO₃²⁻):<br/>\\(pH = pK_a + \\log\\left(\\frac{[CO_3^{2-}]}{[HCO_3^-]}\\right)\\)<br/><br/>Step 2: Calculate pKₐ and solve for [CO₃²⁻]:<br/>- \\(pK_a = -\\log(4.7 \\times 10^{-11}) = 10.33\\)<br/>- \\(10.0 = 10.33 + \\log\\left(\\frac{[CO_3^{2-}]}{0.20}\\right)\\) → \\(\\log\\left(\\frac{[CO_3^{2-}]}{0.20}\\right) = -0.33\\)<br/>- \\(\\frac{[CO_3^{2-}]}{0.20} = 10^{-0.33} = 0.468\\) → \\([CO_3^{2-}] = 0.0936 M\\)<br/><br/>Step 3: Calculate moles and mass of Na₂CO₃:<br/>- Moles of CO₃²⁻ = \\(0.0936 \\times 1.8 = 0.1685\\) mol<br/>- Molar mass of Na₂CO₃ = \\(2 \\times 22.99 + 12.01 + 3 \\times 16.00 = 105.99\\) g/mol<br/>- Mass = \\(0.1685 \\times 105.99 = 30.6\\) g"
+    }
+  }
+]
