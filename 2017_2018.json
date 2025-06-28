@@ -262,28 +262,28 @@
     }
   },
   {
-    "type": "Question",
-    "name": "Question 12",
-    "Question": {
-      "content": "Which is both a Lewis acid AND base?",
-      "type": "OBJ",
-      "options": [
-        "CH₃COOH/CH₃COO⁻",
-        "NH₃/BF₃",
-        "HCl/NaOH",
-        "H⁺/OH⁻",
-        "All"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "None (correct answer not listed)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<strong>Lewis acid-base theory:</strong><br/>• A single substance can't be both simultaneously in a pair<br/>• NH₃ (base) and BF₃ (acid) are separate substances<br/>• H₂O is amphoteric (can act as both, but not listed)"
-    }
+  "type": "Question",
+  "name": "Question 12",
+  "Question": {
+    "content": "Which is both a Lewis acid AND base?",
+    "type": "OBJ",
+    "options": [
+      "CH₃COOH/CH₃COO⁻",
+      "NH₃/BF₃",
+      "HCl/NaOH",
+      "H⁺/OH⁻",
+      "All"
+    ]
   },
+  "Answer": {
+    "type": "string",
+    "content": "CH₃COOH/CH₃COO⁻"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "The acetate ion (CH₃COO⁻) can act as both a Lewis base (electron pair donor) and, in certain reactions, as a Lewis acid (electron pair acceptor at the carbonyl carbon). This makes the CH₃COOH/CH₃COO⁻ pair amphoteric under the Lewis definition. The other options list pairs where each species is either an acid or a base, but not both. Water is a classic amphoteric example, but it is not listed here.[2][4]"
+  }
+},
   {
     "type": "Question",
     "name": "Question 13",
