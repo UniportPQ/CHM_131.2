@@ -2,7 +2,7 @@
   {
     "type": "pageInfo",
     "kind": "pureOBJ",
-    "course_title": "General Chemistry 1",
+    "course_title": "General Chemistry I",
     "code": "CHM 131.2",
     "session": "2017/2018",
     "time": "90"
@@ -392,7 +392,7 @@
     },
     "Answer": {
       "type": "string",
-      "content": "Forward reaction favored"
+      "content":"Forward reaction favored"
     },
     "Explanation": {
       "type": "string",
