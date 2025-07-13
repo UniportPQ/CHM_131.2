@@ -78,7 +78,7 @@
     },
     "Explanation": {
       "type": "string",
-      "content": "1. Calculate \\([H^+]\\) from pH: \\([H^+] = 10^{-3.26} = 5.5 \\times 10^{-4} M\\)<br/>2. Percent ionization: \\(\\frac{[H^+]}{[\\text{Initial niacin}]} \\times 100 = \\frac{5.5 \\times 10^{-4}}{0.20} \\times 100 = 0.275\\% \\approx 2.7\\%\\)"
+      "content": "1. Calculate \\([H^+]\\) from pH: \\([H^+] = 10^{-3.26} = 5.5 \\times 10^{-4} M\\)<br/>2. Percent ionization: \\(\\frac{[H^+]}{[\\text{Initial niacin}]} \\times 100 = \\frac{5.5 \\times 10^{-4}}{0.20} \\times 100% = 0.275\\% \\approx 2.7\\%\\) "
     }
   },
   {
