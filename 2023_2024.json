@@ -95,7 +95,7 @@
     "type": "Question",
     "name": "Question 6",
     "Question": {
-      "content": "Write the equilibrium constant (\\( K_e \\) and \\( K_p \\)) expressions for: \\( NH_{3(g)} + H_2SO_{4(l)} \\rightarrow (NH_4)_2SO_{4(s)} \\).",
+      "content": "Write the equilibrium constant (\\( K_e \\) and \\( K_p \\)) expressions for: \\( 2NH_{3(g)} + H_2SO_{4(l)} \\rightarrow (NH_4)_2SO_{4(s)} \\).",
       "type": "subjective"
     },
     "Answer": {
