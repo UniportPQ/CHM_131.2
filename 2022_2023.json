@@ -98,7 +98,7 @@
   },
   {
   "type": "Question",
-  "name": "Question 27",
+  "name": "Question 6",
   "Question": {
     "content": "Find \\( K_p \\) for the reaction \\( \\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\) given \\( K_c = 0.80 \\) at 200°C.",
     "type": "subjective"
