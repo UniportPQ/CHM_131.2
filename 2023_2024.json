@@ -107,23 +107,22 @@
       "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #4CAF50;'><p><strong>Rule:</strong> Pure solids (e.g., \\( (NH_4)_2SO_{4(s)} \\)) and liquids (e.g., \\( H_2SO_{4(l)} \\)) are omitted from equilibrium expressions because their concentrations are constant.</p><p><strong>For \\( K_e \\) (concentration):</strong></p><p style='text-align: center; margin: 10px 0;'>\\( K_e = \\frac{1}{[NH_3]^2} \\)</p><p>Only \\( NH_3 \\) is a gas (reactant), so it appears in the denominator squared (stoichiometric coefficient = 2).</p><p><strong>For \\( K_p \\) (pressure):</strong></p><p style='text-align: center; margin: 10px 0;'>\\( K_p = \\frac{1}{(P_{NH_3})^2} \\)</p><p>Same logic as \\( K_e \\), but using partial pressure of \\( NH_3 \\).</p></div>"
     }
   },
-  {
-    "type": "Question",
-    "name": "Question 7",
-    "Question": {
-      "content": "Calculate the grams of BaSO₄ in 25dm³ of water at 25°C, given its solubility product (\\( K_{sp} \\)) is \\( 1.5 \\times 10^{-9} \\). (Molar masses: Ba=137, S=32, O=16).",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "\\( 1.43 \\times 10^{-3} \\text{g} \\)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #4CAF50;'><p><strong>Step 1: Dissolution Equation</strong></p><p style='text-align: center; margin: 10px 0;'>\\( BaSO_{4}(s) \\rightleftharpoons Ba^{2+}(aq) + SO_4^{2-}(aq) \\)</p><p><strong>Step 2: Solubility (\\( s \\)) from \\( K_{sp} \\)</strong></p><p style='text-align: center; margin: 10px 0;'>\\( K_{sp} = [Ba^{2+}][SO_4^{2-}] = s^2 \\)</p><p style='text-align: center; margin: 10px 0;'>\\( s = \\sqrt{1.5 \\times 10^{-9}} = 3.87 \\times 10^{-5} \\text{ M} \\)</p><p><strong>Step 3: Moles in 25dm³</strong></p><p style='text-align: center; margin: 10px 0;'>\\( 3.87 \\times 10^{-5} \\text{ M} \\times 25 \\text{ L} = 9.68 \\times 10^{-4} \\text{ mol} \\)</p><p><strong>Step 4: Convert to grams</strong></p><p>Molar mass of BaSO₄ = 137 (Ba) + 32 (S) + 4×16 (O) = 233 g/mol</p><p style='text-align: center; margin: 10px 0;'>\\( 9.68 \\times 10^{-4} \\text{ mol} \\times 233 \\text{ g/mol} = 1.43 \\times 10^{-3} \\text{ g} \\)</p></div>"
-    }
-  },
-  {
+{
+ "type": "Question",
+ "name": "Question 7",
+ "Question": {
+  "content": "Calculate the grams of BaSO₄ in 25dm³ of water at 25°C, given its solubility product (\\( K_{sp} \\)) is \\( 1.5 \\times 10^{-9} \\). (Molar masses: Ba=137, S=32, O=16).",
+  "type": "subjective"
+ },
+ "Answer": {
+  "type": "string",
+  "content": "0.226 g"
+ },
+ "Explanation": {
+  "type": "string",
+  "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; border-radius: 8px; border-left: 5px solid #4CAF50; box-shadow: 0 2px 5px rgba(0,0,0,0.1);'>\n  <h3 style='color: #2c3e50; margin-top: 0;'>Step-by-Step Solution</h3>\n  \n  <div style='margin-bottom: 15px; padding: 12px; background-color: white; border-radius: 5px;'>\n    <h4 style='color: #3498db; margin-bottom: 8px;'>Step 1: Dissolution Equilibrium</h4>\n    <p>The dissolution of BaSO₄ in water can be represented as:</p>\n    <div style='text-align: center; margin: 15px 0; font-size: 18px;'>\n      \\( BaSO_{4}(s) \\rightleftharpoons Ba^{2+}(aq) + SO_4^{2-}(aq) \\)\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 15px; padding: 12px; background-color: white; border-radius: 5px;'>\n    <h4 style='color: #3498db; margin-bottom: 8px;'>Step 2: Solubility Product Expression</h4>\n    <p>The solubility product constant (\\( K_{sp} \\)) expression is:</p>\n    <div style='text-align: center; margin: 15px 0; font-size: 18px;'>\n      \\( K_{sp} = [Ba^{2+}][SO_4^{2-}] \\)\n    </div>\n    <p>Given \\( K_{sp} = 1.5 \\times 10^{-9} \\)</p>\n  </div>\n  \n  <div style='margin-bottom: 15px; padding: 12px; background-color: white; border-radius: 5px;'>\n    <h4 style='color: #3498db; margin-bottom: 8px;'>Step 3: Define Solubility</h4>\n    <p>Let \\( s \\) be the molar solubility of BaSO₄ (mol/L):</p>\n    <div style='text-align: center; margin: 15px 0; font-size: 18px;'>\n      \\( [Ba^{2+}] = [SO_4^{2-}] = s \\)\n    </div>\n    <p>Thus:</p>\n    <div style='text-align: center; margin: 15px 0; font-size: 18px;'>\n      \\( K_{sp} = s \\times s = s^2 \\)\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 15px; padding: 12px; background-color: white; border-radius: 5px;'>\n    <h4 style='color: #3498db; margin-bottom: 8px;'>Step 4: Calculate Molar Solubility</h4>\n    <div style='text-align: center; margin: 15px 0; font-size: 18px;'>\n      \\( s = \\sqrt{K_{sp}} = \\sqrt{1.5 \\times 10^{-9}}} \\)\n    </div>\n    <div style='text-align: center; margin: 15px 0; font-size: 18px;'>\n      \\( s = 3.87 \\times 10^{-5} \\text{ mol/L} \\)\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 15px; padding: 12px; background-color: white; border-radius: 5px;'>\n    <h4 style='color: #3498db; margin-bottom: 8px;'>Step 5: Calculate Total Moles in 25 dm³</h4>\n    <div style='text-align: center; margin: 15px 0; font-size: 18px;'>\n      \\( \\text{Moles} = \\text{Solubility} \\times \\text{Volume} \\)\n    </div>\n    <div style='text-align: center; margin: 15px 0; font-size: 18px;'>\n      \\( = 3.87 \\times 10^{-5} \\text{ mol/L} \\times 25 \\text{ L} \\)\n    </div>\n    <div style='text-align: center; margin: 15px 0; font-size: 18px;'>\n      \\( = 9.68 \\times 10^{-4} \\text{ mol} \\)\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 15px; padding: 12px; background-color: white; border-radius: 5px;'>\n    <h4 style='color: #3498db; margin-bottom: 8px;'>Step 6: Calculate Molar Mass of BaSO₄</h4>\n    <div style='text-align: center; margin: 15px 0; font-size: 18px;'>\n      \\( \\text{Molar mass} = 137 (Ba) + 32 (S) + 4 \\times 16 (O) \\)\n    </div>\n    <div style='text-align: center; margin: 15px 0; font-size: 18px;'>\n      \\( = 233 \\text{ g/mol} \\)\n    </div>\n  </div>\n  \n  <div style='padding: 12px; background-color: white; border-radius: 5px;'>\n    <h4 style='color: #3498db; margin-bottom: 8px;'>Step 7: Convert Moles to Grams</h4>\n    <div style='text-align: center; margin: 15px 0; font-size: 18px;'>\n      \\( \\text{Mass} = \\text{Moles} \\times \\text{Molar mass} \\)\n    </div>\n    <div style='text-align: center; margin: 15px 0; font-size: 18px;'>\n      \\( = 9.68 \\times 10^{-4} \\text{ mol} \\times 233 \\text{ g/mol} \\)\n    </div>\n    <div style='text-align: center; margin: 15px 0; font-size: 18px; color: #e74c3c; font-weight: bold;'>\n      \\( = 0.226 \\text{ g} \\)\n    </div>\n  </div>\n</div>"
+ }
+},  {
     "type": "Question",
     "name": "Question 8",
     "Question": {
