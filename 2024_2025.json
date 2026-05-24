@@ -1,0 +1,675 @@
+[
+  
+  {
+    "type": "pageInfo",
+    "kind": "subjective",
+    "course_title": "General Chemistry II",
+    "code": "CHM 131.2",
+    "session": "2024/2025",
+    "topics": ["Biology", "Chemical Kinetics", "Reaction Rate", "Ozone", "Catalysis", "Chemistry", "Reaction Order", "Half Life", "First Order Reaction", "Rate of Reaction", "Mole Concept", "Chemical Equilibrium", "Equilibrium Constant", "Equilibrium Expression", "Ammonia", "Reaction Quotient", "Hydrogen Iodide", "Kp and Kc", "Ammonia Synthesis", "Van't Hoff Equation", "Thermochemistry", "Solubility Product", "Ksp", "Thermodynamics", "Laws of Thermodynamics", "Gibbs Free Energy", "Spontaneity", "Acid-Base Chemistry", "Equilibrium Constant Expression", "Enthalpy", "Combustion", "Hess's Law", "pH Calculations", "Acid Strength", "Oxyacids", "Buffer Solutions", "Indicators", "pH", "Conjugate Acids and Bases", "Brønsted-Lowry Theory", "Strong Acids", "Lewis Theory", "Electrochemistry", "Electrolysis", "Electrolytic Cells", "Galvanic Cells", "Gibbs Energy", "Solubility", "Common Ion Effect", "Redox Reactions", "Oxidation", "Standard Electrode Potential", "Definitions", "Faraday's Laws", "Weak Acids", "Ka Calculations", "Balancing Equations", "Rate Law"],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "heading",
+    "heading": "Section A"
+  },
+  
+
+
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Biology",
+      "Chemical Kinetics",
+      "Reaction Rate",
+      "Ozone"
+    ],
+    "Question": {
+      "content": "Calculate the rate of formation of ozone \\(O_3\\) if the rate of formation of oxygen is \\(0.0055\\,mol\\,L^{-1}s^{-1}\\).",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:15px;border-radius:10px;border-left:4px solid var(--strongColor);'><h4 style='margin-top:0;color:var(--strongColor);'>Step 1</h4><p>Use the reaction relationship between oxygen and ozone.</p><h4 style='color:var(--strongColor);'>Step 2</h4><p>For every \\(3O_2\\) formed, \\(2O_3\\) are produced.</p><h4 style='color:var(--strongColor);'>Step 3</h4><p>\\(Rate\\;of\\;O_3 = \\dfrac{2}{3} \\times 0.0055\\)</p><p>\\(=0.00367\\,mol\\,L^{-1}s^{-1}\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.00367 mol L<sup>-1</sup>s<sup>-1</sup>"
+    }
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": [
+      "Biology",
+      "Catalysis",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "What is the name of a catalyst that exists in the same physical state as the reaction it catalyzes?",
+      "type": "OBJ",
+      "options": [
+        "Heterogeneous catalyst",
+        "Homogeneous catalyst",
+        "Positive catalyst",
+        "Negative catalyst"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:15px;border-radius:10px;border-left:4px solid var(--strongColor);'><h4 style='margin-top:0;color:var(--strongColor);'>Explanation</h4><p>A catalyst that is in the same phase as the reacting substances is called a homogeneous catalyst.</p><p>Example: Acid catalysis in aqueous solution.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Homogeneous catalyst"
+    }
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Chemical Kinetics",
+      "Reaction Order",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "Determine the overall reaction order for the reaction \\(2N_2O_5(g) \\rightarrow 4NO_2(g)+O_2(g)\\).",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:15px;border-radius:10px;border-left:4px solid var(--strongColor);'><h4 style='margin-top:0;color:var(--strongColor);'>Step 1</h4><p>The reaction involves only one reactant, \\(N_2O_5\\).</p><h4 style='color:var(--strongColor);'>Step 2</h4><p>Such decomposition reactions commonly follow first-order kinetics.</p><h4 style='color:var(--strongColor);'>Step 3</h4><p>Therefore, the overall order is 1.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "First order"
+    }
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Chemical Kinetics",
+      "Half Life",
+      "First Order Reaction"
+    ],
+    "Question": {
+      "content": "Calculate the half-life of a first-order reaction if the rate constant \\(K = 1.14 \\times 10^{-7}\\,s^{-1}\\).",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:15px;border-radius:10px;border-left:4px solid var(--strongColor);'><h4 style='margin-top:0;color:var(--strongColor);'>Step 1</h4><p>For a first-order reaction:</p><p>\\(t_{1/2}=\\dfrac{0.693}{K}\\)</p><h4 style='color:var(--strongColor);'>Step 2</h4><p>Substitute the value of \\(K\\).</p><p>\\(t_{1/2}=\\dfrac{0.693}{1.14\\times10^{-7}}\\)</p><h4 style='color:var(--strongColor);'>Step 3</h4><p>\\(t_{1/2}=6.08\\times10^6\\,s\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "6.08 × 10<sup>6</sup> s"
+    }
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Chemical Kinetics",
+      "Rate of Reaction",
+      "Mole Concept"
+    ],
+    "Question": {
+      "content": "Calculate the average rate at which substance A disappeared in the reaction \\(A \\rightarrow B\\) if the vessel initially contained 1.00 mol of A and after 20 seconds only 0.54 mol remained.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:15px;border-radius:10px;border-left:4px solid var(--strongColor);'><h4 style='margin-top:0;color:var(--strongColor);'>Step 1</h4><p>Initial amount = 1.00 mol</p><p>Final amount = 0.54 mol</p><h4 style='color:var(--strongColor);'>Step 2</h4><p>Amount used = \\(1.00-0.54=0.46\\,mol\\)</p><h4 style='color:var(--strongColor);'>Step 3</h4><p>Rate = \\(\\dfrac{0.46}{20}\\)</p><p>\\(=0.023\\,mol\\,s^{-1}\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.023 mol s<sup>-1</sup>"
+    }
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": [
+      "Chemical Equilibrium",
+      "Equilibrium Constant",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "Calculate the equilibrium constant for the reaction \\(2NO(g)+Cl_2(g) \\rightleftharpoons 2NOCl(g)\\) at 500 K if the value is given as \\(2.27 \\times 10^3\\).",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:15px;border-radius:10px;border-left:4px solid var(--strongColor);'><h4 style='margin-top:0;color:var(--strongColor);'>Explanation</h4><p>The equilibrium constant value is already provided in the question.</p><p>No further calculation is needed.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2.27 × 10<sup>3</sup>"
+    }
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": [
+      "Chemical Equilibrium",
+      "Equilibrium Expression",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "Write the equilibrium constant expression for the reaction \\(FeO(s)+CO(g) \\rightleftharpoons Fe(s)+CO_2(g)\\).",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:15px;border-radius:10px;border-left:4px solid var(--strongColor);'><h4 style='margin-top:0;color:var(--strongColor);'>Step 1</h4><p>Pure solids are not included in equilibrium expressions.</p><h4 style='color:var(--strongColor);'>Step 2</h4><p>Only gaseous substances are written.</p><h4 style='color:var(--strongColor);'>Step 3</h4><p>\\(K_c=\\dfrac{[CO_2]}{[CO]}\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Kc = [CO<sub>2</sub>] / [CO]"
+    }
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": [
+      "Chemical Equilibrium",
+      "Ammonia",
+      "Equilibrium Constant"
+    ],
+    "Question": {
+      "content": "Calculate the equilibrium constant \\(K_p\\) for the synthesis of ammonia from nitrogen and hydrogen if \\(K_c = 9.60\\) at \\(300^\\circ C\\).",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:15px;border-radius:10px;border-left:4px solid var(--strongColor);'><h4 style='margin-top:0;color:var(--strongColor);'>Step 1</h4><p>Reaction:</p><p>\\(N_2+3H_2 \\rightleftharpoons 2NH_3\\)</p><h4 style='color:var(--strongColor);'>Step 2</h4><p>\\(\\Delta n = 2-(1+3)=-2\\)</p><h4 style='color:var(--strongColor);'>Step 3</h4><p>Use:</p><p>\\(K_p=K_c(RT)^{\\Delta n}\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Kp = Kc(RT)<sup>-2</sup>"
+    }
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": [
+      "Chemical Equilibrium",
+      "Reaction Quotient",
+      "Hydrogen Iodide"
+    ],
+    "Question": {
+      "content": "Predict the direction in which the reaction \\(H_2 + I_2 \\rightleftharpoons 2HI\\) will proceed if \\(K_c = 505\\) at \\(448^\\circ C\\) and the initial concentrations are given.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:15px;border-radius:10px;border-left:4px solid var(--strongColor);'><h4 style='margin-top:0;color:var(--strongColor);'>Step 1</h4><p>Use:</p><p>\\(Q_c=\\dfrac{[HI]^2}{[H_2][I_2]}\\)</p><h4 style='color:var(--strongColor);'>Step 2</h4><p>Compare \\(Q_c\\) with \\(K_c=505\\).</p><h4 style='color:var(--strongColor);'>Step 3</h4><p>If \\(Q_c<K_c\\), the reaction moves forward to form more HI.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The reaction proceeds in the forward direction."
+    }
+  },
+
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": ["Chemical Equilibrium", "Kp and Kc", "Ammonia Synthesis"],
+    "Question": {
+      "content": "A gaseous system containing Nitrogen, Hydrogen and Ammonia was found to be in equilibrium at 150°C. Calculate the pressure equilibrium constant Kp of the system when Kc is 0.72.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Converting Kc to Kp</h4><strong style='color: var(--strongColor);'>Reaction:</strong> \\(N_2 + 3H_2 \\rightleftharpoons 2NH_3\\)<br><strong style='color: var(--strongColor);'>Formula:</strong> \\(K_p = K_c(RT)^{\\Delta n}\\)<br><br><strong style='color: var(--strongColor);'>Step 1 — Find Δn:</strong><br>\\(\\Delta n = 2 - (1 + 3) = -2\\)<br><strong style='color: var(--strongColor);'>Step 2 — Find RT:</strong><br>\\(T = 150 + 273 = 423\\text{ K}\\)<br>\\(RT = 0.0821 \\times 423 = 34.73\\)<br><strong style='color: var(--strongColor);'>Step 3 — Solve Kp:</strong><br>\\(K_p = 0.72 \\times (34.73)^{-2} = \\dfrac{0.72}{1206.2} \\approx 5.97 \\times 10^{-4}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Kp ≈ 5.97 × 10⁻⁴"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": ["Chemical Equilibrium", "Van't Hoff Equation", "Thermochemistry"],
+    "Question": {
+      "content": "The equilibrium constant Kp at 400°C and 450°C for the ammonia synthesis reaction are 1.64 × 10⁻⁴ and 4.56 × 10⁻⁵ respectively. Calculate the molar heat of reaction.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Van't Hoff Equation</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(\\ln\\dfrac{K_2}{K_1} = -\\dfrac{\\Delta H}{R}\\left(\\dfrac{1}{T_2} - \\dfrac{1}{T_1}\\right)\\)<br><br><strong style='color: var(--strongColor);'>Values:</strong> T₁ = 673 K, T₂ = 723 K<br>\\(\\ln\\dfrac{4.56 \\times 10^{-5}}{1.64 \\times 10^{-4}} = \\ln(0.278) = -1.281\\)<br><br>\\(\\dfrac{1}{T_2} - \\dfrac{1}{T_1} = -1.027 \\times 10^{-4}\\text{ K}^{-1}\\)<br><br>\\(\\Delta H = -\\dfrac{-1.281 \\times 8.314}{-1.027 \\times 10^{-4}} \\approx -103.7 \\text{ kJ/mol}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "ΔH ≈ −103.7 kJ/mol (exothermic)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": ["Chemical Equilibrium", "Solubility Product", "Ksp"],
+    "Question": {
+      "content": "Determine the solubility constant Ksp for Ca(OH)₂ whose molar concentration is 1.1 × 10⁻² M.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Ksp of Ca(OH)₂</h4><strong style='color: var(--strongColor);'>Dissolution:</strong> \\(Ca(OH)_2 \\rightleftharpoons Ca^{2+} + 2OH^-\\)<br><br><strong style='color: var(--strongColor);'>Concentrations:</strong><br>\\([Ca^{2+}] = 1.1 \\times 10^{-2}\\text{ M}\\)<br>\\([OH^-] = 2 \\times 1.1 \\times 10^{-2} = 2.2 \\times 10^{-2}\\text{ M}\\)<br><br><strong style='color: var(--strongColor);'>Ksp:</strong><br>\\(K_{sp} = [Ca^{2+}][OH^-]^2 = (1.1 \\times 10^{-2})(2.2 \\times 10^{-2})^2\\)<br>\\(= (1.1 \\times 10^{-2})(4.84 \\times 10^{-4}) \\approx 5.32 \\times 10^{-6}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ksp ≈ 5.32 × 10⁻⁶"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": ["Thermodynamics", "Laws of Thermodynamics"],
+    "Question": {
+      "content": "Which Law of Thermodynamics is often applicable in the concept of temperature and its measurement?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>The Zeroth Law</h4><strong style='color: var(--strongColor);'>Statement:</strong> If two systems are each in thermal equilibrium with a third, they are in equilibrium with each other.<br><br>This law <strong>defines temperature</strong> and is the basis of all thermometry — it tells us temperature can be measured consistently.<br><br>It is called the <strong>Zeroth Law of Thermodynamics</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The Zeroth Law of Thermodynamics"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": ["Thermodynamics", "Gibbs Free Energy", "Spontaneity"],
+    "Question": {
+      "content": "Consider a process where the change in Gibbs free energy (ΔG) is related to the change in enthalpy (ΔH) and the change in entropy (ΔS) at a temperature of 273 K. If ΔH = −200 kJ/mol, write the expression and calculate the change in Gibbs Free Energy.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Gibbs Free Energy Equation</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(\\Delta G = \\Delta H - T\\Delta S\\)<br><br><strong style='color: var(--strongColor);'>Where:</strong><br>ΔH = −200 kJ/mol, T = 273 K<br><br>Without a given ΔS value, the expression stays as:<br>\\(\\Delta G = -200{,}000 - (273)(\\Delta S)\\text{ J/mol}\\)<br><br><strong style='color: var(--strongColor);'>Spontaneity check:</strong><br>If ΔG &lt; 0 → <strong>spontaneous</strong>. A negative ΔH already favors spontaneity; the sign of ΔG depends on the magnitude of TΔS.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "ΔG = ΔH − TΔS = −200 kJ/mol − (273)(ΔS)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": ["Acid-Base Chemistry", "Chemical Equilibrium", "Equilibrium Constant Expression"],
+    "Question": {
+      "content": "Write the equilibrium constant expression for the auto-ionization of acetic acid (CH₃COOH).",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Auto-ionization of Acetic Acid</h4><strong style='color: var(--strongColor);'>Equation:</strong><br>\\(CH_3COOH + H_2O \\rightleftharpoons CH_3COO^- + H_3O^+\\)<br><br><strong style='color: var(--strongColor);'>Key Rule:</strong> Pure liquids (H₂O) are <strong>excluded</strong> from Ka expressions.<br><br><strong style='color: var(--strongColor);'>Ka expression:</strong><br>\\(K_a = \\dfrac{[CH_3COO^-][H_3O^+]}{[CH_3COOH]}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ka = [CH₃COO⁻][H₃O⁺] / [CH₃COOH]"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": ["Thermochemistry", "Enthalpy", "Combustion", "Hess's Law"],
+    "Question": {
+      "content": "Given the reaction \\(CH_{4(g)} + 2O_{2(g)} \\rightarrow CO_{2(g)} + 2H_2O_{(l)}\\), calculate the heat of combustion of methane. Standard enthalpy of formation: \\(\\Delta H°_{CH_4} = -75.17\\) kJ/mol, \\(\\Delta H°_{CO_2} = 0\\) kJ/mol, \\(\\Delta H°_{H_2O} = -285.83\\) kJ/mol, \\(\\Delta H°_{CO_{2(g)}} = -393.5\\) kJ/mol.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Heat of Combustion via Hess's Law</h4><strong style='color: var(--strongColor);'>Formula:</strong><br>\\(\\Delta H°_{rxn} = \\sum \\Delta H°_f(\\text{products}) - \\sum \\Delta H°_f(\\text{reactants})\\)<br><br><strong style='color: var(--strongColor);'>Substitute:</strong><br>\\(\\Delta H°_{rxn} = [(-393.5) + 2(-285.83)] - [(-75.17) + 2(0)]\\)<br>\\(= [-393.5 - 571.66] - [-75.17]\\)<br>\\(= -965.16 + 75.17\\)<br>\\(= \\mathbf{-889.99 \\approx -890 \\text{ kJ/mol}}\\)<br><br>The negative sign confirms combustion is <strong>exothermic</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "ΔH°combustion ≈ −890 kJ/mol"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": ["Acid-Base Chemistry", "pH Calculations"],
+    "Question": {
+      "content": "A sample of freshly pressed breast milk has a pH of 3.76. Calculate [H⁺].",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Finding [H⁺] from pH</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\([H^+] = 10^{-\\text{pH}}\\)<br><br><strong style='color: var(--strongColor);'>Substitute:</strong><br>\\([H^+] = 10^{-3.76} \\approx 1.74 \\times 10^{-4} \\text{ mol/L}\\)<br><br>A pH of 3.76 is <strong>acidic</strong> (below 7), so [H⁺] is greater than 10⁻⁷.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "[H⁺] ≈ 1.74 × 10⁻⁴ mol/L"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": ["Acid-Base Chemistry", "Acid Strength", "Oxyacids"],
+    "Question": {
+      "content": "Show the increasing order of acid strength of the following acids: HClO₃, HClO, HClO₄ and HClO₂.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Acid Strength of Oxyacids</h4><strong style='color: var(--strongColor);'>Rule:</strong> More oxygen atoms on the central atom → <strong>more electron-withdrawing</strong> → weaker O–H bond → <strong>stronger acid</strong>.<br><br><strong style='color: var(--strongColor);'>Oxygen count:</strong><br>HClO (1) &lt; HClO₂ (2) &lt; HClO₃ (3) &lt; HClO₄ (4)<br><br>∴ Increasing acid strength: <strong>HClO &lt; HClO₂ &lt; HClO₃ &lt; HClO₄</strong></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "HClO < HClO₂ < HClO₃ < HClO₄"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": ["Acid-Base Chemistry", "Buffer Solutions", "pH Calculations"],
+    "Question": {
+      "content": "Calculate the [H₃O⁺] and pH of a buffer solution that is 0.20 M acetic acid and 0.15 M sodium acetate (Ka = 1.8 × 10⁻⁵).",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Buffer pH — Henderson-Hasselbalch</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(\\text{pH} = pK_a + \\log\\dfrac{[\\text{base}]}{[\\text{acid}]}\\)<br><br><strong style='color: var(--strongColor);'>Step 1:</strong> \\(pK_a = -\\log(1.8 \\times 10^{-5}) = 4.74\\)<br><strong style='color: var(--strongColor);'>Step 2:</strong> \\(\\text{pH} = 4.74 + \\log\\dfrac{0.15}{0.20} = 4.74 + (-0.125) = 4.62\\)<br><strong style='color: var(--strongColor);'>Step 3:</strong> \\([H_3O^+] = 10^{-4.62} \\approx 2.4 \\times 10^{-5} \\text{ M}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "[H₃O⁺] ≈ 2.4 × 10⁻⁵ M; pH ≈ 4.62"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": ["Acid-Base Chemistry", "Indicators", "pH"],
+    "Question": {
+      "content": "What is the colour of phenolphthalein at pH 12?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Phenolphthalein Colour Range</h4><strong style='color: var(--strongColor);'>Below pH 8.2:</strong> Colourless<br><strong style='color: var(--strongColor);'>pH 8.2 – 10:</strong> Pink/Magenta transition<br><strong style='color: var(--strongColor);'>Above pH 10:</strong> <strong>Bright Pink / Fuchsia</strong><br><br>pH 12 is strongly alkaline, so phenolphthalein appears <strong>bright pink (magenta)</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Bright pink (magenta/fuchsia)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": ["Acid-Base Chemistry", "Conjugate Acids and Bases", "Brønsted-Lowry Theory"],
+    "Question": {
+      "content": "Identify the conjugate base of H₃O⁺ in the equation: \\(H_2O_{(l)} + H_2O_{(l)} \\rightarrow H_3O^+_{(aq)} + OH^-_{(aq)}\\)",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Conjugate Base Concept</h4><strong style='color: var(--strongColor);'>Rule:</strong> A conjugate base is formed when an acid <strong>donates a proton (H⁺)</strong>.<br><br>H₃O⁺ donates H⁺ → becomes <strong>H₂O</strong><br><br>Therefore, the conjugate base of H₃O⁺ is <strong>H₂O</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "H₂O"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": ["Acid-Base Chemistry", "pH Calculations", "Strong Acids"],
+    "Question": {
+      "content": "What is the pH of 10⁻¹ M H₂SO₄?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>pH of H₂SO₄</h4><strong style='color: var(--strongColor);'>H₂SO₄ is diprotic</strong> — donates <strong>2 H⁺ ions</strong> per molecule.<br><br>\\([H^+] = 2 \\times 0.1 = 0.2 \\text{ M}\\)<br><br>\\(\\text{pH} = -\\log(0.2) = -\\log(2 \\times 10^{-1}) \\approx 0.70\\)<br><br>The pH is <strong>0.70</strong> — strongly acidic.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "pH ≈ 0.70"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": ["Acid-Base Chemistry", "Lewis Theory", "Brønsted-Lowry Theory"],
+    "Question": {
+      "content": "What theory defines the reaction between NH₃ and BF₃?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Lewis Acid-Base Theory</h4><strong style='color: var(--strongColor);'>NH₃ + BF₃ → NH₃·BF₃</strong> — no proton transfer occurs here.<br><br><strong>NH₃</strong>: has a lone pair → <strong>Lewis Base</strong> (electron pair donor)<br><strong>BF₃</strong>: has an empty orbital → <strong>Lewis Acid</strong> (electron pair acceptor)<br><br>This is best described by <strong>Lewis Acid-Base Theory</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Lewis Acid-Base Theory"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": ["Acid-Base Chemistry", "Buffer Solutions", "pH Calculations"],
+    "Question": {
+      "content": "A buffer solution was made by adding 3.28g of sodium ethanoate to 1 dm³ of 0.01M ethanoic acid. What is the pH of the resulting buffer? Given that [Ka(CH₃COOH)] = 1.7 × 10⁻⁵ mol/dm³.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Buffer pH Calculation</h4><strong style='color: var(--strongColor);'>Step 1 — Moles of sodium ethanoate:</strong><br>Molar mass CH₃COONa = 82 g/mol<br>\\(n = \\dfrac{3.28}{82} = 0.04 \\text{ mol}\\) → [salt] = 0.04 M<br><br><strong style='color: var(--strongColor);'>Step 2 — Henderson-Hasselbalch:</strong><br>\\(\\text{pH} = pK_a + \\log\\dfrac{[\\text{salt}]}{[\\text{acid}]}\\)<br>\\(pK_a = -\\log(1.7 \\times 10^{-5}) = 4.77\\)<br>\\(\\text{pH} = 4.77 + \\log\\dfrac{0.04}{0.01} = 4.77 + 0.60 = \\mathbf{5.37}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "pH ≈ 5.37"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": ["Electrochemistry", "Electrolysis", "Electrolytic Cells"],
+    "Question": {
+      "content": "During the electrolysis of molten sodium chloride, sodium ions migrate towards which electrode and current flows from which electrode to which electrode?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Electrolysis of Molten NaCl</h4><strong style='color: var(--strongColor);'>Na⁺ ions</strong> are positive → attracted to the <strong>cathode (−)</strong>.<br><strong style='color: var(--strongColor);'>Cl⁻ ions</strong> are negative → attracted to the <strong>anode (+)</strong>.<br><br><strong style='color: var(--strongColor);'>Conventional current</strong> flows from <strong>anode (+) to cathode (−)</strong> in the external circuit.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Na⁺ migrates to the cathode; current flows from anode to cathode."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": ["Electrochemistry", "Galvanic Cells", "Gibbs Energy"],
+    "Question": {
+      "content": "For a reaction to proceed in the non-spontaneous direction, what is the DC potential of the reaction called?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Non-Spontaneous Reactions</h4><strong style='color: var(--strongColor);'>Spontaneous:</strong> ΔG &lt; 0, positive Ecell → occurs naturally (galvanic cell).<br><strong style='color: var(--strongColor);'>Non-spontaneous:</strong> ΔG &gt; 0 → requires external electrical energy to force the reaction.<br><br>The required DC voltage applied to drive a non-spontaneous reaction is called the <strong>Overpotential</strong> (or decomposition potential / applied EMF).</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Overpotential (decomposition potential)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "topic": ["Chemical Equilibrium", "Solubility", "Common Ion Effect"],
+    "Question": {
+      "content": "The decrease in the solubility of a sparingly soluble salt due to the presence of a common ion in solution is called?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Common Ion Effect</h4>When an ion that is already part of the equilibrium is added from an external source, it <strong>shifts the equilibrium</strong> to oppose the change (Le Chatelier).<br><br>This reduces how much of the sparingly soluble salt dissolves — this phenomenon is called the <strong>Common Ion Effect</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The Common Ion Effect"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "topic": ["Electrochemistry", "Redox Reactions", "Oxidation"],
+    "Question": {
+      "content": "For the reaction: \\(Cd + NiO_2 + 2H_2O \\rightarrow Cd(OH)_2 + Ni(OH)_2\\), identify the substances that are oxidized.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Identifying Oxidation</h4><strong style='color: var(--strongColor);'>Oxidation = loss of electrons / increase in oxidation state.</strong><br><br>Cd: 0 → +2 (in Cd(OH)₂) → <strong>oxidized ✓</strong><br>Ni: +4 (in NiO₂) → +2 (in Ni(OH)₂) → reduced ✗<br><br>∴ <strong>Cd is the substance oxidized</strong> (it is also the reducing agent).</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cd (cadmium) is oxidized."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": ["Electrochemistry", "Standard Electrode Potential", "Galvanic Cells"],
+    "Question": {
+      "content": "For a Zn–Cu²⁺ voltaic cell, E°cell = 1.10 V. Given that the standard reduction potential of Zn²⁺/Zn is −0.76 V, calculate the E°red for the reduction of Cu²⁺ to Cu.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Finding E°red for Cu²⁺/Cu</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(E°_{cell} = E°_{cathode} - E°_{anode}\\)<br><br>Zn is oxidized (anode), Cu²⁺ is reduced (cathode):<br>\\(1.10 = E°_{Cu} - (-0.76)\\)<br>\\(1.10 = E°_{Cu} + 0.76\\)<br>\\(E°_{Cu} = 1.10 - 0.76 = \\mathbf{+0.34 \\text{ V}}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "E°red (Cu²⁺/Cu) = +0.34 V"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "topic": ["Electrochemistry", "Definitions"],
+    "Question": {
+      "content": "What is the study of the relationship between electricity and chemical reactions called?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Definition</h4>This branch of chemistry studies how <strong>electrical energy</strong> is converted to <strong>chemical energy</strong> (electrolysis) and vice versa (galvanic cells).<br><br>It is called <strong>Electrochemistry</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Electrochemistry"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31",
+    "topic": ["Electrochemistry", "Faraday's Laws", "Electrolysis"],
+    "Question": {
+      "content": "Calculate the mass of copper metal deposited when a 5.0 A current is passed through a copper sulphate solution for one hour. (Atomic mass of Cu = 63.5 g/mol; 1F = 96500 C/mol)",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Faraday's First Law of Electrolysis</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(m = \\dfrac{I \\times t \\times M}{n \\times F}\\)<br><br><strong style='color: var(--strongColor);'>Values:</strong> I = 5.0 A, t = 3600 s, M = 63.5 g/mol, n = 2 (Cu²⁺), F = 96500 C/mol<br><br>\\(m = \\dfrac{5.0 \\times 3600 \\times 63.5}{2 \\times 96500}\\)<br>\\(= \\dfrac{1{,}143{,}000}{193{,}000} \\approx \\mathbf{5.93 \\text{ g}}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Mass of Cu deposited ≈ 5.93 g"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32",
+    "topic": ["Acid-Base Chemistry", "Weak Acids", "Ka Calculations"],
+    "Question": {
+      "content": "Calculate the Ka of a 0.0033 M solution of benzoic acid, given that pOH = 10.70.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Ka from pOH</h4><strong style='color: var(--strongColor);'>Step 1:</strong> \\(\\text{pH} = 14 - \\text{pOH} = 14 - 10.70 = 3.30\\)<br><strong style='color: var(--strongColor);'>Step 2:</strong> \\([H^+] = 10^{-3.30} = 5.01 \\times 10^{-4} \\text{ M}\\)<br><strong style='color: var(--strongColor);'>Step 3:</strong> For weak acid: \\(K_a = \\dfrac{[H^+]^2}{C - [H^+]} \\approx \\dfrac{(5.01 \\times 10^{-4})^2}{0.0033}\\)<br>\\(K_a \\approx \\dfrac{2.51 \\times 10^{-7}}{0.0033} \\approx \\mathbf{7.6 \\times 10^{-5}}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ka ≈ 7.6 × 10⁻⁵"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33",
+    "topic": ["Electrochemistry", "Redox Reactions", "Balancing Equations"],
+    "Question": {
+      "content": "Write the balanced form of the redox equation in acidic medium: \\(Cu_{(s)} + H^+_{(aq)} + NO^-_{3(aq)} \\rightarrow Cu^{2+}_{(aq)} + NO_{(g)}\\)",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Balancing Redox in Acidic Medium</h4><strong style='color: var(--strongColor);'>Half-reactions:</strong><br>Oxidation: \\(Cu \\rightarrow Cu^{2+} + 2e^-\\) ×3<br>Reduction: \\(NO_3^- + 4H^+ + 3e^- \\rightarrow NO + 2H_2O\\) ×2<br><br><strong style='color: var(--strongColor);'>Balanced equation:</strong><br>\\(3Cu + 8H^+ + 2NO_3^- \\rightarrow 3Cu^{2+} + 2NO + 4H_2O\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3Cu + 8H⁺ + 2NO₃⁻ → 3Cu²⁺ + 2NO + 4H₂O"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 34",
+    "topic": ["Chemical Kinetics", "Rate Law", "Reaction Order"],
+    "Question": {
+      "content": "Write the rate law for the following reaction: \\(2HI_{(g)} \\rightarrow H_{2(g)} + I_{2(g)}\\)",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Rate Law for HI Decomposition</h4><strong style='color: var(--strongColor);'>Note:</strong> Rate law is determined experimentally, but this reaction is experimentally known to be <strong>second order</strong> in HI.<br><br>\\(\\text{Rate} = k[HI]^2\\)<br><br>This means doubling [HI] <strong>quadruples</strong> the rate. k is the second-order rate constant.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Rate = k[HI]²"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 35",
+    "topic": ["Chemical Equilibrium", "Solubility Product", "Common Ion Effect"],
+    "Question": {
+      "content": "The solubility product of lead(II) sulphate in water is 1.6 × 10⁻⁸ mol² dm⁻⁶. Calculate the solubility of PbSO₄ in 0.1 M Pb(NO₃)₂ solution.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Solubility with Common Ion</h4><strong style='color: var(--strongColor);'>Ksp expression:</strong> \\(K_{sp} = [Pb^{2+}][SO_4^{2-}] = 1.6 \\times 10^{-8}\\)<br><br>Pb(NO₃)₂ already contributes 0.1 M Pb²⁺ (common ion).<br>Let solubility of PbSO₄ = s, so [SO₄²⁻] = s, [Pb²⁺] ≈ 0.1 + s ≈ 0.1 M<br><br>\\(1.6 \\times 10^{-8} = (0.1)(s)\\)<br>\\(s = \\dfrac{1.6 \\times 10^{-8}}{0.1} = \\mathbf{1.6 \\times 10^{-7} \\text{ mol/dm}^3}\\)<br><br>The solubility is <strong>greatly reduced</strong> due to the common ion effect.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "s = 1.6 × 10⁻⁷ mol/dm³"
+    }
+  }
+]
+
+
+
+
+
