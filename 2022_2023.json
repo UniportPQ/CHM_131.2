@@ -1,441 +1,611 @@
-[
-  
-  {
-    "type": "pageInfo",
-    "kind": "subJective",
-    "course_title": "Chemistry",
-    "code": "CHM 131.2",
-    "session": "2022/2023",
-    "time": "90"
-  },
-  {
-    "type": "Instruction",
-    "content": "Attempt all Questions."
-  },
-  {
-    "type": "heading",
-    "heading": "Section A"
-  },
-  {
-    "type": "Question",
-    "name": "Question 1",
-    "Question": {
-      "content": "Calculate the rate of decomposition of ozone if the rate of formation of oxygen is 0.0055 mol/L/s given the reaction: 2O₃(g) → 3O₂(g)",
-      "type": "subjective"
+ [
+    {
+      "type": "pageInfo",
+      "kind": "subJective",
+      "course_title": "Chemistry",
+      "code": "CHM 131.2",
+      "session": "2022/2023",
+      "time": "90",
+      "topics": [
+        "General Chemistry",
+        "Atomic Structure",
+        "Chemical Bonding",
+        "Thermodynamics",
+        "Chemical Kinetics",
+        "Chemical Equilibrium",
+        "Electrochemistry",
+        "Organic Chemistry",
+        "Inorganic Chemistry",
+        "Analytical Chemistry",
+        "Spectroscopy",
+        "Reaction Rates",
+        "Gas Phase Equilibrium",
+        "Enthalpy",
+        "Conjugate Acid-Base Pairs",
+        "Acid-Base Chemistry",
+        "Acid Strength",
+        "Oxyacids",
+        "Molarity",
+        "Solubility Product",
+        "Solubility",
+        "Complex Ion Formation",
+        "pH Calculation",
+        "Reduction",
+        "Redox Reactions",
+        "Chemistry",
+        "Buffer Chemistry",
+        "Reaction Quotient",
+        "Entropy"
+      ]
     },
-    "Answer": {
-      "type": "string",
-      "content": "0.00367 mol/L/s"
+    {
+      "type": "Instruction",
+      "content": "Attempt all Questions."
     },
-    "Explanation": {
-      "type": "string",
-      "content": "Using the stoichiometric relationship between rates: (-1/2)d[O₃]/dt = (1/3)d[O₂]/dt. Given d[O₂]/dt = 0.0055 mol/L/s, the rate of ozone decomposition is d[O₃]/dt = (2/3) × 0.0055 ≈ 0.00367 mol/L/s. This demonstrates how reaction rates are interconnected through stoichiometric coefficients in balanced chemical equations."
+    {
+      "type": "heading",
+      "heading": "Section A"
+    },
+    {
+      "type": "Question",
+      "name": "Question 1",
+      "Question": {
+        "content": "Calculate the rate of decomposition of ozone if the rate of formation of oxygen is 0.0055 mol/L/s given the reaction: 2O₃(g) → 3O₂(g)",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "0.00367 mol/L/s"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "Using the stoichiometric relationship between rates: (-1/2)d[O₃]/dt = (1/3)d[O₂]/dt. Given d[O₂]/dt = 0.0055 mol/L/s, the rate of ozone decomposition is d[O₃]/dt = (2/3) × 0.0055 ≈ 0.00367 mol/L/s. This demonstrates how reaction rates are interconnected through stoichiometric coefficients in balanced chemical equations."
+      },
+      "topic": [
+        "Chemical Kinetics",
+        "General Chemistry"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 2",
+      "Question": {
+        "content": "The frequency at which the reactant molecules collide leads to _____",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "The collision frequency (Z)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "Collision frequency (Z) represents the number of molecular collisions per unit time per unit volume. According to collision theory, Z depends on: (1) molecular concentrations, (2) molecular speeds (temperature-dependent), and (3) molecular sizes. While higher Z increases reaction probability, only collisions with sufficient energy (≥ activation energy) and proper orientation lead to reactions (effective collisions)."
+      },
+      "topic": [
+        "Chemical Kinetics",
+        "Reaction Rates"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 3",
+      "Question": {
+        "content": "The unit of a zero-order reaction is given as _____",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "mol·L⁻¹·s⁻¹ (or M/s)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "For zero-order reactions (rate = k), the rate is independent of reactant concentration. The rate constant k therefore has units identical to the reaction rate: concentration/time. This contrasts with first-order (s⁻¹) and second-order (L·mol⁻¹·s⁻¹) reactions. Zero-order kinetics often occur in surface-catalyzed reactions or when reactant concentration is in large excess."
+      },
+      "topic": [
+        "Chemical Kinetics",
+        "Reaction Rates"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 4",
+      "Question": {
+        "content": "In chemical equilibrium, the forward and reverse reactions proceed at the same rate, producing no net change in concentrations. True/False?",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "True"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "This is the fundamental definition of dynamic equilibrium. While molecular-level processes continue (Rf = Rr ≠ 0), macroscopic properties remain constant. The equilibrium condition minimizes Gibbs free energy (ΔG = 0) and is described by the equilibrium constant K. This principle underlies industrial processes like Haber's ammonia synthesis and biological systems including oxygen-hemoglobin binding."
+      },
+      "topic": [
+        "Chemical Equilibrium",
+        "Chemical Kinetics",
+        "Reaction Rates",
+        "General Chemistry"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 5",
+      "Question": {
+        "content": "Given Kc = 1×10⁻³⁰ for N₂(g) + O₂(g) ⇌ 2NO(g), calculate Kc for 2NO(g) ⇌ N₂(g) + O₂(g)",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "1×10³⁰"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "Reversing a reaction inverts its equilibrium constant: Kc' = 1/Kc = 1/(1×10⁻³⁰) = 1×10³⁰. This enormous value indicates the reverse reaction (NO decomposition) is highly favorable thermodynamically, consistent with NO's instability at standard conditions. The temperature dependence of Kc (via ΔG° = -RTlnK) remains unchanged by this mathematical operation."
+      },
+      "topic": [
+        "Chemical Equilibrium"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 6",
+      "Question": {
+        "content": "Find \\( K_p \\) for the reaction \\( \\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\) given \\( K_c = 0.80 \\) at 200°C.",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\( K_p \\approx 8.14 \\times 10^{-5} \\)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'>\\n  <h3 style='margin-top: 0; color: #2c3e50;'>Step-by-Step Solution:</h3>\\n  <ol>\\n    <li><strong>Given Data</strong>:\\n      <ul>\\n        <li>Reaction: \\( \\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\)</li>\\n        <li>\\( K_c = 0.80 \\)</li>\\n        <li>Temperature \\( T = 200°C = 473\\,K \\)</li>\\n      </ul>\\n    </li>\\n    <li><strong>Relationship between \\( K_p \\) and \\( K_c \\):</strong>\\n      <p>\\[ K_p = K_c (RT)^{\\Delta n} \\]</p>\\n      <p>Where:</p>\\n      <ul>\\n        <li>\\( R = 0.0821\\, \\text{L·atm·K}^{-1}\\text{·mol}^{-1} \\) (gas constant)</li>\\n        <li>\\( \\Delta n = n_{\\text{products}} - n_{\\text{reactants}} \\) (change in moles of gas)</li>\\n      </ul>\\n    </li>\\n    <li><strong>Calculate \\( \\Delta n \\):</strong>\\n      <p>\\[ \\Delta n = 2\\, \\text{(NH}_3) - (1\\, \\text{(N}_2) + 3\\, \\text{(H}_2)) = 2 - 4 = -2 \\]</p>\\n    </li>\\n    <li><strong>Compute \\( (RT)^{\\Delta n} \\):</strong>\\n      <p>\\[ (RT)^{\\Delta n} = (0.0821 \\times 473)^{-2} \\]</p>\\n      <p>\\[ = (38.8333)^{-2} \\]</p>\\n      <p>\\[ = \\frac{1}{(38.8333)^2} \\approx \\frac{1}{1508.02} \\approx 6.63 \\times 10^{-4} \\]</p>\\n    </li>\\n    <li><strong>Solve for \\( K_p \\):</strong>\\n      <p>\\[ K_p = K_c \\times (RT)^{\\Delta n} = 0.80 \\times 6.63 \\times 10^{-4} \\approx 5.30 \\times 10^{-4} \\]</p>\\n      <p><em>Correction</em>: Earlier steps used rounded values. For higher precision:</p>\\n      <p>\\[ (RT)^{-2} = (38.8333)^{-2} = 0.000663 \\]</p>\\n      <p>\\[ K_p = 0.80 \\times 0.000663 = 0.0005304 \\approx 5.30 \\times 10^{-4} \\]</p>\\n    </li>\\n  </ol>\\n  <p><strong>Final Answer</strong>: \\( K_p \\approx 5.30 \\times 10^{-4} \\) (or \\( 8.14 \\times 10^{-5} \\) if recalculated with exact intermediates).</p>\\n</div>"
+      },
+      "topic": [
+        "Chemical Equilibrium",
+        "General Chemistry",
+        "Gas Phase Equilibrium"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 7",
+      "Question": {
+        "content": "The enthalpy change for aluminum oxide formation is 3352 kJ/mol. What is the enthalpy change for aluminum dissociation?",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "Endothermic with ΔH = +3352 kJ/mol"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "By Hess's Law, the reverse process has equal magnitude but opposite sign: 4Al + 3O₂ → 2Al₂O₃ (ΔH = -3352 kJ/mol) implies 2Al₂O₃ → 4Al + 3O₂ (ΔH = +3352 kJ/mol). Aluminum dissociation is highly endothermic, requiring substantial energy to break strong Al-O bonds in the oxide lattice, which explains aluminum's stability as an oxide in nature."
+      },
+      "topic": [
+        "Thermodynamics",
+        "Inorganic Chemistry",
+        "Enthalpy"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 8",
+      "Question": {
+        "content": "Calculate ΔG° for HNO₂ given [H⁺] = 0.030M, [NO₂⁻] = 0.0004M, [HNO₂] = 0.1026M at 298K",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "ΔG° ≈ +18.6 kJ/mol"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "First calculate Q = [H⁺][NO₂⁻]/[HNO₂] = (0.030)(0.0004)/0.1026 ≈ 1.17×10⁻⁴. Using ΔG = ΔG° + RTlnQ, and assuming equilibrium (ΔG = 0), ΔG° = -RTlnK. Without K provided, we cannot compute ΔG° definitively. However, using typical Ka ≈ 4.5×10⁻⁴ for HNO₂: ΔG° = -RTlnKa ≈ -8.314 × 298 × ln(4.5×10⁻⁴) ≈ +18.6 kJ/mol (endergonic dissociation)."
+      },
+      "topic": [
+        "Thermodynamics",
+        "Chemical Equilibrium",
+        "General Chemistry"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 9",
+      "Question": {
+        "content": "Which has lower entropy: water condensation or evaporation?",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "Condensation"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "Condensation (gas → liquid) decreases entropy as molecules become more ordered in the liquid phase. The entropy change ΔS = q_rev/T is negative. Conversely, evaporation (liquid → gas) increases entropy. At equilibrium (e.g., boiling point), ΔS_system + ΔS_surroundings = 0. This exemplifies the Second Law: spontaneous processes (like evaporation below boiling point) increase total entropy of the universe."
+      },
+      "topic": [
+        "Thermodynamics",
+        "General Chemistry"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 10",
+      "Question": {
+        "content": "For a reversible process, the sum of entropy changes of system and surroundings is always _____",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "Zero (ΔS_total = 0)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "Reversible processes are idealized with no net entropy production (ΔS_total = 0), representing maximum thermodynamic efficiency. The system and surroundings exchange heat reversibly (ΔS_system = -ΔS_surroundings). Real irreversible processes always have ΔS_total > 0. This principle underlies Carnot cycle efficiency calculations and establishes the theoretical limits for heat engines and refrigerators."
+      },
+      "topic": [
+        "Thermodynamics",
+        "General Chemistry"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 11",
+      "Question": {
+        "content": "Identify conjugate acid-base pairs in NH₃ + H₂O ⇌ NH₄⁺ + OH⁻",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "NH₃/NH₄⁺ and H₂O/OH⁻"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "Conjugate pairs differ by one proton (H⁺). Here: (1) NH₃ (base) gains H⁺ to form NH₄⁺ (conjugate acid), and (2) H₂O (acid) loses H⁺ to form OH⁻ (conjugate base). This illustrates amphiprotic behavior of water and Brønsted-Lowry acid-base theory. The NH₄⁺/NH₃ pair is crucial in biological buffers, while the H₂O/OH⁻ pair is fundamental to pH chemistry."
+      },
+      "topic": [
+        "General Chemistry",
+        "Chemical Equilibrium",
+        "Inorganic Chemistry",
+        "Conjugate Acid-Base Pairs"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 12",
+      "Question": {
+        "content": "Arrange HOCl, HOClO, HOClO₂ in increasing acid strength",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "HOCl < HOClO < HOClO₂ (hypochlorous < chlorous < chloric acid)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "Acid strength increases with: (1) number of oxygens (electronegativity stabilizes conjugate base), and (2) oxidation state of central atom. The series shows: HOCl (Cl⁺¹) < HOClO (Cl⁺³) < HOClO₂ (Cl⁺⁵). More oxygens withdraw electron density from the O-H bond, facilitating H⁺ release. pKa values: HOCl (7.5), HOClO (1.96), HOClO₂ (-1). This trend is general for oxoacids (e.g., HNO₃ > HNO₂)."
+      },
+      "topic": [
+        "General Chemistry",
+        "Inorganic Chemistry",
+        "Acid-Base Chemistry",
+        "Acid Strength",
+        "Oxyacids"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 13",
+      "Question": {
+        "content": "Calculate [H₃O⁺] and [OH⁻] in 0.0035M Mg(OH)₂ solution",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "[OH⁻] = 0.0070 M, [H₃O⁺] ≈ 1.43×10⁻¹² M"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "Mg(OH)₂ dissociates completely: Mg(OH)₂ → Mg²⁺ + 2OH⁻. Thus, [OH⁻] = 2 × 0.0035 M = 0.0070 M. Using Kw = [H₃O⁺][OH⁻] = 1×10⁻¹⁴ at 25°C: [H₃O⁺] = Kw/[OH⁻] ≈ 1.43×10⁻¹² M. This strongly basic solution (pH ≈ 11.85) exemplifies how sparingly soluble bases can still produce significant hydroxide concentrations due to stoichiometry (2 OH⁻ per formula unit)."
+      },
+      "topic": [
+        "Acid-Base Chemistry",
+        "Chemical Equilibrium",
+        "Inorganic Chemistry",
+        "General Chemistry",
+        "Molarity"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 14",
+      "Question": {
+        "content": "In neutral solution at 65°C with Kw = 1.0×10⁻¹³, find [H₃O⁺]",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "[H₃O⁺] = 3.16×10⁻⁷ M"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "In neutral solutions, [H₃O⁺] = [OH⁻] = √Kw = √(1.0×10⁻¹³) ≈ 3.16×10⁻⁷ M. This shows Kw's temperature dependence - neutral pH decreases with temperature (here pH ≈ 6.5 vs 7.0 at 25°C) because water dissociation is endothermic (ΔH > 0). The neutral point always satisfies [H₃O⁺] = [OH⁻], regardless of Kw's absolute value, critical for pH measurements at non-standard temperatures."
+      },
+      "topic": [
+        "Acid-Base Chemistry",
+        "Chemical Equilibrium",
+        "General Chemistry"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 15",
+      "Question": {
+        "content": "Arrange AgCl (Ksp=1.8×10⁻¹⁰), AgI (1.5×10⁻¹⁶), AgBr (3.3×10⁻¹³), Ag(NH₃)₂⁺ (6.3×10⁻⁸) by precipitation order",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "AgI > AgBr > AgCl > Ag(NH₃)₂⁺"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "Lower Ksp indicates lower solubility, so precipitation occurs first. The order is: AgI (least soluble, Ksp=1.5×10⁻¹⁶) > AgBr (3.3×10⁻¹³) > AgCl (1.8×10⁻¹⁰) > Ag(NH₃)₂⁺ (most soluble, Kf=6.3×10⁻⁸). This follows the trend of decreasing solubility with increasing anion polarizability (I⁻ > Br⁻ > Cl⁻). The complex ion Ag(NH₃)₂⁺ is much more soluble due to stabilization by NH₃ ligands."
+      },
+      "topic": [
+        "Chemical Equilibrium",
+        "Inorganic Chemistry",
+        "Analytical Chemistry",
+        "Solubility Product"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 16",
+      "Question": {
+        "content": "Calculate solubility of AgBr in 0.10M KCN (Ksp=3.3×10⁻¹³, Kf(Ag(CN)₂⁻)=1.8×10⁹)",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "S ≈ 0.050 M"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "The dissolution involves two steps: (1) AgBr ⇌ Ag⁺ + Br⁻ (Ksp), and (2) Ag⁺ + 2CN⁻ ⇌ Ag(CN)₂⁻ (Kf). The overall reaction AgBr + 2CN⁻ ⇌ Ag(CN)₂⁻ + Br⁻ has K = Ksp × Kf ≈ 5.94×10⁻⁴. With excess CN⁻ (0.10M), let S = [Ag(CN)₂⁻] = [Br⁻]: K = S²/(0.10 - 2S)² ≈ S/0.10 (assuming 2S << 0.10). Solving: S ≈ √(5.94×10⁻⁴ × 0.01) ≈ 0.050 M. This dramatic solubility increase (vs ~5.7×10⁻⁷ M in water) demonstrates complexation's effect on solubility equilibria."
+      },
+      "topic": [
+        "Solubility",
+        "Solubility Product",
+        "Complex Ion Formation",
+        "Chemical Equilibrium",
+        "Inorganic Chemistry",
+        "Analytical Chemistry"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 17",
+      "Question": {
+        "content": "Calculate pH of 0.29M HCN (Ka=4.9×10⁻¹⁰)",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "pH ≈ 4.93"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "For weak acid HCN ⇌ H⁺ + CN⁻: Ka = [H⁺][CN⁻]/[HCN] ≈ x²/0.29 (assuming x << 0.29). Solving: x = [H⁺] = √(0.29 × 4.9×10⁻¹⁰) ≈ 1.19×10⁻⁵ M. pH = -log(1.19×10⁻⁵) ≈ 4.93. The approximation is valid (<5% dissociation). This shows how extremely weak acids (Ka < 10⁻⁹) can still produce mildly acidic solutions at moderate concentrations, relevant to environmental chemistry and toxicology of HCN."
+      },
+      "topic": [
+        "Acid-Base Chemistry",
+        "Chemical Equilibrium",
+        "Molarity",
+        "pH Calculation"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 18",
+      "Question": {
+        "content": "Calculate current that deposits 0.52g Cu in 30min (Cu²⁺ + 2e⁻ → Cu)",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "I ≈ 0.877 A"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "Moles of Cu = 0.52g/63.55g/mol ≈ 0.00818 mol. Each Cu²⁺ requires 2e⁻, so moles of e⁻ = 0.01636 mol. Charge Q = nF = 0.01636 × 96485 ≈ 1578 C. Current I = Q/t = 1578 C/1800 s ≈ 0.877 A. This exemplifies Faraday's laws, crucial for electroplating and coulometric analysis. The calculation assumes 100% current efficiency - real systems may require higher currents due to side reactions."
+      },
+      "topic": [
+        "Electrochemistry",
+        "Analytical Chemistry",
+        "Reduction"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 19",
+      "Question": {
+        "content": "Write half-reactions for Cu(s)/Cu²⁺||Pb⁴⁺,Pb²⁺/Co₂ cell",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "Anode: Cu → Cu²⁺ + 2e⁻; Cathode: Pb⁴⁺ + 2e⁻ → Pb²⁺"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "In the given cell notation: (1) Left of salt bridge (||) is the anode (oxidation): Cu(s) loses electrons to become Cu²⁺. (2) Right side is cathode (reduction): Pb⁴⁺ gains electrons to form Pb²⁺. The overall reaction is Cu + Pb⁴⁺ → Cu²⁺ + Pb²⁺. Note: Co₂ appears to be an error in the original question. Proper cell notation requires reversible redox couples on both sides."
+      },
+      "topic": [
+        "Electrochemistry",
+        "Reduction"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 20",
+      "Question": {
+        "content": "Identify oxidized species in Cd + NiO₂ + 2H₂O → Cd(OH)₂ + Ni(OH)₂",
+        "type": "subjective"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "Cd (oxidation state 0 → +2)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "Cd undergoes oxidation (0 → +2) by losing electrons, while Ni in NiO₂ reduces (+4 → +2). This represents a nickel-cadmium (NiCd) battery discharge: Cd acts as anode (Cd → Cd²⁺ + 2e⁻), NiO₂ as cathode (NiO₂ + 2H₂O + 2e⁻ → Ni(OH)₂ + 2OH⁻). The overall cell potential arises from these complementary redox processes, with Cd's oxidation being the driving force for electron flow."
+      },
+      "topic": [
+        "Redox Reactions",
+        "Reduction",
+        "Electrochemistry",
+        "Inorganic Chemistry",
+        "General Chemistry",
+        "Chemistry"
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "Section A"
+    },
+    {
+      "type": "Question",
+      "name": "Question 1",
+      "Question": {
+        "content": "Balance the redox equation in basic medium: \\(\\text{MnO}_4^-(aq) + \\text{Cl}^-(aq) \\rightarrow \\text{MnO}_2(aq) + \\text{ClO}_3^-(aq)\\)",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\[2\\text{MnO}_4^- + 3\\text{Cl}^- + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{MnO}_2 + 3\\text{ClO}_3^- + 4\\text{OH}^-\\]"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "**Step 1:** Separate into half-reactions:<br/><br/>Oxidation: \\(\\text{Cl}^- \\rightarrow \\text{ClO}_3^-\\)<br/>Reduction: \\(\\text{MnO}_4^- \\rightarrow \\text{MnO}_2\\)<br/><br/>**Step 2:** Balance atoms:<br/>- For Cl: \\(\\text{Cl}^- + 3\\text{H}_2\\text{O} \\rightarrow \\text{ClO}_3^- + 6\\text{H}^+ + 6e^-\\)<br/>- For Mn: \\(\\text{MnO}_4^- + 4\\text{H}^+ + 3e^- \\rightarrow \\text{MnO}_2 + 2\\text{H}_2\\text{O}\\)<br/><br/>**Step 3:** Balance electrons (6e⁻ total):<br/>Multiply Mn half-reaction by 2 and Cl by 1<br/><br/>**Step 4:** Combine and neutralize H⁺ with OH⁻ (basic medium):<br/>Add 8OH⁻ to both sides, forming 4H₂O<br/><br/>**Final:** \\(2\\text{MnO}_4^- + 3\\text{Cl}^- + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{MnO}_2 + 3\\text{ClO}_3^- + 4\\text{OH}^-\\)"
+      },
+      "topic": [
+        "Chemistry",
+        "Redox Reactions",
+        "Electrochemistry",
+        "Inorganic Chemistry",
+        "Reduction",
+        "General Chemistry"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 2",
+      "Question": {
+        "content": "Calculate E°cell for: \\(\\text{Ag}^+ + e^- \\rightarrow \\text{Ag}\\) (E°=+0.799V) and \\(\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}\\) (E°=+0.337V)",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "E°cell = +0.462V"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "**Step 1:** Identify spontaneous direction (higher reduction potential = cathode):<br/>Cathode (reduction): \\(\\text{Ag}^+ + e^- \\rightarrow \\text{Ag}\\) (E°=+0.799V)<br/>Anode (oxidation): \\(\\text{Cu} \\rightarrow \\text{Cu}^{2+} + 2e^-\\) (E°=+0.337V → reverse sign)<br/><br/>**Step 2:** Balance electrons:<br/>Multiply Ag half-reaction by 2: \\(2\\text{Ag}^+ + 2e^- \\rightarrow 2\\text{Ag}\\) (E° remains +0.799V)<br/><br/>**Step 3:** Calculate E°cell:<br/>\\(E°_{cell} = E°_{cathode} - E°_{anode} = 0.799V - 0.337V = +0.462V\\)<br/><br/>The positive value indicates a spontaneous reaction. This is the standard potential for a silver-copper electrochemical cell."
+      },
+      "topic": [
+        "Electrochemistry",
+        "Reduction",
+        "Redox Reactions"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 3",
+      "Question": {
+        "content": "For \\(2\\text{N}_2\\text{O}_5(g) \\rightarrow 4\\text{NO}_2(g) + \\text{O}_2(g)\\), if rate of N₂O₅ decomposition is \\(4.2 \\times 10^{-7}\\) mol/sec, find rates of appearance for (a) NO₂ and (b) O₂",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "(a) \\(8.4 \\times 10^{-7}\\) mol/sec (b) \\(2.1 \\times 10^{-7}\\) mol/sec"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "**Stoichiometric relationships:**<br/>\\(-\\frac{1}{2}\\frac{d[\\text{N}_2\\text{O}_5]}{dt} = +\\frac{1}{4}\\frac{d[\\text{NO}_2]}{dt} = +\\frac{d[\\text{O}_2]}{dt}\\)<br/><br/>**Calculation:**<br/>(a) NO₂ rate: \\(\\frac{d[\\text{NO}_2]}{dt} = 2 \\times \\text{N}_2\\text{O}_5\\text{ rate} = 2 \\times 4.2 \\times 10^{-7} = 8.4 \\times 10^{-7}\\) mol/sec<br/>(b) O₂ rate: \\(\\frac{d[\\text{O}_2]}{dt} = \\frac{1}{2} \\times \\text{N}_2\\text{O}_5\\text{ rate} = 2.1 \\times 10^{-7}\\) mol/sec<br/><br/>This demonstrates how reaction rates are scaled by stoichiometric coefficients. The 2:4:1 ratio means NO₂ appears twice as fast as N₂O₅ disappears, while O₂ appears half as fast."
+      },
+      "topic": [
+        "Chemical Kinetics",
+        "Reaction Rates",
+        "General Chemistry"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 4",
+      "Question": {
+        "content": "Calculate \\([\\text{H}_3\\text{O}^+]\\) and pH for a buffer with 0.35M CH₃COOH and 0.25M CH₃COO⁻ (Ka=1.8×10⁻⁵)",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "\\([\\text{H}_3\\text{O}^+] = 2.52 \\times 10^{-5}\\) M, pH = 4.60"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "**Using Henderson-Hasselbalch equation:**<br/>\\(\\text{pH} = \\text{p}K_a + \\log\\left(\\frac{[\\text{A}^-]}{[\\text{HA}]}\\right)\\)<br/><br/>**Step 1:** Calculate pKa:<br/>\\(\\text{p}K_a = -\\log(1.8 \\times 10^{-5}) = 4.74\\)<br/><br/>**Step 2:** Plug in concentrations:<br/>\\(\\text{pH} = 4.74 + \\log\\left(\\frac{0.25}{0.35}\\right) = 4.74 - 0.146 = 4.60\\)<br/><br/>**Step 3:** Calculate \\([\\text{H}_3\\text{O}^+]\\):<br/>\\([\\text{H}_3\\text{O}^+] = 10^{-\\text{pH}} = 10^{-4.60} = 2.52 \\times 10^{-5}\\) M<br/><br/>This buffer resists pH changes because the weak acid (CH₃COOH) and conjugate base (CH₃COO⁻) neutralize added H⁺ or OH⁻ through equilibrium shifts."
+      },
+      "topic": [
+        "Acid-Base Chemistry",
+        "Chemical Equilibrium",
+        "pH Calculation",
+        "Conjugate Acid-Base Pairs",
+        "Molarity",
+        "Buffer Chemistry"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 5",
+      "Question": {
+        "content": "For \\(\\text{H}_2 + \\text{I}_2 \\rightleftharpoons 2\\text{HI}\\) (Kc=50.5 at 448°C), predict reaction direction with initial concentrations [HI]=1.0×10⁻⁷M, [H₂]=0.5×10⁻⁷M, [I₂]=1.5×10⁻⁷M in 2.00L",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "Reaction proceeds to the right (forms more HI)"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "**Step 1:** Calculate initial molarities:<br/>\\([\\text{HI}] = \\frac{2.0 \\times 10^{-7}\\text{mol}}{2.00\\text{L}} = 1.0 \\times 10^{-7}\\text{M}\\)<br/>Similarly, \\([\\text{H}_2] = 0.5 \\times 10^{-7}\\text{M}\\), \\([\\text{I}_2] = 1.5 \\times 10^{-7}\\text{M}\\)<br/><br/>**Step 2:** Calculate reaction quotient Qc:<br/>\\(Q_c = \\frac{[\\text{HI}]^2}{[\\text{H}_2][\\text{I}_2}]} = \\frac{(1.0 \\times 10^{-7})^2}{(0.5 \\times 10^{-7})(1.5 \\times 10^{-7})} = 1.33\\)<br/><br/>**Step 3:** Compare Qc to Kc:<br/>Since Qc (1.33) < Kc (50.5), the reaction proceeds right to form more products (HI) until equilibrium is reached.<br/><br/>This demonstrates Le Chatelier's Principle - the system shifts to counteract the imbalance (here, low product concentration)."
+      },
+      "topic": [
+        "Chemistry",
+        "General Chemistry",
+        "Chemical Equilibrium",
+        "Reaction Quotient"
+      ]
+    },
+    {
+      "type": "Question",
+      "name": "Question 6",
+      "Question": {
+        "content": "Calculate ΔS for heating 1mol H₂O from 0°C to 100°C (Cp=75.5 J/K/mol)",
+        "type": "THEORY"
+      },
+      "Answer": {
+        "type": "string",
+        "content": "ΔS = +23.5 J/K"
+      },
+      "Explanation": {
+        "type": "string",
+        "content": "**For constant pressure heating:**<br/>\\(\\Delta S = nC_p\\ln\\left(\\frac{T_2}{T_1}\\right)\\)<br/><br/>**Step 1:** Convert temperatures to Kelvin:<br/>\\(T_1 = 273\\text{K}\\), \\(T_2 = 373\\text{K}\\)<br/><br/>**Step 2:** Plug in values:<br/>\\(\\Delta S = (1\\text{mol})(75.5\\text{J/K/mol})\\ln\\left(\\frac{373}{273}\\right)\\)<br/>\\(= 75.5 \\times \\ln(1.366) = 75.5 \\times 0.311 = 23.5\\text{J/K}\\)<br/><br/>The positive entropy change reflects increased molecular disorder at higher temperatures. This calculation assumes Cp is constant (true for liquid water in this range) and ignores phase changes (would require additional terms for melting/vaporization)."
+      },
+      "topic": [
+        "Thermodynamics",
+        "Entropy"
+      ]
     }
-  },
-  {
-    "type": "Question",
-    "name": "Question 2",
-    "Question": {
-      "content": "The frequency at which the reactant molecules collide leads to _____",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "The collision frequency (Z)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "Collision frequency (Z) represents the number of molecular collisions per unit time per unit volume. According to collision theory, Z depends on: (1) molecular concentrations, (2) molecular speeds (temperature-dependent), and (3) molecular sizes. While higher Z increases reaction probability, only collisions with sufficient energy (≥ activation energy) and proper orientation lead to reactions (effective collisions)."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 3",
-    "Question": {
-      "content": "The unit of a zero-order reaction is given as _____",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "mol·L⁻¹·s⁻¹ (or M/s)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "For zero-order reactions (rate = k), the rate is independent of reactant concentration. The rate constant k therefore has units identical to the reaction rate: concentration/time. This contrasts with first-order (s⁻¹) and second-order (L·mol⁻¹·s⁻¹) reactions. Zero-order kinetics often occur in surface-catalyzed reactions or when reactant concentration is in large excess."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 4",
-    "Question": {
-      "content": "In chemical equilibrium, the forward and reverse reactions proceed at the same rate, producing no net change in concentrations. True/False?",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "True"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "This is the fundamental definition of dynamic equilibrium. While molecular-level processes continue (Rf = Rr ≠ 0), macroscopic properties remain constant. The equilibrium condition minimizes Gibbs free energy (ΔG = 0) and is described by the equilibrium constant K. This principle underlies industrial processes like Haber's ammonia synthesis and biological systems including oxygen-hemoglobin binding."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 5",
-    "Question": {
-      "content": "Given Kc = 1×10⁻³⁰ for N₂(g) + O₂(g) ⇌ 2NO(g), calculate Kc for 2NO(g) ⇌ N₂(g) + O₂(g)",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "1×10³⁰"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "Reversing a reaction inverts its equilibrium constant: Kc' = 1/Kc = 1/(1×10⁻³⁰) = 1×10³⁰. This enormous value indicates the reverse reaction (NO decomposition) is highly favorable thermodynamically, consistent with NO's instability at standard conditions. The temperature dependence of Kc (via ΔG° = -RTlnK) remains unchanged by this mathematical operation."
-    }
-  },
-  {
-  "type": "Question",
-  "name": "Question 6",
-  "Question": {
-    "content": "Find \\( K_p \\) for the reaction \\( \\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\) given \\( K_c = 0.80 \\) at 200°C.",
-    "type": "subjective"
-  },
-  "Answer": {
-    "type": "string",
-    "content": "\\( K_p \\approx 8.14 \\times 10^{-5} \\)"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'>\\n  <h3 style='margin-top: 0; color: #2c3e50;'>Step-by-Step Solution:</h3>\\n  <ol>\\n    <li><strong>Given Data</strong>:\\n      <ul>\\n        <li>Reaction: \\( \\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\)</li>\\n        <li>\\( K_c = 0.80 \\)</li>\\n        <li>Temperature \\( T = 200°C = 473\\,K \\)</li>\\n      </ul>\\n    </li>\\n    <li><strong>Relationship between \\( K_p \\) and \\( K_c \\):</strong>\\n      <p>\\[ K_p = K_c (RT)^{\\Delta n} \\]</p>\\n      <p>Where:</p>\\n      <ul>\\n        <li>\\( R = 0.0821\\, \\text{L·atm·K}^{-1}\\text{·mol}^{-1} \\) (gas constant)</li>\\n        <li>\\( \\Delta n = n_{\\text{products}} - n_{\\text{reactants}} \\) (change in moles of gas)</li>\\n      </ul>\\n    </li>\\n    <li><strong>Calculate \\( \\Delta n \\):</strong>\\n      <p>\\[ \\Delta n = 2\\, \\text{(NH}_3) - (1\\, \\text{(N}_2) + 3\\, \\text{(H}_2)) = 2 - 4 = -2 \\]</p>\\n    </li>\\n    <li><strong>Compute \\( (RT)^{\\Delta n} \\):</strong>\\n      <p>\\[ (RT)^{\\Delta n} = (0.0821 \\times 473)^{-2} \\]</p>\\n      <p>\\[ = (38.8333)^{-2} \\]</p>\\n      <p>\\[ = \\frac{1}{(38.8333)^2} \\approx \\frac{1}{1508.02} \\approx 6.63 \\times 10^{-4} \\]</p>\\n    </li>\\n    <li><strong>Solve for \\( K_p \\):</strong>\\n      <p>\\[ K_p = K_c \\times (RT)^{\\Delta n} = 0.80 \\times 6.63 \\times 10^{-4} \\approx 5.30 \\times 10^{-4} \\]</p>\\n      <p><em>Correction</em>: Earlier steps used rounded values. For higher precision:</p>\\n      <p>\\[ (RT)^{-2} = (38.8333)^{-2} = 0.000663 \\]</p>\\n      <p>\\[ K_p = 0.80 \\times 0.000663 = 0.0005304 \\approx 5.30 \\times 10^{-4} \\]</p>\\n    </li>\\n  </ol>\\n  <p><strong>Final Answer</strong>: \\( K_p \\approx 5.30 \\times 10^{-4} \\) (or \\( 8.14 \\times 10^{-5} \\) if recalculated with exact intermediates).</p>\\n</div>"
-  }
-},
-  {
-    "type": "Question",
-    "name": "Question 7",
-    "Question": {
-      "content": "The enthalpy change for aluminum oxide formation is 3352 kJ/mol. What is the enthalpy change for aluminum dissociation?",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Endothermic with ΔH = +3352 kJ/mol"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "By Hess's Law, the reverse process has equal magnitude but opposite sign: 4Al + 3O₂ → 2Al₂O₃ (ΔH = -3352 kJ/mol) implies 2Al₂O₃ → 4Al + 3O₂ (ΔH = +3352 kJ/mol). Aluminum dissociation is highly endothermic, requiring substantial energy to break strong Al-O bonds in the oxide lattice, which explains aluminum's stability as an oxide in nature."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 8",
-    "Question": {
-      "content": "Calculate ΔG° for HNO₂ given [H⁺] = 0.030M, [NO₂⁻] = 0.0004M, [HNO₂] = 0.1026M at 298K",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "ΔG° ≈ +18.6 kJ/mol"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "First calculate Q = [H⁺][NO₂⁻]/[HNO₂] = (0.030)(0.0004)/0.1026 ≈ 1.17×10⁻⁴. Using ΔG = ΔG° + RTlnQ, and assuming equilibrium (ΔG = 0), ΔG° = -RTlnK. Without K provided, we cannot compute ΔG° definitively. However, using typical Ka ≈ 4.5×10⁻⁴ for HNO₂: ΔG° = -RTlnKa ≈ -8.314 × 298 × ln(4.5×10⁻⁴) ≈ +18.6 kJ/mol (endergonic dissociation)."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 9",
-    "Question": {
-      "content": "Which has lower entropy: water condensation or evaporation?",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Condensation"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "Condensation (gas → liquid) decreases entropy as molecules become more ordered in the liquid phase. The entropy change ΔS = q_rev/T is negative. Conversely, evaporation (liquid → gas) increases entropy. At equilibrium (e.g., boiling point), ΔS_system + ΔS_surroundings = 0. This exemplifies the Second Law: spontaneous processes (like evaporation below boiling point) increase total entropy of the universe."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 10",
-    "Question": {
-      "content": "For a reversible process, the sum of entropy changes of system and surroundings is always _____",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Zero (ΔS_total = 0)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "Reversible processes are idealized with no net entropy production (ΔS_total = 0), representing maximum thermodynamic efficiency. The system and surroundings exchange heat reversibly (ΔS_system = -ΔS_surroundings). Real irreversible processes always have ΔS_total > 0. This principle underlies Carnot cycle efficiency calculations and establishes the theoretical limits for heat engines and refrigerators."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 11",
-    "Question": {
-      "content": "Identify conjugate acid-base pairs in NH₃ + H₂O ⇌ NH₄⁺ + OH⁻",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "NH₃/NH₄⁺ and H₂O/OH⁻"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "Conjugate pairs differ by one proton (H⁺). Here: (1) NH₃ (base) gains H⁺ to form NH₄⁺ (conjugate acid), and (2) H₂O (acid) loses H⁺ to form OH⁻ (conjugate base). This illustrates amphiprotic behavior of water and Brønsted-Lowry acid-base theory. The NH₄⁺/NH₃ pair is crucial in biological buffers, while the H₂O/OH⁻ pair is fundamental to pH chemistry."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 12",
-    "Question": {
-      "content": "Arrange HOCl, HOClO, HOClO₂ in increasing acid strength",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "HOCl < HOClO < HOClO₂ (hypochlorous < chlorous < chloric acid)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "Acid strength increases with: (1) number of oxygens (electronegativity stabilizes conjugate base), and (2) oxidation state of central atom. The series shows: HOCl (Cl⁺¹) < HOClO (Cl⁺³) < HOClO₂ (Cl⁺⁵). More oxygens withdraw electron density from the O-H bond, facilitating H⁺ release. pKa values: HOCl (7.5), HOClO (1.96), HOClO₂ (-1). This trend is general for oxoacids (e.g., HNO₃ > HNO₂)."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 13",
-    "Question": {
-      "content": "Calculate [H₃O⁺] and [OH⁻] in 0.0035M Mg(OH)₂ solution",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "[OH⁻] = 0.0070 M, [H₃O⁺] ≈ 1.43×10⁻¹² M"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "Mg(OH)₂ dissociates completely: Mg(OH)₂ → Mg²⁺ + 2OH⁻. Thus, [OH⁻] = 2 × 0.0035 M = 0.0070 M. Using Kw = [H₃O⁺][OH⁻] = 1×10⁻¹⁴ at 25°C: [H₃O⁺] = Kw/[OH⁻] ≈ 1.43×10⁻¹² M. This strongly basic solution (pH ≈ 11.85) exemplifies how sparingly soluble bases can still produce significant hydroxide concentrations due to stoichiometry (2 OH⁻ per formula unit)."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 14",
-    "Question": {
-      "content": "In neutral solution at 65°C with Kw = 1.0×10⁻¹³, find [H₃O⁺]",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "[H₃O⁺] = 3.16×10⁻⁷ M"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "In neutral solutions, [H₃O⁺] = [OH⁻] = √Kw = √(1.0×10⁻¹³) ≈ 3.16×10⁻⁷ M. This shows Kw's temperature dependence - neutral pH decreases with temperature (here pH ≈ 6.5 vs 7.0 at 25°C) because water dissociation is endothermic (ΔH > 0). The neutral point always satisfies [H₃O⁺] = [OH⁻], regardless of Kw's absolute value, critical for pH measurements at non-standard temperatures."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 15",
-    "Question": {
-      "content": "Arrange AgCl (Ksp=1.8×10⁻¹⁰), AgI (1.5×10⁻¹⁶), AgBr (3.3×10⁻¹³), Ag(NH₃)₂⁺ (6.3×10⁻⁸) by precipitation order",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "AgI > AgBr > AgCl > Ag(NH₃)₂⁺"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "Lower Ksp indicates lower solubility, so precipitation occurs first. The order is: AgI (least soluble, Ksp=1.5×10⁻¹⁶) > AgBr (3.3×10⁻¹³) > AgCl (1.8×10⁻¹⁰) > Ag(NH₃)₂⁺ (most soluble, Kf=6.3×10⁻⁸). This follows the trend of decreasing solubility with increasing anion polarizability (I⁻ > Br⁻ > Cl⁻). The complex ion Ag(NH₃)₂⁺ is much more soluble due to stabilization by NH₃ ligands."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 16",
-    "Question": {
-      "content": "Calculate solubility of AgBr in 0.10M KCN (Ksp=3.3×10⁻¹³, Kf(Ag(CN)₂⁻)=1.8×10⁹)",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "S ≈ 0.050 M"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "The dissolution involves two steps: (1) AgBr ⇌ Ag⁺ + Br⁻ (Ksp), and (2) Ag⁺ + 2CN⁻ ⇌ Ag(CN)₂⁻ (Kf). The overall reaction AgBr + 2CN⁻ ⇌ Ag(CN)₂⁻ + Br⁻ has K = Ksp × Kf ≈ 5.94×10⁻⁴. With excess CN⁻ (0.10M), let S = [Ag(CN)₂⁻] = [Br⁻]: K = S²/(0.10 - 2S)² ≈ S/0.10 (assuming 2S << 0.10). Solving: S ≈ √(5.94×10⁻⁴ × 0.01) ≈ 0.050 M. This dramatic solubility increase (vs ~5.7×10⁻⁷ M in water) demonstrates complexation's effect on solubility equilibria."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 17",
-    "Question": {
-      "content": "Calculate pH of 0.29M HCN (Ka=4.9×10⁻¹⁰)",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "pH ≈ 4.93"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "For weak acid HCN ⇌ H⁺ + CN⁻: Ka = [H⁺][CN⁻]/[HCN] ≈ x²/0.29 (assuming x << 0.29). Solving: x = [H⁺] = √(0.29 × 4.9×10⁻¹⁰) ≈ 1.19×10⁻⁵ M. pH = -log(1.19×10⁻⁵) ≈ 4.93. The approximation is valid (<5% dissociation). This shows how extremely weak acids (Ka < 10⁻⁹) can still produce mildly acidic solutions at moderate concentrations, relevant to environmental chemistry and toxicology of HCN."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 18",
-    "Question": {
-      "content": "Calculate current that deposits 0.52g Cu in 30min (Cu²⁺ + 2e⁻ → Cu)",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "I ≈ 0.877 A"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "Moles of Cu = 0.52g/63.55g/mol ≈ 0.00818 mol. Each Cu²⁺ requires 2e⁻, so moles of e⁻ = 0.01636 mol. Charge Q = nF = 0.01636 × 96485 ≈ 1578 C. Current I = Q/t = 1578 C/1800 s ≈ 0.877 A. This exemplifies Faraday's laws, crucial for electroplating and coulometric analysis. The calculation assumes 100% current efficiency - real systems may require higher currents due to side reactions."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 19",
-    "Question": {
-      "content": "Write half-reactions for Cu(s)/Cu²⁺||Pb⁴⁺,Pb²⁺/Co₂ cell",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Anode: Cu → Cu²⁺ + 2e⁻; Cathode: Pb⁴⁺ + 2e⁻ → Pb²⁺"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "In the given cell notation: (1) Left of salt bridge (||) is the anode (oxidation): Cu(s) loses electrons to become Cu²⁺. (2) Right side is cathode (reduction): Pb⁴⁺ gains electrons to form Pb²⁺. The overall reaction is Cu + Pb⁴⁺ → Cu²⁺ + Pb²⁺. Note: Co₂ appears to be an error in the original question. Proper cell notation requires reversible redox couples on both sides."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 20",
-    "Question": {
-      "content": "Identify oxidized species in Cd + NiO₂ + 2H₂O → Cd(OH)₂ + Ni(OH)₂",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Cd (oxidation state 0 → +2)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "Cd undergoes oxidation (0 → +2) by losing electrons, while Ni in NiO₂ reduces (+4 → +2). This represents a nickel-cadmium (NiCd) battery discharge: Cd acts as anode (Cd → Cd²⁺ + 2e⁻), NiO₂ as cathode (NiO₂ + 2H₂O + 2e⁻ → Ni(OH)₂ + 2OH⁻). The overall cell potential arises from these complementary redox processes, with Cd's oxidation being the driving force for electron flow."
-    }
-  },
-  {
-    "type": "heading",
-    "heading": "Section A"
-  },
-  
-  
-  {
-    "type": "Question",
-    "name": "Question 1",
-    "Question": {
-      "content": "Balance the redox equation in basic medium: \\(\\text{MnO}_4^-(aq) + \\text{Cl}^-(aq) \\rightarrow \\text{MnO}_2(aq) + \\text{ClO}_3^-(aq)\\)",
-      "type": "THEORY"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "\\[2\\text{MnO}_4^- + 3\\text{Cl}^- + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{MnO}_2 + 3\\text{ClO}_3^- + 4\\text{OH}^-\\]"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "**Step 1:** Separate into half-reactions:<br/><br/>Oxidation: \\(\\text{Cl}^- \\rightarrow \\text{ClO}_3^-\\)<br/>Reduction: \\(\\text{MnO}_4^- \\rightarrow \\text{MnO}_2\\)<br/><br/>**Step 2:** Balance atoms:<br/>- For Cl: \\(\\text{Cl}^- + 3\\text{H}_2\\text{O} \\rightarrow \\text{ClO}_3^- + 6\\text{H}^+ + 6e^-\\)<br/>- For Mn: \\(\\text{MnO}_4^- + 4\\text{H}^+ + 3e^- \\rightarrow \\text{MnO}_2 + 2\\text{H}_2\\text{O}\\)<br/><br/>**Step 3:** Balance electrons (6e⁻ total):<br/>Multiply Mn half-reaction by 2 and Cl by 1<br/><br/>**Step 4:** Combine and neutralize H⁺ with OH⁻ (basic medium):<br/>Add 8OH⁻ to both sides, forming 4H₂O<br/><br/>**Final:** \\(2\\text{MnO}_4^- + 3\\text{Cl}^- + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{MnO}_2 + 3\\text{ClO}_3^- + 4\\text{OH}^-\\)"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 2",
-    "Question": {
-      "content": "Calculate E°cell for: \\(\\text{Ag}^+ + e^- \\rightarrow \\text{Ag}\\) (E°=+0.799V) and \\(\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}\\) (E°=+0.337V)",
-      "type": "THEORY"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "E°cell = +0.462V"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "**Step 1:** Identify spontaneous direction (higher reduction potential = cathode):<br/>Cathode (reduction): \\(\\text{Ag}^+ + e^- \\rightarrow \\text{Ag}\\) (E°=+0.799V)<br/>Anode (oxidation): \\(\\text{Cu} \\rightarrow \\text{Cu}^{2+} + 2e^-\\) (E°=+0.337V → reverse sign)<br/><br/>**Step 2:** Balance electrons:<br/>Multiply Ag half-reaction by 2: \\(2\\text{Ag}^+ + 2e^- \\rightarrow 2\\text{Ag}\\) (E° remains +0.799V)<br/><br/>**Step 3:** Calculate E°cell:<br/>\\(E°_{cell} = E°_{cathode} - E°_{anode} = 0.799V - 0.337V = +0.462V\\)<br/><br/>The positive value indicates a spontaneous reaction. This is the standard potential for a silver-copper electrochemical cell."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 3",
-    "Question": {
-      "content": "For \\(2\\text{N}_2\\text{O}_5(g) \\rightarrow 4\\text{NO}_2(g) + \\text{O}_2(g)\\), if rate of N₂O₅ decomposition is \\(4.2 \\times 10^{-7}\\) mol/sec, find rates of appearance for (a) NO₂ and (b) O₂",
-      "type": "THEORY"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "(a) \\(8.4 \\times 10^{-7}\\) mol/sec (b) \\(2.1 \\times 10^{-7}\\) mol/sec"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "**Stoichiometric relationships:**<br/>\\(-\\frac{1}{2}\\frac{d[\\text{N}_2\\text{O}_5]}{dt} = +\\frac{1}{4}\\frac{d[\\text{NO}_2]}{dt} = +\\frac{d[\\text{O}_2]}{dt}\\)<br/><br/>**Calculation:**<br/>(a) NO₂ rate: \\(\\frac{d[\\text{NO}_2]}{dt} = 2 \\times \\text{N}_2\\text{O}_5\\text{ rate} = 2 \\times 4.2 \\times 10^{-7} = 8.4 \\times 10^{-7}\\) mol/sec<br/>(b) O₂ rate: \\(\\frac{d[\\text{O}_2]}{dt} = \\frac{1}{2} \\times \\text{N}_2\\text{O}_5\\text{ rate} = 2.1 \\times 10^{-7}\\) mol/sec<br/><br/>This demonstrates how reaction rates are scaled by stoichiometric coefficients. The 2:4:1 ratio means NO₂ appears twice as fast as N₂O₅ disappears, while O₂ appears half as fast."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 4",
-    "Question": {
-      "content": "Calculate \\([\\text{H}_3\\text{O}^+]\\) and pH for a buffer with 0.35M CH₃COOH and 0.25M CH₃COO⁻ (Ka=1.8×10⁻⁵)",
-      "type": "THEORY"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "\\([\\text{H}_3\\text{O}^+] = 2.52 \\times 10^{-5}\\) M, pH = 4.60"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "**Using Henderson-Hasselbalch equation:**<br/>\\(\\text{pH} = \\text{p}K_a + \\log\\left(\\frac{[\\text{A}^-]}{[\\text{HA}]}\\right)\\)<br/><br/>**Step 1:** Calculate pKa:<br/>\\(\\text{p}K_a = -\\log(1.8 \\times 10^{-5}) = 4.74\\)<br/><br/>**Step 2:** Plug in concentrations:<br/>\\(\\text{pH} = 4.74 + \\log\\left(\\frac{0.25}{0.35}\\right) = 4.74 - 0.146 = 4.60\\)<br/><br/>**Step 3:** Calculate \\([\\text{H}_3\\text{O}^+]\\):<br/>\\([\\text{H}_3\\text{O}^+] = 10^{-\\text{pH}} = 10^{-4.60} = 2.52 \\times 10^{-5}\\) M<br/><br/>This buffer resists pH changes because the weak acid (CH₃COOH) and conjugate base (CH₃COO⁻) neutralize added H⁺ or OH⁻ through equilibrium shifts."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 5",
-    "Question": {
-      "content": "For \\(\\text{H}_2 + \\text{I}_2 \\rightleftharpoons 2\\text{HI}\\) (Kc=50.5 at 448°C), predict reaction direction with initial concentrations [HI]=1.0×10⁻⁷M, [H₂]=0.5×10⁻⁷M, [I₂]=1.5×10⁻⁷M in 2.00L",
-      "type": "THEORY"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Reaction proceeds to the right (forms more HI)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "**Step 1:** Calculate initial molarities:<br/>\\([\\text{HI}] = \\frac{2.0 \\times 10^{-7}\\text{mol}}{2.00\\text{L}} = 1.0 \\times 10^{-7}\\text{M}\\)<br/>Similarly, \\([\\text{H}_2] = 0.5 \\times 10^{-7}\\text{M}\\), \\([\\text{I}_2] = 1.5 \\times 10^{-7}\\text{M}\\)<br/><br/>**Step 2:** Calculate reaction quotient Qc:<br/>\\(Q_c = \\frac{[\\text{HI}]^2}{[\\text{H}_2][\\text{I}_2}]} = \\frac{(1.0 \\times 10^{-7})^2}{(0.5 \\times 10^{-7})(1.5 \\times 10^{-7})} = 1.33\\)<br/><br/>**Step 3:** Compare Qc to Kc:<br/>Since Qc (1.33) < Kc (50.5), the reaction proceeds right to form more products (HI) until equilibrium is reached.<br/><br/>This demonstrates Le Chatelier's Principle - the system shifts to counteract the imbalance (here, low product concentration)."
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 6",
-    "Question": {
-      "content": "Calculate ΔS for heating 1mol H₂O from 0°C to 100°C (Cp=75.5 J/K/mol)",
-      "type": "THEORY"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "ΔS = +23.5 J/K"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "**For constant pressure heating:**<br/>\\(\\Delta S = nC_p\\ln\\left(\\frac{T_2}{T_1}\\right)\\)<br/><br/>**Step 1:** Convert temperatures to Kelvin:<br/>\\(T_1 = 273\\text{K}\\), \\(T_2 = 373\\text{K}\\)<br/><br/>**Step 2:** Plug in values:<br/>\\(\\Delta S = (1\\text{mol})(75.5\\text{J/K/mol})\\ln\\left(\\frac{373}{273}\\right)\\)<br/>\\(= 75.5 \\times \\ln(1.366) = 75.5 \\times 0.311 = 23.5\\text{J/K}\\)<br/><br/>The positive entropy change reflects increased molecular disorder at higher temperatures. This calculation assumes Cp is constant (true for liquid water in this range) and ignores phase changes (would require additional terms for melting/vaporization)."
-    }
-  }
-]
+  ]
