@@ -1,0 +1,2016 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "General Chemistry II",
+    "code": "CHM_131.2",
+    "session": "Redox Reactions",
+    "time": 90,
+    "topics": [
+      "Acid-Base Chemistry",
+      "Buffer Solutions",
+      "Chemical Equilibrium",
+      "Chemical Kinetics",
+      "Electrochemistry",
+      "Nuclear Chemistry",
+      "Redox Reactions",
+      "Solubility Equilibrium",
+      "Thermodynamics"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 26 @ 2024/2025 @ Thermodynamics",
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Electrolysis",
+      "Spontaneity of Reactions",
+      "Thermodynamics"
+    ],
+    "Question": {
+      "content": "For a reaction to proceed in the non-spontaneous direction, what is the DC potential of the reaction called?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Non-Spontaneous Reactions</h4><strong style='color: var(--strongColor);'>Spontaneous:</strong> ΔG &lt; 0, positive Ecell → occurs naturally (galvanic cell).<br><strong style='color: var(--strongColor);'>Non-spontaneous:</strong> ΔG &gt; 0 → requires external electrical energy to force the reaction.<br><br>The required DC voltage applied to drive a non-spontaneous reaction is called the <strong>Overpotential</strong> (or decomposition potential / applied EMF).</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Overpotential (decomposition potential)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2013/2014 @ Thermodynamics",
+    "Question": {
+      "content": "For the reaction:<br/>\\(3Ni^{2+}(aq) + 2Cr(OH)_3(s) + 10OH^-(aq) \\rightarrow 3Ni(s) + 2CrO_4^{2-}(aq) + 8H_2O(l)\\)<br/>(a) What is the number of electrons (n) transferred?<br/>(b) Calculate ΔG° given that E° = 0.15V",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) 6 electrons<br/>(b) -86,850 J/mol"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>(a) Determining number of electrons:</strong><br/>1. <strong>Oxidation half-reaction:</strong><br/>\\(2Cr(OH)_3 + 10OH^- \\rightarrow 2CrO_4^{2-} + 8H_2O + 6e^-\\) (Chromium goes from +3 to +6)<br/><br/>2. <strong>Reduction half-reaction:</strong><br/>\\(3Ni^{2+} + 6e^- \\rightarrow 3Ni\\) (Nickel goes from +2 to 0)<br/><br/>3. <strong>Balanced electrons:</strong> 6 electrons are transferred<br/><br/><strong>(b) Calculating ΔG°:</strong><br/>Using the formula:<br/>\\(ΔG° = -nFE°\\)<br/>Where:<br/>- \\(n = 6\\) (from part a)<br/>- \\(F = 96,500\\) C/mol (Faraday's constant)<br/>- \\(E° = 0.15\\) V<br/><br/>\\(ΔG° = -6 × 96,500 × 0.15 = -86,850\\) J/mol"
+    },
+    "topic": [
+      "Redox Reactions",
+      "Electrochemistry",
+      "Thermodynamics",
+      "Gibbs Free Energy",
+      "Chemical Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 25 @ 2024/2025 @ Redox Reactions",
+    "topic": [
+      "General Chemistry II",
+      "Electrochemistry",
+      "Redox Reactions",
+      "Electrolysis"
+    ],
+    "Question": {
+      "content": "During the electrolysis of molten sodium chloride, sodium ions migrate towards which electrode and current flows from which electrode to which electrode?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Electrolysis of Molten NaCl</h4><strong style='color: var(--strongColor);'>Na⁺ ions</strong> are positive → attracted to the <strong>cathode (−)</strong>.<br><strong style='color: var(--strongColor);'>Cl⁻ ions</strong> are negative → attracted to the <strong>anode (+)</strong>.<br><br><strong style='color: var(--strongColor);'>Conventional current</strong> flows from <strong>anode (+) to cathode (−)</strong> in the external circuit.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Na⁺ migrates to the cathode; current flows from anode to cathode."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26 @ 2024/2025 @ Redox Reactions",
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Electrolysis",
+      "Spontaneity of Reactions",
+      "Thermodynamics"
+    ],
+    "Question": {
+      "content": "For a reaction to proceed in the non-spontaneous direction, what is the DC potential of the reaction called?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Non-Spontaneous Reactions</h4><strong style='color: var(--strongColor);'>Spontaneous:</strong> ΔG &lt; 0, positive Ecell → occurs naturally (galvanic cell).<br><strong style='color: var(--strongColor);'>Non-spontaneous:</strong> ΔG &gt; 0 → requires external electrical energy to force the reaction.<br><br>The required DC voltage applied to drive a non-spontaneous reaction is called the <strong>Overpotential</strong> (or decomposition potential / applied EMF).</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Overpotential (decomposition potential)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28 @ 2024/2025 @ Redox Reactions",
+    "topic": [
+      "Redox Reactions",
+      "Electrochemistry",
+      "General Chemistry II",
+      "Oxidation"
+    ],
+    "Question": {
+      "content": "For the reaction: \\(Cd + NiO_2 + 2H_2O \\rightarrow Cd(OH)_2 + Ni(OH)_2\\), identify the substances that are oxidized.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Identifying Oxidation</h4><strong style='color: var(--strongColor);'>Oxidation = loss of electrons / increase in oxidation state.</strong><br><br>Cd: 0 → +2 (in Cd(OH)₂) → <strong>oxidized ✓</strong><br>Ni: +4 (in NiO₂) → +2 (in Ni(OH)₂) → reduced ✗<br><br>∴ <strong>Cd is the substance oxidized</strong> (it is also the reducing agent).</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cd (cadmium) is oxidized."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29 @ 2024/2025 @ Redox Reactions",
+    "topic": [
+      "General Chemistry II",
+      "Electrochemistry",
+      "Redox Reactions",
+      "Oxidation",
+      "Reduction Potentials"
+    ],
+    "Question": {
+      "content": "For a Zn–Cu²⁺ voltaic cell, E°cell = 1.10 V. Given that the standard reduction potential of Zn²⁺/Zn is −0.76 V, calculate the E°red for the reduction of Cu²⁺ to Cu.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Finding E°red for Cu²⁺/Cu</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(E°_{cell} = E°_{cathode} - E°_{anode}\\)<br><br>Zn is oxidized (anode), Cu²⁺ is reduced (cathode):<br>\\(1.10 = E°_{Cu} - (-0.76)\\)<br>\\(1.10 = E°_{Cu} + 0.76\\)<br>\\(E°_{Cu} = 1.10 - 0.76 = \\mathbf{+0.34 \\text{ V}}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "E°red (Cu²⁺/Cu) = +0.34 V"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2024/2025 @ Redox Reactions",
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions"
+    ],
+    "Question": {
+      "content": "What is the study of the relationship between electricity and chemical reactions called?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Definition</h4>This branch of chemistry studies how <strong>electrical energy</strong> is converted to <strong>chemical energy</strong> (electrolysis) and vice versa (galvanic cells).<br><br>It is called <strong>Electrochemistry</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Electrochemistry"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31 @ 2024/2025 @ Redox Reactions",
+    "topic": [
+      "General Chemistry II",
+      "Electrochemistry",
+      "Redox Reactions",
+      "Electrolysis"
+    ],
+    "Question": {
+      "content": "Calculate the mass of copper metal deposited when a 5.0 A current is passed through a copper sulphate solution for one hour. (Atomic mass of Cu = 63.5 g/mol; 1F = 96500 C/mol)",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Faraday's First Law of Electrolysis</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(m = \\dfrac{I \\times t \\times M}{n \\times F}\\)<br><br><strong style='color: var(--strongColor);'>Values:</strong> I = 5.0 A, t = 3600 s, M = 63.5 g/mol, n = 2 (Cu²⁺), F = 96500 C/mol<br><br>\\(m = \\dfrac{5.0 \\times 3600 \\times 63.5}{2 \\times 96500}\\)<br>\\(= \\dfrac{1{,}143{,}000}{193{,}000} \\approx \\mathbf{5.93 \\text{ g}}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Mass of Cu deposited ≈ 5.93 g"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33 @ 2024/2025 @ Redox Reactions",
+    "topic": [
+      "General Chemistry II",
+      "Redox Reactions",
+      "Oxidation",
+      "Acid-Base Chemistry",
+      "Balancing Redox Equations"
+    ],
+    "Question": {
+      "content": "Write the balanced form of the redox equation in acidic medium: \\(Cu_{(s)} + H^+_{(aq)} + NO^-_{3(aq)} \\rightarrow Cu^{2+}_{(aq)} + NO_{(g)}\\)",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Balancing Redox in Acidic Medium</h4><strong style='color: var(--strongColor);'>Half-reactions:</strong><br>Oxidation: \\(Cu \\rightarrow Cu^{2+} + 2e^-\\) ×3<br>Reduction: \\(NO_3^- + 4H^+ + 3e^- \\rightarrow NO + 2H_2O\\) ×2<br><br><strong style='color: var(--strongColor);'>Balanced equation:</strong><br>\\(3Cu + 8H^+ + 2NO_3^- \\rightarrow 3Cu^{2+} + 2NO + 4H_2O\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3Cu + 8H⁺ + 2NO₃⁻ → 3Cu²⁺ + 2NO + 4H₂O"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32 @ 2023/2024 @ Redox Reactions",
+    "Question": {
+      "content": "Balance the redox equation in acidic medium: <br/>\\( Cu(s) + H^+ + NO_3^- \\rightarrow Cu^{2+} + NO(g) \\).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 3Cu(s) + 8H^+ + 2NO_3^- \\rightarrow 3Cu^{2+} + 2NO(g) + 4H_2O \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #4CAF50;'><p><strong>Step 1: Split into half-reactions</strong></p><p>- <strong>Oxidation:</strong> Cu(s) → Cu²⁺ + 2e⁻</p><p>- <strong>Reduction:</strong> NO₃⁻ + 4H⁺ + 3e⁻ → NO + 2H₂O</p><p><strong>Step 2: Balance electrons</strong></p><p>Multiply oxidation by 3 and reduction by 2 to equalize electrons (6e⁻ total).</p><p><strong>Step 3: Combine and simplify</strong></p><p>\\( 3Cu(s) + 8H^+ + 2NO_3^- \\rightarrow 3Cu^{2+} + 2NO(g) + 4H_2O \\)</p><p><strong>Check:</strong> Atoms and charges balance on both sides.</p></div>"
+    },
+    "topic": [
+      "Redox Reactions",
+      "Electrochemistry",
+      "Inorganic Chemistry Principles",
+      "Chemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 @ 2022/2023 @ Redox Reactions",
+    "Question": {
+      "content": "Identify oxidized species in Cd + NiO₂ + 2H₂O → Cd(OH)₂ + Ni(OH)₂",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cd (oxidation state 0 → +2)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Cd undergoes oxidation (0 → +2) by losing electrons, while Ni in NiO₂ reduces (+4 → +2). This represents a nickel-cadmium (NiCd) battery discharge: Cd acts as anode (Cd → Cd²⁺ + 2e⁻), NiO₂ as cathode (NiO₂ + 2H₂O + 2e⁻ → Ni(OH)₂ + 2OH⁻). The overall cell potential arises from these complementary redox processes, with Cd's oxidation being the driving force for electron flow."
+    },
+    "topic": [
+      "Redox Reactions",
+      "Reduction",
+      "Electrochemistry",
+      "Inorganic Chemistry",
+      "General Chemistry",
+      "Chemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1 @ 2022/2023 @ Redox Reactions",
+    "Question": {
+      "content": "Balance the redox equation in basic medium: \\(\\text{MnO}_4^-(aq) + \\text{Cl}^-(aq) \\rightarrow \\text{MnO}_2(aq) + \\text{ClO}_3^-(aq)\\)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\[2\\text{MnO}_4^- + 3\\text{Cl}^- + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{MnO}_2 + 3\\text{ClO}_3^- + 4\\text{OH}^-\\]"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "**Step 1:** Separate into half-reactions:<br/><br/>Oxidation: \\(\\text{Cl}^- \\rightarrow \\text{ClO}_3^-\\)<br/>Reduction: \\(\\text{MnO}_4^- \\rightarrow \\text{MnO}_2\\)<br/><br/>**Step 2:** Balance atoms:<br/>- For Cl: \\(\\text{Cl}^- + 3\\text{H}_2\\text{O} \\rightarrow \\text{ClO}_3^- + 6\\text{H}^+ + 6e^-\\)<br/>- For Mn: \\(\\text{MnO}_4^- + 4\\text{H}^+ + 3e^- \\rightarrow \\text{MnO}_2 + 2\\text{H}_2\\text{O}\\)<br/><br/>**Step 3:** Balance electrons (6e⁻ total):<br/>Multiply Mn half-reaction by 2 and Cl by 1<br/><br/>**Step 4:** Combine and neutralize H⁺ with OH⁻ (basic medium):<br/>Add 8OH⁻ to both sides, forming 4H₂O<br/><br/>**Final:** \\(2\\text{MnO}_4^- + 3\\text{Cl}^- + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{MnO}_2 + 3\\text{ClO}_3^- + 4\\text{OH}^-\\)"
+    },
+    "topic": [
+      "Chemistry",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Inorganic Chemistry",
+      "Reduction",
+      "General Chemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2022/2023 @ Redox Reactions",
+    "Question": {
+      "content": "Calculate E°cell for: \\(\\text{Ag}^+ + e^- \\rightarrow \\text{Ag}\\) (E°=+0.799V) and \\(\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}\\) (E°=+0.337V)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "E°cell = +0.462V"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "**Step 1:** Identify spontaneous direction (higher reduction potential = cathode):<br/>Cathode (reduction): \\(\\text{Ag}^+ + e^- \\rightarrow \\text{Ag}\\) (E°=+0.799V)<br/>Anode (oxidation): \\(\\text{Cu} \\rightarrow \\text{Cu}^{2+} + 2e^-\\) (E°=+0.337V → reverse sign)<br/><br/>**Step 2:** Balance electrons:<br/>Multiply Ag half-reaction by 2: \\(2\\text{Ag}^+ + 2e^- \\rightarrow 2\\text{Ag}\\) (E° remains +0.799V)<br/><br/>**Step 3:** Calculate E°cell:<br/>\\(E°_{cell} = E°_{cathode} - E°_{anode} = 0.799V - 0.337V = +0.462V\\)<br/><br/>The positive value indicates a spontaneous reaction. This is the standard potential for a silver-copper electrochemical cell."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Reduction",
+      "Redox Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2021/2022 @ Redox Reactions",
+    "Question": {
+      "content": "A substance that makes it possible for another substance to be oxidized is called?",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Oxidizing agent (or oxidant)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Oxidation is the process of losing electrons, and reduction is the process of gaining electrons (often remembered by OIL RIG: Oxidation Is Loss, Reduction Is Gain). In a redox reaction, electron transfer occurs. The substance that causes another substance to be oxidized (lose electrons) must itself accept those electrons. By accepting electrons, this substance undergoes reduction. Therefore, the species that facilitates the oxidation of another substance is called an oxidizing agent (or oxidant). Conversely, a substance that causes another to be reduced (gain electrons) is a reducing agent (or reductant) and is itself oxidized."
+    },
+    "topic": [
+      "General Chemistry Fundamentals",
+      "Electrochemistry",
+      "Redox Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 11 @ 2021/2022 @ Redox Reactions",
+    "Question": {
+      "content": "The anions present in solution during the electrolysis of aqueous sodium chloride are?",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Chloride ions (\\(Cl^-\\)) and hydroxide ions (\\(OH^-\\))"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Aqueous sodium chloride solution contains dissolved sodium chloride (NaCl), which dissociates into sodium ions (\\(Na^+\\)) and chloride ions (\\(Cl^-\\)). Additionally, water (H₂O) is present as the solvent. Water undergoes a slight autoionization process: \\(H_2O(l) \\rightleftharpoons H^+(aq) + OH^-(aq)\\) (or more accurately, \\(2H_2O(l) \\rightleftharpoons H_3O^+(aq) + OH^-(aq)\\)). Therefore, the species present in the solution are \\(Na^+\\), \\(Cl^-\\), \\(H_2O\\), and small amounts of \\(H^+\\) (or \\(H_3O^+\\)) and \\(OH^-\\). Anions are negatively charged ions. The anions present in this solution are the chloride ion (\\(Cl^-\\)) from the dissociation of NaCl, and the hydroxide ion (\\(OH^-\\)) from the autoionization of water. During electrolysis, these anions migrate towards the positive electrode (anode)."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Inorganic Chemistry",
+      "Aqueous Solutions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 12 @ 2021/2022 @ Redox Reactions",
+    "Question": {
+      "content": "_____ and _____ mass of iron and volume of chlorine gas respectively are produced when 40A of current flow through molten iron (III) chloride for 10hours (1 Faraday = 96500C, Fe = 56g/mol, R = 0.0821atm L/K/mol)",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Mass of Fe ≈ 279 g; Volume of Cl₂ ≈ 167 L (assuming STP: 0°C, 1 atm)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "First, calculate the total electric charge (Q) passed: \\(Q = I \\times t\\). Time must be in seconds: \\(t = 10\\ hours \\times \\frac{3600\\ s}{1\\ hour} = 36000\\ s\\). So, \\(Q = (40\\ A) \\times (36000\\ s) = 1,440,000\\ C\\).\\nNext, calculate the moles of electrons transferred using Faraday's constant (F): Moles of \\(e^- = \\frac{Q}{F} = \\frac{1,440,000\\ C}{96500\\ C/mol\\ e^-} \\approx 14.922\\ mol\\ e^-\\).\\nAt the cathode, iron(III) ions are reduced: \\(Fe^{3+}(molten) + 3e^- \\rightarrow Fe(s)\\). The stoichiometry shows that 3 moles of electrons are required to produce 1 mole of Fe. Moles of Fe = \\(\\frac{1}{3} \\times (moles\\ of\\ e^-) = \\frac{14.922\\ mol}{3} \\approx 4.974\\ mol\\ Fe\\). Mass of Fe = (moles of Fe) × (molar mass of Fe) = \\(4.974\\ mol \\times 56\\ g/mol \\approx 278.5\\ g\\). Rounding to 3 significant figures gives 279 g Fe.\\nAt the anode, chloride ions are oxidized: \\(2Cl^-(molten) \\rightarrow Cl_2(g) + 2e^-\\). The stoichiometry shows that 2 moles of electrons are produced for every 1 mole of Cl₂ gas. Moles of Cl₂ = \\(\\frac{1}{2} \\times (moles\\ of\\ e^-) = \\frac{14.922\\ mol}{2} \\approx 7.461\\ mol\\ Cl_2\\).\\nTo find the volume of Cl₂ gas, we need temperature and pressure conditions. Assuming Standard Temperature and Pressure (STP: 0°C = 273.15 K, 1 atm), where 1 mole of an ideal gas occupies 22.4 L. Volume of Cl₂ = (moles of Cl₂) × (molar volume at STP) = \\(7.461\\ mol \\times 22.4\\ L/mol \\approx 167.1\\ L\\). Rounding to 3 significant figures gives 167 L Cl₂ (at STP)."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Gas Laws",
+      "Stoichiometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 31 @ 2021/2022 @ Redox Reactions",
+    "Question": {
+      "content": "In electrolytic cell, electrical energy causes"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Non-spontaneous reactions to occur."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Electrolytic cells use electrical energy to drive non-spontaneous redox reactions. This is in contrast to galvanic cells, which produce electrical energy from spontaneous redox reactions."
+    },
+    "topic": [
+      "Chemistry",
+      "Electrochemistry",
+      "Redox Reactions",
+      "Electrolytic Cell"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 32 @ 2021/2022 @ Redox Reactions",
+    "Question": {
+      "content": "A spontaneous redox reaction / process is indicated by cell emf , E°"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A positive"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "A spontaneous redox reaction is indicated by a positive cell emf (E°). A positive E° value means that the change in Gibbs free energy (ΔG) is negative, indicating spontaneity."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Chemical Thermodynamics",
+      "Gibbs Free Energy",
+      "Electromotive Force"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 15 @ 2018/2019 @ Redox Reactions",
+    "Question": {
+      "content": "Balance the reaction: CrI\\(_3\\) + OH\\(^-\\) + H\\(_2\\)O\\(_2\\) → CrO\\(_4^{2-}\\) + IO\\(_4^-\\) + H\\(_2\\)O. Choose the correct coefficients:",
+      "type": "OBJ",
+      "options": [
+        "2,4,6,4,7,6",
+        "4,6,30,25,4,1",
+        "2,10,27,2,6,32",
+        "10,2,27,4,4,6",
+        "2,2,2,4,4,4"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2,10,27,2,6,32"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The balanced redox reaction is: \\( 2\\text{CrI}_3 + 10\\text{OH}^- + 27\\text{H}_2\\text{O}_2 \\rightarrow 2\\text{CrO}_4^{2-} + 6\\text{IO}_4^- + 32\\text{H}_2\\text{O} \\). Coefficients account for iodine and chromium oxidation."
+    },
+    "topic": [
+      "Stoichiometry and Chemical Reactions",
+      "Inorganic Chemistry",
+      "Electrochemistry",
+      "Redox Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2018/2019 @ Redox Reactions",
+    "Question": {
+      "content": "Calculate the mass of zinc metal deposited when 3.0 pA (picoamperes) of current is passed through a ZnSO\\(_4\\) solution for 1.25 hours.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 4.55 \\times 10^{-12} \\, g \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "1. **Convert current and time**: \nCurrent = 3.0 pA = \\( 3.0 \\times 10^{-12} \\, A \\). \nTime = 1.25 h = 4500 s. \n\n2. **Calculate charge (Q)**: \n\\( Q = I \\times t = 3.0 \\times 10^{-12} \\times 4500 = 1.35 \\times 10^{-8} \\, C \\). \n\n3. **Moles of electrons**: \n\\( n_e = \\frac{Q}{F} = \\frac{1.35 \\times 10^{-8}}{96485} \\approx 1.40 \\times 10^{-13} \\, mol \\). \n\n4. **Moles of Zn deposited**: \nZn\\(^{2+}\\) + 2e\\(^-\\) → Zn, so \\( n_{Zn} = \\frac{n_e}{2} = 7.0 \\times 10^{-14} \\, mol \\). \n\n5. **Mass of Zn**: \nMass = \\( n_{Zn} \\times \\text{Molar mass of Zn} = 7.0 \\times 10^{-14} \\times 65.38 \\approx 4.55 \\times 10^{-12} \\, g \\)."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Stoichiometry and Chemical Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 9 @ 2017/2018 @ Redox Reactions",
+    "Question": {
+      "content": "What are G and Q in the balanced redox equation in basic medium: GI⁻ + QMnO₄⁻ + RH₂O → I₂ + KMnO₂ + LOH⁻?",
+      "type": "OBJ",
+      "options": [
+        "2 and 1",
+        "6 and 1",
+        "8 and 2",
+        "3 and 4",
+        "7 and 3"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "6 and 2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Split into half-reactions</strong><br/>• Oxidation: I⁻ → I₂<br/>• Reduction: MnO₄⁻ → MnO₂<br/><br/><strong>Step 2: Balance atoms/charges</strong><br/>• Oxidation: 2I⁻ → I₂ + 2e⁻<br/>• Reduction: MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻<br/><br/><strong>Step 3: Equalize electrons</strong><br/>Multiply oxidation by 3 and reduction by 2:<br/>• 6I⁻ → 3I₂ + 6e⁻<br/>• 2MnO₄⁻ + 4H₂O + 6e⁻ → 2MnO₂ + 8OH⁻<br/><br/><strong>Final balanced equation:</strong><br/>6I⁻ + 2MnO₄⁻ + 4H₂O → 3I₂ + 2MnO₂ + 8OH⁻<br/>∴ G=6, Q=2"
+    },
+    "topic": [
+      "Redox Reactions",
+      "Balancing Chemical Equations",
+      "Stoichiometry",
+      "Electrochemistry",
+      "Basic Solutions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 13 @ 2017/2018 @ Redox Reactions",
+    "Question": {
+      "content": "Calculate EMF for: Cr₂O₇²⁻ + 14H⁺ + 6I⁻ → 3I₂ + 2Cr³⁺ + 7H₂O<br/>Given concentrations: [Cr₂O₇²⁻]=2.0M, [H⁺]=1.0M, [I⁻]=1.0M, [Cr³⁺]=1.0×10⁻⁵M<br/>E°(Cr₂O₇²⁻/Cr³⁺)=1.33V, E°(I₂/I⁻)=0.54V",
+      "type": "OBJ",
+      "options": [
+        "0.89V",
+        "2.3V",
+        "1.3V",
+        "4V",
+        "none"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.89V"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Calculate E°<sub>cell</sub></strong><br/>E°<sub>cell</sub> = E°<sub>cathode</sub> - E°<sub>anode</sub> = 1.33V - 0.54V = 0.79V<br/><br/><strong>Step 2: Use Nernst equation</strong><br/>\\[ E = E° - \\frac{0.0591}{n} \\log Q \\]<br/>\\[ Q = \\frac{[Cr³⁺]²}{[Cr₂O₇²⁻][H⁺]¹⁴[I⁻]⁶} = \\frac{(10⁻⁵)²}{(2)(1)¹⁴(1)⁶} = 5×10⁻¹¹ \\]<br/>\\[ E = 0.79 - \\frac{0.0591}{6} \\log(5×10⁻¹¹) = 0.79 + 0.10 = 0.89V \\]"
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Chemical Thermodynamics",
+      "Aqueous Solutions and Solution Stoichiometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2017/2018 @ Redox Reactions",
+    "Question": {
+      "content": "What mass of zinc deposits from ZnSO₄ solution with 1.5A current for 2 hours? (Zn = 65.4 g/mol)",
+      "type": "OBJ",
+      "options": [
+        "3.66g",
+        "1.85g",
+        "7.32g",
+        "2.44g",
+        "6.55g"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3.66g"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Calculate charge (Q)</strong><br>Q = Current × Time = 1.5A × (2 × 3600s) = 10,800 C<br><br><strong>Step 2: Convert to moles of e⁻</strong><br>Moles e⁻ = Q/F = 10,800/96,500 = 0.112 mol<br><br><strong>Step 3: Determine Zn deposited</strong><br>Zn²⁺ + 2e⁻ → Zn → 0.112 mol e⁻ deposits 0.056 mol Zn<br>Mass = 0.056 mol × 65.4 g/mol = <strong>3.66g</strong>"
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Stoichiometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2017/2018 @ Redox Reactions",
+    "Question": {
+      "content": "Given an electrochemical cell with two half-reactions:<br/>MnO₄⁻(aq) + 8H⁺(aq) + 5e⁻ → Mn²⁺(aq) + 4H₂O, E° = 1.51 V<br/>SO₄²⁻(aq) + 4H⁺(aq) + 2e⁻ → H₂SO₃(aq) + H₂O, E° = 0.17 V<br/>(a) Write the net cell equation for the reaction. (b) Calculate the electrode potential of the cell at 25°C if the reaction quotient is 496.2.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) 2MnO₄⁻ + 5H₂SO₃ → 2Mn²⁺ + 5SO₄²⁻ + 4H⁺ + 3H₂O<br/>(b) 1.32 V"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "An electrochemical cell is like a tiny battery that makes electricity from chemical reactions. It has two parts: the <i>cathode</i>, where a substance gains electrons (called reduction), and the <i>anode</i>, where a substance loses electrons (called oxidation). Each part has a voltage, called E°, and the one with the higher E° (1.51 V for MnO₄⁻) is the reduction, while the other (0.17 V for SO₄²⁻) is reversed for oxidation.<br/><b>Part (a):</b> Write the net reaction. Reduction is:<br/>\\[\\ce{MnO4^- + 8H^+ + 5e^- -> Mn^2+ + 4H2O}\\]<br/>Oxidation reverses the second reaction:<br/>\\[\\ce{H2SO3 + H2O -> SO4^2- + 4H^+ + 2e^-}\\]<br/>The electrons don’t match (5 vs. 2), so multiply reduction by 2 and oxidation by 5:<br/>\\[\\ce{2MnO4^- + 16H^+ + 10e^- -> 2Mn^2+ + 8H2O}\\]<br/>\\[\\ce{5H2SO3 + 5H2O -> 5SO4^2- + 20H^+ + 10e^-}\\]<br/>Combine and cancel: 10e⁻ cancel, 16H⁺ - 20H⁺ = -4H⁺ (so +4H⁺ on right), 8H₂O - 5H₂O = 3H₂O:<br/>\\[\\ce{2MnO4^- + 5H2SO3 -> 2Mn^2+ + 5SO4^2- + 4H^+ + 3H2O}\\]<br/><b>Part (b):</b> The standard cell potential is \\(E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}} = 1.51 - 0.17 = 1.34\\) V. At 25°C with a reaction quotient \\(Q = 496.2\\), use the Nernst equation: \\(E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{0.0257}{n} \\ln Q\\), where \\(n = 10\\) (electrons transferred). Calculate:<br/>\\[E_{\\text{cell}} = 1.34 - \\frac{0.0257}{10} \\ln(496.2)\\]<br/>\\[\\ln(496.2) \\approx 6.207\\], so \\[\\frac{0.0257}{10} \\times 6.207 \\approx 0.016\\]<br/>\\[E_{\\text{cell}} = 1.34 - 0.016 = 1.32\\] V.<br/>The original had errors in the oxidation reaction and Nernst equation (wrong temperature and constants), corrected here."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Chemical Thermodynamics",
+      "Reaction Quotient",
+      "General Chemistry I"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 3 @ 2017/2018 @ Redox Reactions",
+    "Question": {
+      "content": "Complete and balance the following redox reaction in basic solution:<br/>\\(ce{CN^- + MnO4^- → CNO^- + MnO^2}\\)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(ce{3CN^- + 2MnO4^- + 2H2O  →  3CNO^- + 2MnO2 + 2OH^-}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "A <i>redox reaction</i> is when one substance gives electrons to another. Here, it happens in a <i>basic solution</i>, meaning it’s like a soapy environment with lots of OH⁻ ions. We split the reaction into two parts: <i>oxidation</i> (losing electrons) and <i>reduction</i> (gaining electrons).<br/>Oxidation: \\(\\ce{CN^- -> CNO^-}\\)<br/>Reduction: \\(\\ce{MnO4^- -> MnO2}\\)<br/><b>Oxidation:</b> Balance atoms: add 2H₂O to the left to provide oxygen, and 2OH⁻ to the right to balance hydrogen (since it’s basic):<br/>\\[\\ce{CN^- + 2H2O -> CNO^- + 2OH^-}\\]<br/>Balance charge: left (-1), right (-1 - 2 = -3), add 2e⁻ to the right:<br/>\\[\\ce{CN^- + 2H2O -> CNO^- + 2OH^- + 2e^-}\\]<br/><b>Reduction:</b> Balance atoms: MnO₄⁻ has 4 oxygens, MnO₂ has 2, so add 2H₂O to the right and 4OH⁻ to the left:<br/>\\[\\ce{MnO4^- + 4OH^- -> MnO2 + 2H2O}\\]<br/>Balance charge: left (-1 - 4 = -5), right (0), add 3e⁻ to the left:<br/>\\[\\ce{MnO4^- + 4OH^- + 3e^- -> MnO2 + 2H2O}\\]<br/>Balance electrons: multiply oxidation by 3 and reduction by 2:<br/>\\[\\ce{3CN^- + 6H2O -> 3CNO^- + 6OH^- + 6e^-}\\]<br/>\\[\\ce{2MnO4^- + 8OH^- + 6e^- -> 2MnO2 + 4H2O}\\]<br/>Combine and cancel: 6e⁻, 6OH⁻, and 6H₂O - 4H₂O = 2H₂O:<br/>\\[\\ce{3CN^- + 2MnO4^- + 2H2O -> 3CNO^- + 2MnO2 + 2OH^-}\\]<br/>The original had minor balancing errors and included incorrect species (Cu²⁺), corrected here."
+    },
+    "topic": [
+      "Redox Reactions",
+      "Balancing Chemical Equations",
+      "Basic Solutions",
+      "Stoichiometry and Chemical Reactions",
+      "General Chemistry I"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2015/2016 @ Redox Reactions",
+    "Question": {
+      "content": "Calculate the mass of copper metal (in kg) deposited when a 6.0A current is passed through its salt solution for 1 hour 15 minutes. <br> (1F = 96500C, \\( M_{Cu} = 63.5 \\))",
+      "type": "OBJ",
+      "options": [
+        "17.77 kg",
+        "0.15 kg",
+        "0.30 kg",
+        "\\( 17.77 \\times 10^{-3} \\, kg \\)",
+        "\\( 8.88 \\times 10^{-3} \\, kg \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 8.88 \\times 10^{-3} \\, kg \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "1. Convert time to seconds: \\( 1 \\text{ hr } 15 \\text{ min} = 4500 \\text{ s} \\) <br> 2. Charge passed: \\( Q = I \\times t = 6.0 \\times 4500 = 27000 \\text{ C} \\) <br> 3. Moles of electrons: \\( n_e = \\frac{Q}{F} = \\frac{27000}{96500} \\approx 0.28 \\text{ mol} \\) <br> 4. For \\( Cu^{2+} + 2e^- \\rightarrow Cu \\), moles of \\( Cu = \\frac{n_e}{2} = 0.14 \\text{ mol} \\) <br> 5. Mass of \\( Cu = n \\times M = 0.14 \\times 63.5 \\approx 8.88 \\text{ g} = 8.88 \\times 10^{-3} \\text{ kg} \\)"
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Stoichiometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 11 @ 2015/2016 @ Redox Reactions",
+    "Question": {
+      "content": "The following statements are correct <strong>EXCEPT</strong>:",
+      "type": "OBJ",
+      "options": [
+        "Reduction is the process of electron gain",
+        "The species that donates electrons is called the reducing agent",
+        "The voltaic cell is a non-spontaneous electrochemical cell",
+        "The anode of a voltaic cell is negative",
+        "The cathode of an electrolytic cell is negative"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The voltaic cell is a non-spontaneous electrochemical cell"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Voltaic (galvanic) cells</strong> are <em>spontaneous</em> electrochemical cells that convert chemical energy to electrical energy. <br> The incorrect statement implies it is non-spontaneous (which describes electrolytic cells)."
+    },
+    "topic": [
+      "Redox Reactions",
+      "Electrochemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 12 @ 2015/2016 @ Redox Reactions",
+    "Question": {
+      "content": "The cell potential of an electrochemical cell comprising the two half-cells below is: <br> \\[ Sn^{2+}(aq) + 2e^- \\rightarrow Sn(s) \\quad E^\\circ = -0.136V \\] \\[ Zn^{2+}(aq) + 2e^- \\rightarrow Zn(s) \\quad E^\\circ = -0.763V \\]",
+      "type": "OBJ",
+      "options": [
+        "\\( -0.136V \\)",
+        "\\( -0.627V \\)",
+        "\\( 0.627V \\)",
+        "\\( 0.899V \\)",
+        "\\( -0.899V \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 0.627V \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "1. Identify cathode/anode: <br> - Higher \\( E^\\circ \\) (less negative) = cathode (\\( Sn^{2+}/Sn \\)). <br> - Lower \\( E^\\circ \\) = anode (\\( Zn/Zn^{2+} \\)). <br> 2. Calculate cell potential: <br> \\[ E_{\\text{cell}} = E_{\\text{cathode}} - E_{\\text{anode}} = -0.136V - (-0.763V) = 0.627V \\]"
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2015/2016 @ Redox Reactions",
+    "Question": {
+      "content": "Balance the following reaction in an acidic environment:<br/>\\[ Cu(s) + NO_3^-(aq) \\rightarrow Cu^{2+}(aq) + NO(g) \\]",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\[ 3Cu(s) + 2NO_3^-(aq) + 8H^+(aq) \\rightarrow 3Cu^{2+}(aq) + 2NO(g) + 4H_2O(l) \\]"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Split into half-reactions</strong><br/><br/><strong>Oxidation (Cu → Cu²⁺):</strong><br/>\\[ Cu(s) \\rightarrow Cu^{2+}(aq) + 2e^- \\]<br/><br/><strong>Reduction (NO₃⁻ → NO):</strong><br/>\\[ NO_3^-(aq) + 4H^+(aq) + 3e^- \\rightarrow NO(g) + 2H_2O(l) \\]<br/><br/><strong>Step 2: Balance electrons</strong><br/>- Multiply oxidation half by 3 and reduction half by 2 to equalize electrons (6e⁻ transferred):<br/>\\[ 3Cu(s) \\rightarrow 3Cu^{2+}(aq) + 6e^- \\]<br/>\\[ 2NO_3^-(aq) + 8H^+(aq) + 6e^- \\rightarrow 2NO(g) + 4H_2O(l) \\]<br/><br/><strong>Step 3: Combine half-reactions</strong><br/>\\[ 3Cu(s) + 2NO_3^-(aq) + 8H^+(aq) \\rightarrow 3Cu^{2+}(aq) + 2NO(g) + 4H_2O(l) \\]"
+    },
+    "topic": [
+      "Redox Reactions",
+      "Chemical Reactions",
+      "Acids and Bases"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2013/2014 @ Redox Reactions",
+    "Question": {
+      "content": "For the reaction:<br/>\\(3Ni^{2+}(aq) + 2Cr(OH)_3(s) + 10OH^-(aq) \\rightarrow 3Ni(s) + 2CrO_4^{2-}(aq) + 8H_2O(l)\\)<br/>(a) What is the number of electrons (n) transferred?<br/>(b) Calculate ΔG° given that E° = 0.15V",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) 6 electrons<br/>(b) -86,850 J/mol"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>(a) Determining number of electrons:</strong><br/>1. <strong>Oxidation half-reaction:</strong><br/>\\(2Cr(OH)_3 + 10OH^- \\rightarrow 2CrO_4^{2-} + 8H_2O + 6e^-\\) (Chromium goes from +3 to +6)<br/><br/>2. <strong>Reduction half-reaction:</strong><br/>\\(3Ni^{2+} + 6e^- \\rightarrow 3Ni\\) (Nickel goes from +2 to 0)<br/><br/>3. <strong>Balanced electrons:</strong> 6 electrons are transferred<br/><br/><strong>(b) Calculating ΔG°:</strong><br/>Using the formula:<br/>\\(ΔG° = -nFE°\\)<br/>Where:<br/>- \\(n = 6\\) (from part a)<br/>- \\(F = 96,500\\) C/mol (Faraday's constant)<br/>- \\(E° = 0.15\\) V<br/><br/>\\(ΔG° = -6 × 96,500 × 0.15 = -86,850\\) J/mol"
+    },
+    "topic": [
+      "Redox Reactions",
+      "Electrochemistry",
+      "Thermodynamics",
+      "Gibbs Free Energy",
+      "Chemical Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 25 @ 2024/2025 @ Electrochemistry",
+    "topic": [
+      "General Chemistry II",
+      "Electrochemistry",
+      "Redox Reactions",
+      "Electrolysis"
+    ],
+    "Question": {
+      "content": "During the electrolysis of molten sodium chloride, sodium ions migrate towards which electrode and current flows from which electrode to which electrode?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Electrolysis of Molten NaCl</h4><strong style='color: var(--strongColor);'>Na⁺ ions</strong> are positive → attracted to the <strong>cathode (−)</strong>.<br><strong style='color: var(--strongColor);'>Cl⁻ ions</strong> are negative → attracted to the <strong>anode (+)</strong>.<br><br><strong style='color: var(--strongColor);'>Conventional current</strong> flows from <strong>anode (+) to cathode (−)</strong> in the external circuit.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Na⁺ migrates to the cathode; current flows from anode to cathode."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26 @ 2024/2025 @ Electrochemistry",
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Electrolysis",
+      "Spontaneity of Reactions",
+      "Thermodynamics"
+    ],
+    "Question": {
+      "content": "For a reaction to proceed in the non-spontaneous direction, what is the DC potential of the reaction called?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Non-Spontaneous Reactions</h4><strong style='color: var(--strongColor);'>Spontaneous:</strong> ΔG &lt; 0, positive Ecell → occurs naturally (galvanic cell).<br><strong style='color: var(--strongColor);'>Non-spontaneous:</strong> ΔG &gt; 0 → requires external electrical energy to force the reaction.<br><br>The required DC voltage applied to drive a non-spontaneous reaction is called the <strong>Overpotential</strong> (or decomposition potential / applied EMF).</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Overpotential (decomposition potential)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28 @ 2024/2025 @ Electrochemistry",
+    "topic": [
+      "Redox Reactions",
+      "Electrochemistry",
+      "General Chemistry II",
+      "Oxidation"
+    ],
+    "Question": {
+      "content": "For the reaction: \\(Cd + NiO_2 + 2H_2O \\rightarrow Cd(OH)_2 + Ni(OH)_2\\), identify the substances that are oxidized.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Identifying Oxidation</h4><strong style='color: var(--strongColor);'>Oxidation = loss of electrons / increase in oxidation state.</strong><br><br>Cd: 0 → +2 (in Cd(OH)₂) → <strong>oxidized ✓</strong><br>Ni: +4 (in NiO₂) → +2 (in Ni(OH)₂) → reduced ✗<br><br>∴ <strong>Cd is the substance oxidized</strong> (it is also the reducing agent).</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cd (cadmium) is oxidized."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29 @ 2024/2025 @ Electrochemistry",
+    "topic": [
+      "General Chemistry II",
+      "Electrochemistry",
+      "Redox Reactions",
+      "Oxidation",
+      "Reduction Potentials"
+    ],
+    "Question": {
+      "content": "For a Zn–Cu²⁺ voltaic cell, E°cell = 1.10 V. Given that the standard reduction potential of Zn²⁺/Zn is −0.76 V, calculate the E°red for the reduction of Cu²⁺ to Cu.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Finding E°red for Cu²⁺/Cu</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(E°_{cell} = E°_{cathode} - E°_{anode}\\)<br><br>Zn is oxidized (anode), Cu²⁺ is reduced (cathode):<br>\\(1.10 = E°_{Cu} - (-0.76)\\)<br>\\(1.10 = E°_{Cu} + 0.76\\)<br>\\(E°_{Cu} = 1.10 - 0.76 = \\mathbf{+0.34 \\text{ V}}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "E°red (Cu²⁺/Cu) = +0.34 V"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2024/2025 @ Electrochemistry",
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions"
+    ],
+    "Question": {
+      "content": "What is the study of the relationship between electricity and chemical reactions called?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Definition</h4>This branch of chemistry studies how <strong>electrical energy</strong> is converted to <strong>chemical energy</strong> (electrolysis) and vice versa (galvanic cells).<br><br>It is called <strong>Electrochemistry</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Electrochemistry"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31 @ 2024/2025 @ Electrochemistry",
+    "topic": [
+      "General Chemistry II",
+      "Electrochemistry",
+      "Redox Reactions",
+      "Electrolysis"
+    ],
+    "Question": {
+      "content": "Calculate the mass of copper metal deposited when a 5.0 A current is passed through a copper sulphate solution for one hour. (Atomic mass of Cu = 63.5 g/mol; 1F = 96500 C/mol)",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Faraday's First Law of Electrolysis</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(m = \\dfrac{I \\times t \\times M}{n \\times F}\\)<br><br><strong style='color: var(--strongColor);'>Values:</strong> I = 5.0 A, t = 3600 s, M = 63.5 g/mol, n = 2 (Cu²⁺), F = 96500 C/mol<br><br>\\(m = \\dfrac{5.0 \\times 3600 \\times 63.5}{2 \\times 96500}\\)<br>\\(= \\dfrac{1{,}143{,}000}{193{,}000} \\approx \\mathbf{5.93 \\text{ g}}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Mass of Cu deposited ≈ 5.93 g"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32 @ 2023/2024 @ Electrochemistry",
+    "Question": {
+      "content": "Balance the redox equation in acidic medium: <br/>\\( Cu(s) + H^+ + NO_3^- \\rightarrow Cu^{2+} + NO(g) \\).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 3Cu(s) + 8H^+ + 2NO_3^- \\rightarrow 3Cu^{2+} + 2NO(g) + 4H_2O \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #4CAF50;'><p><strong>Step 1: Split into half-reactions</strong></p><p>- <strong>Oxidation:</strong> Cu(s) → Cu²⁺ + 2e⁻</p><p>- <strong>Reduction:</strong> NO₃⁻ + 4H⁺ + 3e⁻ → NO + 2H₂O</p><p><strong>Step 2: Balance electrons</strong></p><p>Multiply oxidation by 3 and reduction by 2 to equalize electrons (6e⁻ total).</p><p><strong>Step 3: Combine and simplify</strong></p><p>\\( 3Cu(s) + 8H^+ + 2NO_3^- \\rightarrow 3Cu^{2+} + 2NO(g) + 4H_2O \\)</p><p><strong>Check:</strong> Atoms and charges balance on both sides.</p></div>"
+    },
+    "topic": [
+      "Redox Reactions",
+      "Electrochemistry",
+      "Inorganic Chemistry Principles",
+      "Chemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 @ 2022/2023 @ Electrochemistry",
+    "Question": {
+      "content": "Identify oxidized species in Cd + NiO₂ + 2H₂O → Cd(OH)₂ + Ni(OH)₂",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cd (oxidation state 0 → +2)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Cd undergoes oxidation (0 → +2) by losing electrons, while Ni in NiO₂ reduces (+4 → +2). This represents a nickel-cadmium (NiCd) battery discharge: Cd acts as anode (Cd → Cd²⁺ + 2e⁻), NiO₂ as cathode (NiO₂ + 2H₂O + 2e⁻ → Ni(OH)₂ + 2OH⁻). The overall cell potential arises from these complementary redox processes, with Cd's oxidation being the driving force for electron flow."
+    },
+    "topic": [
+      "Redox Reactions",
+      "Reduction",
+      "Electrochemistry",
+      "Inorganic Chemistry",
+      "General Chemistry",
+      "Chemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1 @ 2022/2023 @ Electrochemistry",
+    "Question": {
+      "content": "Balance the redox equation in basic medium: \\(\\text{MnO}_4^-(aq) + \\text{Cl}^-(aq) \\rightarrow \\text{MnO}_2(aq) + \\text{ClO}_3^-(aq)\\)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\[2\\text{MnO}_4^- + 3\\text{Cl}^- + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{MnO}_2 + 3\\text{ClO}_3^- + 4\\text{OH}^-\\]"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "**Step 1:** Separate into half-reactions:<br/><br/>Oxidation: \\(\\text{Cl}^- \\rightarrow \\text{ClO}_3^-\\)<br/>Reduction: \\(\\text{MnO}_4^- \\rightarrow \\text{MnO}_2\\)<br/><br/>**Step 2:** Balance atoms:<br/>- For Cl: \\(\\text{Cl}^- + 3\\text{H}_2\\text{O} \\rightarrow \\text{ClO}_3^- + 6\\text{H}^+ + 6e^-\\)<br/>- For Mn: \\(\\text{MnO}_4^- + 4\\text{H}^+ + 3e^- \\rightarrow \\text{MnO}_2 + 2\\text{H}_2\\text{O}\\)<br/><br/>**Step 3:** Balance electrons (6e⁻ total):<br/>Multiply Mn half-reaction by 2 and Cl by 1<br/><br/>**Step 4:** Combine and neutralize H⁺ with OH⁻ (basic medium):<br/>Add 8OH⁻ to both sides, forming 4H₂O<br/><br/>**Final:** \\(2\\text{MnO}_4^- + 3\\text{Cl}^- + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{MnO}_2 + 3\\text{ClO}_3^- + 4\\text{OH}^-\\)"
+    },
+    "topic": [
+      "Chemistry",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Inorganic Chemistry",
+      "Reduction",
+      "General Chemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2022/2023 @ Electrochemistry",
+    "Question": {
+      "content": "Calculate E°cell for: \\(\\text{Ag}^+ + e^- \\rightarrow \\text{Ag}\\) (E°=+0.799V) and \\(\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}\\) (E°=+0.337V)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "E°cell = +0.462V"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "**Step 1:** Identify spontaneous direction (higher reduction potential = cathode):<br/>Cathode (reduction): \\(\\text{Ag}^+ + e^- \\rightarrow \\text{Ag}\\) (E°=+0.799V)<br/>Anode (oxidation): \\(\\text{Cu} \\rightarrow \\text{Cu}^{2+} + 2e^-\\) (E°=+0.337V → reverse sign)<br/><br/>**Step 2:** Balance electrons:<br/>Multiply Ag half-reaction by 2: \\(2\\text{Ag}^+ + 2e^- \\rightarrow 2\\text{Ag}\\) (E° remains +0.799V)<br/><br/>**Step 3:** Calculate E°cell:<br/>\\(E°_{cell} = E°_{cathode} - E°_{anode} = 0.799V - 0.337V = +0.462V\\)<br/><br/>The positive value indicates a spontaneous reaction. This is the standard potential for a silver-copper electrochemical cell."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Reduction",
+      "Redox Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2021/2022 @ Electrochemistry",
+    "Question": {
+      "content": "A substance that makes it possible for another substance to be oxidized is called?",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Oxidizing agent (or oxidant)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Oxidation is the process of losing electrons, and reduction is the process of gaining electrons (often remembered by OIL RIG: Oxidation Is Loss, Reduction Is Gain). In a redox reaction, electron transfer occurs. The substance that causes another substance to be oxidized (lose electrons) must itself accept those electrons. By accepting electrons, this substance undergoes reduction. Therefore, the species that facilitates the oxidation of another substance is called an oxidizing agent (or oxidant). Conversely, a substance that causes another to be reduced (gain electrons) is a reducing agent (or reductant) and is itself oxidized."
+    },
+    "topic": [
+      "General Chemistry Fundamentals",
+      "Electrochemistry",
+      "Redox Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 11 @ 2021/2022 @ Electrochemistry",
+    "Question": {
+      "content": "The anions present in solution during the electrolysis of aqueous sodium chloride are?",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Chloride ions (\\(Cl^-\\)) and hydroxide ions (\\(OH^-\\))"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Aqueous sodium chloride solution contains dissolved sodium chloride (NaCl), which dissociates into sodium ions (\\(Na^+\\)) and chloride ions (\\(Cl^-\\)). Additionally, water (H₂O) is present as the solvent. Water undergoes a slight autoionization process: \\(H_2O(l) \\rightleftharpoons H^+(aq) + OH^-(aq)\\) (or more accurately, \\(2H_2O(l) \\rightleftharpoons H_3O^+(aq) + OH^-(aq)\\)). Therefore, the species present in the solution are \\(Na^+\\), \\(Cl^-\\), \\(H_2O\\), and small amounts of \\(H^+\\) (or \\(H_3O^+\\)) and \\(OH^-\\). Anions are negatively charged ions. The anions present in this solution are the chloride ion (\\(Cl^-\\)) from the dissociation of NaCl, and the hydroxide ion (\\(OH^-\\)) from the autoionization of water. During electrolysis, these anions migrate towards the positive electrode (anode)."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Inorganic Chemistry",
+      "Aqueous Solutions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 12 @ 2021/2022 @ Electrochemistry",
+    "Question": {
+      "content": "_____ and _____ mass of iron and volume of chlorine gas respectively are produced when 40A of current flow through molten iron (III) chloride for 10hours (1 Faraday = 96500C, Fe = 56g/mol, R = 0.0821atm L/K/mol)",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Mass of Fe ≈ 279 g; Volume of Cl₂ ≈ 167 L (assuming STP: 0°C, 1 atm)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "First, calculate the total electric charge (Q) passed: \\(Q = I \\times t\\). Time must be in seconds: \\(t = 10\\ hours \\times \\frac{3600\\ s}{1\\ hour} = 36000\\ s\\). So, \\(Q = (40\\ A) \\times (36000\\ s) = 1,440,000\\ C\\).\\nNext, calculate the moles of electrons transferred using Faraday's constant (F): Moles of \\(e^- = \\frac{Q}{F} = \\frac{1,440,000\\ C}{96500\\ C/mol\\ e^-} \\approx 14.922\\ mol\\ e^-\\).\\nAt the cathode, iron(III) ions are reduced: \\(Fe^{3+}(molten) + 3e^- \\rightarrow Fe(s)\\). The stoichiometry shows that 3 moles of electrons are required to produce 1 mole of Fe. Moles of Fe = \\(\\frac{1}{3} \\times (moles\\ of\\ e^-) = \\frac{14.922\\ mol}{3} \\approx 4.974\\ mol\\ Fe\\). Mass of Fe = (moles of Fe) × (molar mass of Fe) = \\(4.974\\ mol \\times 56\\ g/mol \\approx 278.5\\ g\\). Rounding to 3 significant figures gives 279 g Fe.\\nAt the anode, chloride ions are oxidized: \\(2Cl^-(molten) \\rightarrow Cl_2(g) + 2e^-\\). The stoichiometry shows that 2 moles of electrons are produced for every 1 mole of Cl₂ gas. Moles of Cl₂ = \\(\\frac{1}{2} \\times (moles\\ of\\ e^-) = \\frac{14.922\\ mol}{2} \\approx 7.461\\ mol\\ Cl_2\\).\\nTo find the volume of Cl₂ gas, we need temperature and pressure conditions. Assuming Standard Temperature and Pressure (STP: 0°C = 273.15 K, 1 atm), where 1 mole of an ideal gas occupies 22.4 L. Volume of Cl₂ = (moles of Cl₂) × (molar volume at STP) = \\(7.461\\ mol \\times 22.4\\ L/mol \\approx 167.1\\ L\\). Rounding to 3 significant figures gives 167 L Cl₂ (at STP)."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Gas Laws",
+      "Stoichiometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 31 @ 2021/2022 @ Electrochemistry",
+    "Question": {
+      "content": "In electrolytic cell, electrical energy causes"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Non-spontaneous reactions to occur."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Electrolytic cells use electrical energy to drive non-spontaneous redox reactions. This is in contrast to galvanic cells, which produce electrical energy from spontaneous redox reactions."
+    },
+    "topic": [
+      "Chemistry",
+      "Electrochemistry",
+      "Redox Reactions",
+      "Electrolytic Cell"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 32 @ 2021/2022 @ Electrochemistry",
+    "Question": {
+      "content": "A spontaneous redox reaction / process is indicated by cell emf , E°"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A positive"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "A spontaneous redox reaction is indicated by a positive cell emf (E°). A positive E° value means that the change in Gibbs free energy (ΔG) is negative, indicating spontaneity."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Chemical Thermodynamics",
+      "Gibbs Free Energy",
+      "Electromotive Force"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 15 @ 2018/2019 @ Electrochemistry",
+    "Question": {
+      "content": "Balance the reaction: CrI\\(_3\\) + OH\\(^-\\) + H\\(_2\\)O\\(_2\\) → CrO\\(_4^{2-}\\) + IO\\(_4^-\\) + H\\(_2\\)O. Choose the correct coefficients:",
+      "type": "OBJ",
+      "options": [
+        "2,4,6,4,7,6",
+        "4,6,30,25,4,1",
+        "2,10,27,2,6,32",
+        "10,2,27,4,4,6",
+        "2,2,2,4,4,4"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2,10,27,2,6,32"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The balanced redox reaction is: \\( 2\\text{CrI}_3 + 10\\text{OH}^- + 27\\text{H}_2\\text{O}_2 \\rightarrow 2\\text{CrO}_4^{2-} + 6\\text{IO}_4^- + 32\\text{H}_2\\text{O} \\). Coefficients account for iodine and chromium oxidation."
+    },
+    "topic": [
+      "Stoichiometry and Chemical Reactions",
+      "Inorganic Chemistry",
+      "Electrochemistry",
+      "Redox Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2018/2019 @ Electrochemistry",
+    "Question": {
+      "content": "Calculate the mass of zinc metal deposited when 3.0 pA (picoamperes) of current is passed through a ZnSO\\(_4\\) solution for 1.25 hours.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 4.55 \\times 10^{-12} \\, g \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "1. **Convert current and time**: \nCurrent = 3.0 pA = \\( 3.0 \\times 10^{-12} \\, A \\). \nTime = 1.25 h = 4500 s. \n\n2. **Calculate charge (Q)**: \n\\( Q = I \\times t = 3.0 \\times 10^{-12} \\times 4500 = 1.35 \\times 10^{-8} \\, C \\). \n\n3. **Moles of electrons**: \n\\( n_e = \\frac{Q}{F} = \\frac{1.35 \\times 10^{-8}}{96485} \\approx 1.40 \\times 10^{-13} \\, mol \\). \n\n4. **Moles of Zn deposited**: \nZn\\(^{2+}\\) + 2e\\(^-\\) → Zn, so \\( n_{Zn} = \\frac{n_e}{2} = 7.0 \\times 10^{-14} \\, mol \\). \n\n5. **Mass of Zn**: \nMass = \\( n_{Zn} \\times \\text{Molar mass of Zn} = 7.0 \\times 10^{-14} \\times 65.38 \\approx 4.55 \\times 10^{-12} \\, g \\)."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Stoichiometry and Chemical Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 9 @ 2017/2018 @ Electrochemistry",
+    "Question": {
+      "content": "What are G and Q in the balanced redox equation in basic medium: GI⁻ + QMnO₄⁻ + RH₂O → I₂ + KMnO₂ + LOH⁻?",
+      "type": "OBJ",
+      "options": [
+        "2 and 1",
+        "6 and 1",
+        "8 and 2",
+        "3 and 4",
+        "7 and 3"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "6 and 2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Split into half-reactions</strong><br/>• Oxidation: I⁻ → I₂<br/>• Reduction: MnO₄⁻ → MnO₂<br/><br/><strong>Step 2: Balance atoms/charges</strong><br/>• Oxidation: 2I⁻ → I₂ + 2e⁻<br/>• Reduction: MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻<br/><br/><strong>Step 3: Equalize electrons</strong><br/>Multiply oxidation by 3 and reduction by 2:<br/>• 6I⁻ → 3I₂ + 6e⁻<br/>• 2MnO₄⁻ + 4H₂O + 6e⁻ → 2MnO₂ + 8OH⁻<br/><br/><strong>Final balanced equation:</strong><br/>6I⁻ + 2MnO₄⁻ + 4H₂O → 3I₂ + 2MnO₂ + 8OH⁻<br/>∴ G=6, Q=2"
+    },
+    "topic": [
+      "Redox Reactions",
+      "Balancing Chemical Equations",
+      "Stoichiometry",
+      "Electrochemistry",
+      "Basic Solutions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 13 @ 2017/2018 @ Electrochemistry",
+    "Question": {
+      "content": "Calculate EMF for: Cr₂O₇²⁻ + 14H⁺ + 6I⁻ → 3I₂ + 2Cr³⁺ + 7H₂O<br/>Given concentrations: [Cr₂O₇²⁻]=2.0M, [H⁺]=1.0M, [I⁻]=1.0M, [Cr³⁺]=1.0×10⁻⁵M<br/>E°(Cr₂O₇²⁻/Cr³⁺)=1.33V, E°(I₂/I⁻)=0.54V",
+      "type": "OBJ",
+      "options": [
+        "0.89V",
+        "2.3V",
+        "1.3V",
+        "4V",
+        "none"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.89V"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Calculate E°<sub>cell</sub></strong><br/>E°<sub>cell</sub> = E°<sub>cathode</sub> - E°<sub>anode</sub> = 1.33V - 0.54V = 0.79V<br/><br/><strong>Step 2: Use Nernst equation</strong><br/>\\[ E = E° - \\frac{0.0591}{n} \\log Q \\]<br/>\\[ Q = \\frac{[Cr³⁺]²}{[Cr₂O₇²⁻][H⁺]¹⁴[I⁻]⁶} = \\frac{(10⁻⁵)²}{(2)(1)¹⁴(1)⁶} = 5×10⁻¹¹ \\]<br/>\\[ E = 0.79 - \\frac{0.0591}{6} \\log(5×10⁻¹¹) = 0.79 + 0.10 = 0.89V \\]"
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Chemical Thermodynamics",
+      "Aqueous Solutions and Solution Stoichiometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2017/2018 @ Electrochemistry",
+    "Question": {
+      "content": "What mass of zinc deposits from ZnSO₄ solution with 1.5A current for 2 hours? (Zn = 65.4 g/mol)",
+      "type": "OBJ",
+      "options": [
+        "3.66g",
+        "1.85g",
+        "7.32g",
+        "2.44g",
+        "6.55g"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3.66g"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Calculate charge (Q)</strong><br>Q = Current × Time = 1.5A × (2 × 3600s) = 10,800 C<br><br><strong>Step 2: Convert to moles of e⁻</strong><br>Moles e⁻ = Q/F = 10,800/96,500 = 0.112 mol<br><br><strong>Step 3: Determine Zn deposited</strong><br>Zn²⁺ + 2e⁻ → Zn → 0.112 mol e⁻ deposits 0.056 mol Zn<br>Mass = 0.056 mol × 65.4 g/mol = <strong>3.66g</strong>"
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Stoichiometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2017/2018 @ Electrochemistry",
+    "Question": {
+      "content": "Given an electrochemical cell with two half-reactions:<br/>MnO₄⁻(aq) + 8H⁺(aq) + 5e⁻ → Mn²⁺(aq) + 4H₂O, E° = 1.51 V<br/>SO₄²⁻(aq) + 4H⁺(aq) + 2e⁻ → H₂SO₃(aq) + H₂O, E° = 0.17 V<br/>(a) Write the net cell equation for the reaction. (b) Calculate the electrode potential of the cell at 25°C if the reaction quotient is 496.2.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) 2MnO₄⁻ + 5H₂SO₃ → 2Mn²⁺ + 5SO₄²⁻ + 4H⁺ + 3H₂O<br/>(b) 1.32 V"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "An electrochemical cell is like a tiny battery that makes electricity from chemical reactions. It has two parts: the <i>cathode</i>, where a substance gains electrons (called reduction), and the <i>anode</i>, where a substance loses electrons (called oxidation). Each part has a voltage, called E°, and the one with the higher E° (1.51 V for MnO₄⁻) is the reduction, while the other (0.17 V for SO₄²⁻) is reversed for oxidation.<br/><b>Part (a):</b> Write the net reaction. Reduction is:<br/>\\[\\ce{MnO4^- + 8H^+ + 5e^- -> Mn^2+ + 4H2O}\\]<br/>Oxidation reverses the second reaction:<br/>\\[\\ce{H2SO3 + H2O -> SO4^2- + 4H^+ + 2e^-}\\]<br/>The electrons don’t match (5 vs. 2), so multiply reduction by 2 and oxidation by 5:<br/>\\[\\ce{2MnO4^- + 16H^+ + 10e^- -> 2Mn^2+ + 8H2O}\\]<br/>\\[\\ce{5H2SO3 + 5H2O -> 5SO4^2- + 20H^+ + 10e^-}\\]<br/>Combine and cancel: 10e⁻ cancel, 16H⁺ - 20H⁺ = -4H⁺ (so +4H⁺ on right), 8H₂O - 5H₂O = 3H₂O:<br/>\\[\\ce{2MnO4^- + 5H2SO3 -> 2Mn^2+ + 5SO4^2- + 4H^+ + 3H2O}\\]<br/><b>Part (b):</b> The standard cell potential is \\(E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}} = 1.51 - 0.17 = 1.34\\) V. At 25°C with a reaction quotient \\(Q = 496.2\\), use the Nernst equation: \\(E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{0.0257}{n} \\ln Q\\), where \\(n = 10\\) (electrons transferred). Calculate:<br/>\\[E_{\\text{cell}} = 1.34 - \\frac{0.0257}{10} \\ln(496.2)\\]<br/>\\[\\ln(496.2) \\approx 6.207\\], so \\[\\frac{0.0257}{10} \\times 6.207 \\approx 0.016\\]<br/>\\[E_{\\text{cell}} = 1.34 - 0.016 = 1.32\\] V.<br/>The original had errors in the oxidation reaction and Nernst equation (wrong temperature and constants), corrected here."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Chemical Thermodynamics",
+      "Reaction Quotient",
+      "General Chemistry I"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2015/2016 @ Electrochemistry",
+    "Question": {
+      "content": "Calculate the mass of copper metal (in kg) deposited when a 6.0A current is passed through its salt solution for 1 hour 15 minutes. <br> (1F = 96500C, \\( M_{Cu} = 63.5 \\))",
+      "type": "OBJ",
+      "options": [
+        "17.77 kg",
+        "0.15 kg",
+        "0.30 kg",
+        "\\( 17.77 \\times 10^{-3} \\, kg \\)",
+        "\\( 8.88 \\times 10^{-3} \\, kg \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 8.88 \\times 10^{-3} \\, kg \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "1. Convert time to seconds: \\( 1 \\text{ hr } 15 \\text{ min} = 4500 \\text{ s} \\) <br> 2. Charge passed: \\( Q = I \\times t = 6.0 \\times 4500 = 27000 \\text{ C} \\) <br> 3. Moles of electrons: \\( n_e = \\frac{Q}{F} = \\frac{27000}{96500} \\approx 0.28 \\text{ mol} \\) <br> 4. For \\( Cu^{2+} + 2e^- \\rightarrow Cu \\), moles of \\( Cu = \\frac{n_e}{2} = 0.14 \\text{ mol} \\) <br> 5. Mass of \\( Cu = n \\times M = 0.14 \\times 63.5 \\approx 8.88 \\text{ g} = 8.88 \\times 10^{-3} \\text{ kg} \\)"
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Stoichiometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 11 @ 2015/2016 @ Electrochemistry",
+    "Question": {
+      "content": "The following statements are correct <strong>EXCEPT</strong>:",
+      "type": "OBJ",
+      "options": [
+        "Reduction is the process of electron gain",
+        "The species that donates electrons is called the reducing agent",
+        "The voltaic cell is a non-spontaneous electrochemical cell",
+        "The anode of a voltaic cell is negative",
+        "The cathode of an electrolytic cell is negative"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The voltaic cell is a non-spontaneous electrochemical cell"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Voltaic (galvanic) cells</strong> are <em>spontaneous</em> electrochemical cells that convert chemical energy to electrical energy. <br> The incorrect statement implies it is non-spontaneous (which describes electrolytic cells)."
+    },
+    "topic": [
+      "Redox Reactions",
+      "Electrochemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 12 @ 2015/2016 @ Electrochemistry",
+    "Question": {
+      "content": "The cell potential of an electrochemical cell comprising the two half-cells below is: <br> \\[ Sn^{2+}(aq) + 2e^- \\rightarrow Sn(s) \\quad E^\\circ = -0.136V \\] \\[ Zn^{2+}(aq) + 2e^- \\rightarrow Zn(s) \\quad E^\\circ = -0.763V \\]",
+      "type": "OBJ",
+      "options": [
+        "\\( -0.136V \\)",
+        "\\( -0.627V \\)",
+        "\\( 0.627V \\)",
+        "\\( 0.899V \\)",
+        "\\( -0.899V \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 0.627V \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "1. Identify cathode/anode: <br> - Higher \\( E^\\circ \\) (less negative) = cathode (\\( Sn^{2+}/Sn \\)). <br> - Lower \\( E^\\circ \\) = anode (\\( Zn/Zn^{2+} \\)). <br> 2. Calculate cell potential: <br> \\[ E_{\\text{cell}} = E_{\\text{cathode}} - E_{\\text{anode}} = -0.136V - (-0.763V) = 0.627V \\]"
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2013/2014 @ Electrochemistry",
+    "Question": {
+      "content": "For the reaction:<br/>\\(3Ni^{2+}(aq) + 2Cr(OH)_3(s) + 10OH^-(aq) \\rightarrow 3Ni(s) + 2CrO_4^{2-}(aq) + 8H_2O(l)\\)<br/>(a) What is the number of electrons (n) transferred?<br/>(b) Calculate ΔG° given that E° = 0.15V",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) 6 electrons<br/>(b) -86,850 J/mol"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>(a) Determining number of electrons:</strong><br/>1. <strong>Oxidation half-reaction:</strong><br/>\\(2Cr(OH)_3 + 10OH^- \\rightarrow 2CrO_4^{2-} + 8H_2O + 6e^-\\) (Chromium goes from +3 to +6)<br/><br/>2. <strong>Reduction half-reaction:</strong><br/>\\(3Ni^{2+} + 6e^- \\rightarrow 3Ni\\) (Nickel goes from +2 to 0)<br/><br/>3. <strong>Balanced electrons:</strong> 6 electrons are transferred<br/><br/><strong>(b) Calculating ΔG°:</strong><br/>Using the formula:<br/>\\(ΔG° = -nFE°\\)<br/>Where:<br/>- \\(n = 6\\) (from part a)<br/>- \\(F = 96,500\\) C/mol (Faraday's constant)<br/>- \\(E° = 0.15\\) V<br/><br/>\\(ΔG° = -6 × 96,500 × 0.15 = -86,850\\) J/mol"
+    },
+    "topic": [
+      "Redox Reactions",
+      "Electrochemistry",
+      "Thermodynamics",
+      "Gibbs Free Energy",
+      "Chemical Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 33 @ 2024/2025 @ Acid-Base Chemistry",
+    "topic": [
+      "General Chemistry II",
+      "Redox Reactions",
+      "Oxidation",
+      "Acid-Base Chemistry",
+      "Balancing Redox Equations"
+    ],
+    "Question": {
+      "content": "Write the balanced form of the redox equation in acidic medium: \\(Cu_{(s)} + H^+_{(aq)} + NO^-_{3(aq)} \\rightarrow Cu^{2+}_{(aq)} + NO_{(g)}\\)",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Balancing Redox in Acidic Medium</h4><strong style='color: var(--strongColor);'>Half-reactions:</strong><br>Oxidation: \\(Cu \\rightarrow Cu^{2+} + 2e^-\\) ×3<br>Reduction: \\(NO_3^- + 4H^+ + 3e^- \\rightarrow NO + 2H_2O\\) ×2<br><br><strong style='color: var(--strongColor);'>Balanced equation:</strong><br>\\(3Cu + 8H^+ + 2NO_3^- \\rightarrow 3Cu^{2+} + 2NO + 4H_2O\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3Cu + 8H⁺ + 2NO₃⁻ → 3Cu²⁺ + 2NO + 4H₂O"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25 @ 2024/2025",
+    "topic": [
+      "General Chemistry II",
+      "Electrochemistry",
+      "Redox Reactions",
+      "Electrolysis"
+    ],
+    "Question": {
+      "content": "During the electrolysis of molten sodium chloride, sodium ions migrate towards which electrode and current flows from which electrode to which electrode?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Electrolysis of Molten NaCl</h4><strong style='color: var(--strongColor);'>Na⁺ ions</strong> are positive → attracted to the <strong>cathode (−)</strong>.<br><strong style='color: var(--strongColor);'>Cl⁻ ions</strong> are negative → attracted to the <strong>anode (+)</strong>.<br><br><strong style='color: var(--strongColor);'>Conventional current</strong> flows from <strong>anode (+) to cathode (−)</strong> in the external circuit.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Na⁺ migrates to the cathode; current flows from anode to cathode."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26 @ 2024/2025",
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Electrolysis",
+      "Spontaneity of Reactions",
+      "Thermodynamics"
+    ],
+    "Question": {
+      "content": "For a reaction to proceed in the non-spontaneous direction, what is the DC potential of the reaction called?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Non-Spontaneous Reactions</h4><strong style='color: var(--strongColor);'>Spontaneous:</strong> ΔG &lt; 0, positive Ecell → occurs naturally (galvanic cell).<br><strong style='color: var(--strongColor);'>Non-spontaneous:</strong> ΔG &gt; 0 → requires external electrical energy to force the reaction.<br><br>The required DC voltage applied to drive a non-spontaneous reaction is called the <strong>Overpotential</strong> (or decomposition potential / applied EMF).</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Overpotential (decomposition potential)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28 @ 2024/2025",
+    "topic": [
+      "Redox Reactions",
+      "Electrochemistry",
+      "General Chemistry II",
+      "Oxidation"
+    ],
+    "Question": {
+      "content": "For the reaction: \\(Cd + NiO_2 + 2H_2O \\rightarrow Cd(OH)_2 + Ni(OH)_2\\), identify the substances that are oxidized.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Identifying Oxidation</h4><strong style='color: var(--strongColor);'>Oxidation = loss of electrons / increase in oxidation state.</strong><br><br>Cd: 0 → +2 (in Cd(OH)₂) → <strong>oxidized ✓</strong><br>Ni: +4 (in NiO₂) → +2 (in Ni(OH)₂) → reduced ✗<br><br>∴ <strong>Cd is the substance oxidized</strong> (it is also the reducing agent).</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cd (cadmium) is oxidized."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29 @ 2024/2025",
+    "topic": [
+      "General Chemistry II",
+      "Electrochemistry",
+      "Redox Reactions",
+      "Oxidation",
+      "Reduction Potentials"
+    ],
+    "Question": {
+      "content": "For a Zn–Cu²⁺ voltaic cell, E°cell = 1.10 V. Given that the standard reduction potential of Zn²⁺/Zn is −0.76 V, calculate the E°red for the reduction of Cu²⁺ to Cu.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Finding E°red for Cu²⁺/Cu</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(E°_{cell} = E°_{cathode} - E°_{anode}\\)<br><br>Zn is oxidized (anode), Cu²⁺ is reduced (cathode):<br>\\(1.10 = E°_{Cu} - (-0.76)\\)<br>\\(1.10 = E°_{Cu} + 0.76\\)<br>\\(E°_{Cu} = 1.10 - 0.76 = \\mathbf{+0.34 \\text{ V}}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "E°red (Cu²⁺/Cu) = +0.34 V"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2024/2025",
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions"
+    ],
+    "Question": {
+      "content": "What is the study of the relationship between electricity and chemical reactions called?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Definition</h4>This branch of chemistry studies how <strong>electrical energy</strong> is converted to <strong>chemical energy</strong> (electrolysis) and vice versa (galvanic cells).<br><br>It is called <strong>Electrochemistry</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Electrochemistry"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31 @ 2024/2025",
+    "topic": [
+      "General Chemistry II",
+      "Electrochemistry",
+      "Redox Reactions",
+      "Electrolysis"
+    ],
+    "Question": {
+      "content": "Calculate the mass of copper metal deposited when a 5.0 A current is passed through a copper sulphate solution for one hour. (Atomic mass of Cu = 63.5 g/mol; 1F = 96500 C/mol)",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Faraday's First Law of Electrolysis</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(m = \\dfrac{I \\times t \\times M}{n \\times F}\\)<br><br><strong style='color: var(--strongColor);'>Values:</strong> I = 5.0 A, t = 3600 s, M = 63.5 g/mol, n = 2 (Cu²⁺), F = 96500 C/mol<br><br>\\(m = \\dfrac{5.0 \\times 3600 \\times 63.5}{2 \\times 96500}\\)<br>\\(= \\dfrac{1{,}143{,}000}{193{,}000} \\approx \\mathbf{5.93 \\text{ g}}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Mass of Cu deposited ≈ 5.93 g"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33 @ 2024/2025",
+    "topic": [
+      "General Chemistry II",
+      "Redox Reactions",
+      "Oxidation",
+      "Acid-Base Chemistry",
+      "Balancing Redox Equations"
+    ],
+    "Question": {
+      "content": "Write the balanced form of the redox equation in acidic medium: \\(Cu_{(s)} + H^+_{(aq)} + NO^-_{3(aq)} \\rightarrow Cu^{2+}_{(aq)} + NO_{(g)}\\)",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Balancing Redox in Acidic Medium</h4><strong style='color: var(--strongColor);'>Half-reactions:</strong><br>Oxidation: \\(Cu \\rightarrow Cu^{2+} + 2e^-\\) ×3<br>Reduction: \\(NO_3^- + 4H^+ + 3e^- \\rightarrow NO + 2H_2O\\) ×2<br><br><strong style='color: var(--strongColor);'>Balanced equation:</strong><br>\\(3Cu + 8H^+ + 2NO_3^- \\rightarrow 3Cu^{2+} + 2NO + 4H_2O\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3Cu + 8H⁺ + 2NO₃⁻ → 3Cu²⁺ + 2NO + 4H₂O"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32 @ 2023/2024",
+    "Question": {
+      "content": "Balance the redox equation in acidic medium: <br/>\\( Cu(s) + H^+ + NO_3^- \\rightarrow Cu^{2+} + NO(g) \\).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 3Cu(s) + 8H^+ + 2NO_3^- \\rightarrow 3Cu^{2+} + 2NO(g) + 4H_2O \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #4CAF50;'><p><strong>Step 1: Split into half-reactions</strong></p><p>- <strong>Oxidation:</strong> Cu(s) → Cu²⁺ + 2e⁻</p><p>- <strong>Reduction:</strong> NO₃⁻ + 4H⁺ + 3e⁻ → NO + 2H₂O</p><p><strong>Step 2: Balance electrons</strong></p><p>Multiply oxidation by 3 and reduction by 2 to equalize electrons (6e⁻ total).</p><p><strong>Step 3: Combine and simplify</strong></p><p>\\( 3Cu(s) + 8H^+ + 2NO_3^- \\rightarrow 3Cu^{2+} + 2NO(g) + 4H_2O \\)</p><p><strong>Check:</strong> Atoms and charges balance on both sides.</p></div>"
+    },
+    "topic": [
+      "Redox Reactions",
+      "Electrochemistry",
+      "Inorganic Chemistry Principles",
+      "Chemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 @ 2022/2023",
+    "Question": {
+      "content": "Identify oxidized species in Cd + NiO₂ + 2H₂O → Cd(OH)₂ + Ni(OH)₂",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cd (oxidation state 0 → +2)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Cd undergoes oxidation (0 → +2) by losing electrons, while Ni in NiO₂ reduces (+4 → +2). This represents a nickel-cadmium (NiCd) battery discharge: Cd acts as anode (Cd → Cd²⁺ + 2e⁻), NiO₂ as cathode (NiO₂ + 2H₂O + 2e⁻ → Ni(OH)₂ + 2OH⁻). The overall cell potential arises from these complementary redox processes, with Cd's oxidation being the driving force for electron flow."
+    },
+    "topic": [
+      "Redox Reactions",
+      "Reduction",
+      "Electrochemistry",
+      "Inorganic Chemistry",
+      "General Chemistry",
+      "Chemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1 @ 2022/2023",
+    "Question": {
+      "content": "Balance the redox equation in basic medium: \\(\\text{MnO}_4^-(aq) + \\text{Cl}^-(aq) \\rightarrow \\text{MnO}_2(aq) + \\text{ClO}_3^-(aq)\\)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\[2\\text{MnO}_4^- + 3\\text{Cl}^- + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{MnO}_2 + 3\\text{ClO}_3^- + 4\\text{OH}^-\\]"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "**Step 1:** Separate into half-reactions:<br/><br/>Oxidation: \\(\\text{Cl}^- \\rightarrow \\text{ClO}_3^-\\)<br/>Reduction: \\(\\text{MnO}_4^- \\rightarrow \\text{MnO}_2\\)<br/><br/>**Step 2:** Balance atoms:<br/>- For Cl: \\(\\text{Cl}^- + 3\\text{H}_2\\text{O} \\rightarrow \\text{ClO}_3^- + 6\\text{H}^+ + 6e^-\\)<br/>- For Mn: \\(\\text{MnO}_4^- + 4\\text{H}^+ + 3e^- \\rightarrow \\text{MnO}_2 + 2\\text{H}_2\\text{O}\\)<br/><br/>**Step 3:** Balance electrons (6e⁻ total):<br/>Multiply Mn half-reaction by 2 and Cl by 1<br/><br/>**Step 4:** Combine and neutralize H⁺ with OH⁻ (basic medium):<br/>Add 8OH⁻ to both sides, forming 4H₂O<br/><br/>**Final:** \\(2\\text{MnO}_4^- + 3\\text{Cl}^- + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{MnO}_2 + 3\\text{ClO}_3^- + 4\\text{OH}^-\\)"
+    },
+    "topic": [
+      "Chemistry",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Inorganic Chemistry",
+      "Reduction",
+      "General Chemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2022/2023",
+    "Question": {
+      "content": "Calculate E°cell for: \\(\\text{Ag}^+ + e^- \\rightarrow \\text{Ag}\\) (E°=+0.799V) and \\(\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}\\) (E°=+0.337V)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "E°cell = +0.462V"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "**Step 1:** Identify spontaneous direction (higher reduction potential = cathode):<br/>Cathode (reduction): \\(\\text{Ag}^+ + e^- \\rightarrow \\text{Ag}\\) (E°=+0.799V)<br/>Anode (oxidation): \\(\\text{Cu} \\rightarrow \\text{Cu}^{2+} + 2e^-\\) (E°=+0.337V → reverse sign)<br/><br/>**Step 2:** Balance electrons:<br/>Multiply Ag half-reaction by 2: \\(2\\text{Ag}^+ + 2e^- \\rightarrow 2\\text{Ag}\\) (E° remains +0.799V)<br/><br/>**Step 3:** Calculate E°cell:<br/>\\(E°_{cell} = E°_{cathode} - E°_{anode} = 0.799V - 0.337V = +0.462V\\)<br/><br/>The positive value indicates a spontaneous reaction. This is the standard potential for a silver-copper electrochemical cell."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Reduction",
+      "Redox Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2021/2022",
+    "Question": {
+      "content": "A substance that makes it possible for another substance to be oxidized is called?",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Oxidizing agent (or oxidant)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Oxidation is the process of losing electrons, and reduction is the process of gaining electrons (often remembered by OIL RIG: Oxidation Is Loss, Reduction Is Gain). In a redox reaction, electron transfer occurs. The substance that causes another substance to be oxidized (lose electrons) must itself accept those electrons. By accepting electrons, this substance undergoes reduction. Therefore, the species that facilitates the oxidation of another substance is called an oxidizing agent (or oxidant). Conversely, a substance that causes another to be reduced (gain electrons) is a reducing agent (or reductant) and is itself oxidized."
+    },
+    "topic": [
+      "General Chemistry Fundamentals",
+      "Electrochemistry",
+      "Redox Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 11 @ 2021/2022",
+    "Question": {
+      "content": "The anions present in solution during the electrolysis of aqueous sodium chloride are?",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Chloride ions (\\(Cl^-\\)) and hydroxide ions (\\(OH^-\\))"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Aqueous sodium chloride solution contains dissolved sodium chloride (NaCl), which dissociates into sodium ions (\\(Na^+\\)) and chloride ions (\\(Cl^-\\)). Additionally, water (H₂O) is present as the solvent. Water undergoes a slight autoionization process: \\(H_2O(l) \\rightleftharpoons H^+(aq) + OH^-(aq)\\) (or more accurately, \\(2H_2O(l) \\rightleftharpoons H_3O^+(aq) + OH^-(aq)\\)). Therefore, the species present in the solution are \\(Na^+\\), \\(Cl^-\\), \\(H_2O\\), and small amounts of \\(H^+\\) (or \\(H_3O^+\\)) and \\(OH^-\\). Anions are negatively charged ions. The anions present in this solution are the chloride ion (\\(Cl^-\\)) from the dissociation of NaCl, and the hydroxide ion (\\(OH^-\\)) from the autoionization of water. During electrolysis, these anions migrate towards the positive electrode (anode)."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Inorganic Chemistry",
+      "Aqueous Solutions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 12 @ 2021/2022",
+    "Question": {
+      "content": "_____ and _____ mass of iron and volume of chlorine gas respectively are produced when 40A of current flow through molten iron (III) chloride for 10hours (1 Faraday = 96500C, Fe = 56g/mol, R = 0.0821atm L/K/mol)",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Mass of Fe ≈ 279 g; Volume of Cl₂ ≈ 167 L (assuming STP: 0°C, 1 atm)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "First, calculate the total electric charge (Q) passed: \\(Q = I \\times t\\). Time must be in seconds: \\(t = 10\\ hours \\times \\frac{3600\\ s}{1\\ hour} = 36000\\ s\\). So, \\(Q = (40\\ A) \\times (36000\\ s) = 1,440,000\\ C\\).\\nNext, calculate the moles of electrons transferred using Faraday's constant (F): Moles of \\(e^- = \\frac{Q}{F} = \\frac{1,440,000\\ C}{96500\\ C/mol\\ e^-} \\approx 14.922\\ mol\\ e^-\\).\\nAt the cathode, iron(III) ions are reduced: \\(Fe^{3+}(molten) + 3e^- \\rightarrow Fe(s)\\). The stoichiometry shows that 3 moles of electrons are required to produce 1 mole of Fe. Moles of Fe = \\(\\frac{1}{3} \\times (moles\\ of\\ e^-) = \\frac{14.922\\ mol}{3} \\approx 4.974\\ mol\\ Fe\\). Mass of Fe = (moles of Fe) × (molar mass of Fe) = \\(4.974\\ mol \\times 56\\ g/mol \\approx 278.5\\ g\\). Rounding to 3 significant figures gives 279 g Fe.\\nAt the anode, chloride ions are oxidized: \\(2Cl^-(molten) \\rightarrow Cl_2(g) + 2e^-\\). The stoichiometry shows that 2 moles of electrons are produced for every 1 mole of Cl₂ gas. Moles of Cl₂ = \\(\\frac{1}{2} \\times (moles\\ of\\ e^-) = \\frac{14.922\\ mol}{2} \\approx 7.461\\ mol\\ Cl_2\\).\\nTo find the volume of Cl₂ gas, we need temperature and pressure conditions. Assuming Standard Temperature and Pressure (STP: 0°C = 273.15 K, 1 atm), where 1 mole of an ideal gas occupies 22.4 L. Volume of Cl₂ = (moles of Cl₂) × (molar volume at STP) = \\(7.461\\ mol \\times 22.4\\ L/mol \\approx 167.1\\ L\\). Rounding to 3 significant figures gives 167 L Cl₂ (at STP)."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Gas Laws",
+      "Stoichiometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 31 @ 2021/2022",
+    "Question": {
+      "content": "In electrolytic cell, electrical energy causes"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Non-spontaneous reactions to occur."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Electrolytic cells use electrical energy to drive non-spontaneous redox reactions. This is in contrast to galvanic cells, which produce electrical energy from spontaneous redox reactions."
+    },
+    "topic": [
+      "Chemistry",
+      "Electrochemistry",
+      "Redox Reactions",
+      "Electrolytic Cell"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 32 @ 2021/2022",
+    "Question": {
+      "content": "A spontaneous redox reaction / process is indicated by cell emf , E°"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A positive"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "A spontaneous redox reaction is indicated by a positive cell emf (E°). A positive E° value means that the change in Gibbs free energy (ΔG) is negative, indicating spontaneity."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Chemical Thermodynamics",
+      "Gibbs Free Energy",
+      "Electromotive Force"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 15 @ 2018/2019",
+    "Question": {
+      "content": "Balance the reaction: CrI\\(_3\\) + OH\\(^-\\) + H\\(_2\\)O\\(_2\\) → CrO\\(_4^{2-}\\) + IO\\(_4^-\\) + H\\(_2\\)O. Choose the correct coefficients:",
+      "type": "OBJ",
+      "options": [
+        "2,4,6,4,7,6",
+        "4,6,30,25,4,1",
+        "2,10,27,2,6,32",
+        "10,2,27,4,4,6",
+        "2,2,2,4,4,4"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2,10,27,2,6,32"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "The balanced redox reaction is: \\( 2\\text{CrI}_3 + 10\\text{OH}^- + 27\\text{H}_2\\text{O}_2 \\rightarrow 2\\text{CrO}_4^{2-} + 6\\text{IO}_4^- + 32\\text{H}_2\\text{O} \\). Coefficients account for iodine and chromium oxidation."
+    },
+    "topic": [
+      "Stoichiometry and Chemical Reactions",
+      "Inorganic Chemistry",
+      "Electrochemistry",
+      "Redox Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2018/2019",
+    "Question": {
+      "content": "Calculate the mass of zinc metal deposited when 3.0 pA (picoamperes) of current is passed through a ZnSO\\(_4\\) solution for 1.25 hours.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 4.55 \\times 10^{-12} \\, g \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "1. **Convert current and time**: \nCurrent = 3.0 pA = \\( 3.0 \\times 10^{-12} \\, A \\). \nTime = 1.25 h = 4500 s. \n\n2. **Calculate charge (Q)**: \n\\( Q = I \\times t = 3.0 \\times 10^{-12} \\times 4500 = 1.35 \\times 10^{-8} \\, C \\). \n\n3. **Moles of electrons**: \n\\( n_e = \\frac{Q}{F} = \\frac{1.35 \\times 10^{-8}}{96485} \\approx 1.40 \\times 10^{-13} \\, mol \\). \n\n4. **Moles of Zn deposited**: \nZn\\(^{2+}\\) + 2e\\(^-\\) → Zn, so \\( n_{Zn} = \\frac{n_e}{2} = 7.0 \\times 10^{-14} \\, mol \\). \n\n5. **Mass of Zn**: \nMass = \\( n_{Zn} \\times \\text{Molar mass of Zn} = 7.0 \\times 10^{-14} \\times 65.38 \\approx 4.55 \\times 10^{-12} \\, g \\)."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Stoichiometry and Chemical Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 9 @ 2017/2018",
+    "Question": {
+      "content": "What are G and Q in the balanced redox equation in basic medium: GI⁻ + QMnO₄⁻ + RH₂O → I₂ + KMnO₂ + LOH⁻?",
+      "type": "OBJ",
+      "options": [
+        "2 and 1",
+        "6 and 1",
+        "8 and 2",
+        "3 and 4",
+        "7 and 3"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "6 and 2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Split into half-reactions</strong><br/>• Oxidation: I⁻ → I₂<br/>• Reduction: MnO₄⁻ → MnO₂<br/><br/><strong>Step 2: Balance atoms/charges</strong><br/>• Oxidation: 2I⁻ → I₂ + 2e⁻<br/>• Reduction: MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻<br/><br/><strong>Step 3: Equalize electrons</strong><br/>Multiply oxidation by 3 and reduction by 2:<br/>• 6I⁻ → 3I₂ + 6e⁻<br/>• 2MnO₄⁻ + 4H₂O + 6e⁻ → 2MnO₂ + 8OH⁻<br/><br/><strong>Final balanced equation:</strong><br/>6I⁻ + 2MnO₄⁻ + 4H₂O → 3I₂ + 2MnO₂ + 8OH⁻<br/>∴ G=6, Q=2"
+    },
+    "topic": [
+      "Redox Reactions",
+      "Balancing Chemical Equations",
+      "Stoichiometry",
+      "Electrochemistry",
+      "Basic Solutions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 13 @ 2017/2018",
+    "Question": {
+      "content": "Calculate EMF for: Cr₂O₇²⁻ + 14H⁺ + 6I⁻ → 3I₂ + 2Cr³⁺ + 7H₂O<br/>Given concentrations: [Cr₂O₇²⁻]=2.0M, [H⁺]=1.0M, [I⁻]=1.0M, [Cr³⁺]=1.0×10⁻⁵M<br/>E°(Cr₂O₇²⁻/Cr³⁺)=1.33V, E°(I₂/I⁻)=0.54V",
+      "type": "OBJ",
+      "options": [
+        "0.89V",
+        "2.3V",
+        "1.3V",
+        "4V",
+        "none"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.89V"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Calculate E°<sub>cell</sub></strong><br/>E°<sub>cell</sub> = E°<sub>cathode</sub> - E°<sub>anode</sub> = 1.33V - 0.54V = 0.79V<br/><br/><strong>Step 2: Use Nernst equation</strong><br/>\\[ E = E° - \\frac{0.0591}{n} \\log Q \\]<br/>\\[ Q = \\frac{[Cr³⁺]²}{[Cr₂O₇²⁻][H⁺]¹⁴[I⁻]⁶} = \\frac{(10⁻⁵)²}{(2)(1)¹⁴(1)⁶} = 5×10⁻¹¹ \\]<br/>\\[ E = 0.79 - \\frac{0.0591}{6} \\log(5×10⁻¹¹) = 0.79 + 0.10 = 0.89V \\]"
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Chemical Thermodynamics",
+      "Aqueous Solutions and Solution Stoichiometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2017/2018",
+    "Question": {
+      "content": "What mass of zinc deposits from ZnSO₄ solution with 1.5A current for 2 hours? (Zn = 65.4 g/mol)",
+      "type": "OBJ",
+      "options": [
+        "3.66g",
+        "1.85g",
+        "7.32g",
+        "2.44g",
+        "6.55g"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3.66g"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Calculate charge (Q)</strong><br>Q = Current × Time = 1.5A × (2 × 3600s) = 10,800 C<br><br><strong>Step 2: Convert to moles of e⁻</strong><br>Moles e⁻ = Q/F = 10,800/96,500 = 0.112 mol<br><br><strong>Step 3: Determine Zn deposited</strong><br>Zn²⁺ + 2e⁻ → Zn → 0.112 mol e⁻ deposits 0.056 mol Zn<br>Mass = 0.056 mol × 65.4 g/mol = <strong>3.66g</strong>"
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Stoichiometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2017/2018",
+    "Question": {
+      "content": "Given an electrochemical cell with two half-reactions:<br/>MnO₄⁻(aq) + 8H⁺(aq) + 5e⁻ → Mn²⁺(aq) + 4H₂O, E° = 1.51 V<br/>SO₄²⁻(aq) + 4H⁺(aq) + 2e⁻ → H₂SO₃(aq) + H₂O, E° = 0.17 V<br/>(a) Write the net cell equation for the reaction. (b) Calculate the electrode potential of the cell at 25°C if the reaction quotient is 496.2.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) 2MnO₄⁻ + 5H₂SO₃ → 2Mn²⁺ + 5SO₄²⁻ + 4H⁺ + 3H₂O<br/>(b) 1.32 V"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "An electrochemical cell is like a tiny battery that makes electricity from chemical reactions. It has two parts: the <i>cathode</i>, where a substance gains electrons (called reduction), and the <i>anode</i>, where a substance loses electrons (called oxidation). Each part has a voltage, called E°, and the one with the higher E° (1.51 V for MnO₄⁻) is the reduction, while the other (0.17 V for SO₄²⁻) is reversed for oxidation.<br/><b>Part (a):</b> Write the net reaction. Reduction is:<br/>\\[\\ce{MnO4^- + 8H^+ + 5e^- -> Mn^2+ + 4H2O}\\]<br/>Oxidation reverses the second reaction:<br/>\\[\\ce{H2SO3 + H2O -> SO4^2- + 4H^+ + 2e^-}\\]<br/>The electrons don’t match (5 vs. 2), so multiply reduction by 2 and oxidation by 5:<br/>\\[\\ce{2MnO4^- + 16H^+ + 10e^- -> 2Mn^2+ + 8H2O}\\]<br/>\\[\\ce{5H2SO3 + 5H2O -> 5SO4^2- + 20H^+ + 10e^-}\\]<br/>Combine and cancel: 10e⁻ cancel, 16H⁺ - 20H⁺ = -4H⁺ (so +4H⁺ on right), 8H₂O - 5H₂O = 3H₂O:<br/>\\[\\ce{2MnO4^- + 5H2SO3 -> 2Mn^2+ + 5SO4^2- + 4H^+ + 3H2O}\\]<br/><b>Part (b):</b> The standard cell potential is \\(E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}} = 1.51 - 0.17 = 1.34\\) V. At 25°C with a reaction quotient \\(Q = 496.2\\), use the Nernst equation: \\(E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{0.0257}{n} \\ln Q\\), where \\(n = 10\\) (electrons transferred). Calculate:<br/>\\[E_{\\text{cell}} = 1.34 - \\frac{0.0257}{10} \\ln(496.2)\\]<br/>\\[\\ln(496.2) \\approx 6.207\\], so \\[\\frac{0.0257}{10} \\times 6.207 \\approx 0.016\\]<br/>\\[E_{\\text{cell}} = 1.34 - 0.016 = 1.32\\] V.<br/>The original had errors in the oxidation reaction and Nernst equation (wrong temperature and constants), corrected here."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Chemical Thermodynamics",
+      "Reaction Quotient",
+      "General Chemistry I"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 3 @ 2017/2018",
+    "Question": {
+      "content": "Complete and balance the following redox reaction in basic solution:<br/>\\(ce{CN^- + MnO4^- → CNO^- + MnO^2}\\)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(ce{3CN^- + 2MnO4^- + 2H2O  →  3CNO^- + 2MnO2 + 2OH^-}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "A <i>redox reaction</i> is when one substance gives electrons to another. Here, it happens in a <i>basic solution</i>, meaning it’s like a soapy environment with lots of OH⁻ ions. We split the reaction into two parts: <i>oxidation</i> (losing electrons) and <i>reduction</i> (gaining electrons).<br/>Oxidation: \\(\\ce{CN^- -> CNO^-}\\)<br/>Reduction: \\(\\ce{MnO4^- -> MnO2}\\)<br/><b>Oxidation:</b> Balance atoms: add 2H₂O to the left to provide oxygen, and 2OH⁻ to the right to balance hydrogen (since it’s basic):<br/>\\[\\ce{CN^- + 2H2O -> CNO^- + 2OH^-}\\]<br/>Balance charge: left (-1), right (-1 - 2 = -3), add 2e⁻ to the right:<br/>\\[\\ce{CN^- + 2H2O -> CNO^- + 2OH^- + 2e^-}\\]<br/><b>Reduction:</b> Balance atoms: MnO₄⁻ has 4 oxygens, MnO₂ has 2, so add 2H₂O to the right and 4OH⁻ to the left:<br/>\\[\\ce{MnO4^- + 4OH^- -> MnO2 + 2H2O}\\]<br/>Balance charge: left (-1 - 4 = -5), right (0), add 3e⁻ to the left:<br/>\\[\\ce{MnO4^- + 4OH^- + 3e^- -> MnO2 + 2H2O}\\]<br/>Balance electrons: multiply oxidation by 3 and reduction by 2:<br/>\\[\\ce{3CN^- + 6H2O -> 3CNO^- + 6OH^- + 6e^-}\\]<br/>\\[\\ce{2MnO4^- + 8OH^- + 6e^- -> 2MnO2 + 4H2O}\\]<br/>Combine and cancel: 6e⁻, 6OH⁻, and 6H₂O - 4H₂O = 2H₂O:<br/>\\[\\ce{3CN^- + 2MnO4^- + 2H2O -> 3CNO^- + 2MnO2 + 2OH^-}\\]<br/>The original had minor balancing errors and included incorrect species (Cu²⁺), corrected here."
+    },
+    "topic": [
+      "Redox Reactions",
+      "Balancing Chemical Equations",
+      "Basic Solutions",
+      "Stoichiometry and Chemical Reactions",
+      "General Chemistry I"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2015/2016",
+    "Question": {
+      "content": "Calculate the mass of copper metal (in kg) deposited when a 6.0A current is passed through its salt solution for 1 hour 15 minutes. <br> (1F = 96500C, \\( M_{Cu} = 63.5 \\))",
+      "type": "OBJ",
+      "options": [
+        "17.77 kg",
+        "0.15 kg",
+        "0.30 kg",
+        "\\( 17.77 \\times 10^{-3} \\, kg \\)",
+        "\\( 8.88 \\times 10^{-3} \\, kg \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 8.88 \\times 10^{-3} \\, kg \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "1. Convert time to seconds: \\( 1 \\text{ hr } 15 \\text{ min} = 4500 \\text{ s} \\) <br> 2. Charge passed: \\( Q = I \\times t = 6.0 \\times 4500 = 27000 \\text{ C} \\) <br> 3. Moles of electrons: \\( n_e = \\frac{Q}{F} = \\frac{27000}{96500} \\approx 0.28 \\text{ mol} \\) <br> 4. For \\( Cu^{2+} + 2e^- \\rightarrow Cu \\), moles of \\( Cu = \\frac{n_e}{2} = 0.14 \\text{ mol} \\) <br> 5. Mass of \\( Cu = n \\times M = 0.14 \\times 63.5 \\approx 8.88 \\text{ g} = 8.88 \\times 10^{-3} \\text{ kg} \\)"
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Stoichiometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 11 @ 2015/2016",
+    "Question": {
+      "content": "The following statements are correct <strong>EXCEPT</strong>:",
+      "type": "OBJ",
+      "options": [
+        "Reduction is the process of electron gain",
+        "The species that donates electrons is called the reducing agent",
+        "The voltaic cell is a non-spontaneous electrochemical cell",
+        "The anode of a voltaic cell is negative",
+        "The cathode of an electrolytic cell is negative"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The voltaic cell is a non-spontaneous electrochemical cell"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Voltaic (galvanic) cells</strong> are <em>spontaneous</em> electrochemical cells that convert chemical energy to electrical energy. <br> The incorrect statement implies it is non-spontaneous (which describes electrolytic cells)."
+    },
+    "topic": [
+      "Redox Reactions",
+      "Electrochemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 12 @ 2015/2016",
+    "Question": {
+      "content": "The cell potential of an electrochemical cell comprising the two half-cells below is: <br> \\[ Sn^{2+}(aq) + 2e^- \\rightarrow Sn(s) \\quad E^\\circ = -0.136V \\] \\[ Zn^{2+}(aq) + 2e^- \\rightarrow Zn(s) \\quad E^\\circ = -0.763V \\]",
+      "type": "OBJ",
+      "options": [
+        "\\( -0.136V \\)",
+        "\\( -0.627V \\)",
+        "\\( 0.627V \\)",
+        "\\( 0.899V \\)",
+        "\\( -0.899V \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 0.627V \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "1. Identify cathode/anode: <br> - Higher \\( E^\\circ \\) (less negative) = cathode (\\( Sn^{2+}/Sn \\)). <br> - Lower \\( E^\\circ \\) = anode (\\( Zn/Zn^{2+} \\)). <br> 2. Calculate cell potential: <br> \\[ E_{\\text{cell}} = E_{\\text{cathode}} - E_{\\text{anode}} = -0.136V - (-0.763V) = 0.627V \\]"
+    },
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2015/2016",
+    "Question": {
+      "content": "Balance the following reaction in an acidic environment:<br/>\\[ Cu(s) + NO_3^-(aq) \\rightarrow Cu^{2+}(aq) + NO(g) \\]",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\[ 3Cu(s) + 2NO_3^-(aq) + 8H^+(aq) \\rightarrow 3Cu^{2+}(aq) + 2NO(g) + 4H_2O(l) \\]"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Split into half-reactions</strong><br/><br/><strong>Oxidation (Cu → Cu²⁺):</strong><br/>\\[ Cu(s) \\rightarrow Cu^{2+}(aq) + 2e^- \\]<br/><br/><strong>Reduction (NO₃⁻ → NO):</strong><br/>\\[ NO_3^-(aq) + 4H^+(aq) + 3e^- \\rightarrow NO(g) + 2H_2O(l) \\]<br/><br/><strong>Step 2: Balance electrons</strong><br/>- Multiply oxidation half by 3 and reduction half by 2 to equalize electrons (6e⁻ transferred):<br/>\\[ 3Cu(s) \\rightarrow 3Cu^{2+}(aq) + 6e^- \\]<br/>\\[ 2NO_3^-(aq) + 8H^+(aq) + 6e^- \\rightarrow 2NO(g) + 4H_2O(l) \\]<br/><br/><strong>Step 3: Combine half-reactions</strong><br/>\\[ 3Cu(s) + 2NO_3^-(aq) + 8H^+(aq) \\rightarrow 3Cu^{2+}(aq) + 2NO(g) + 4H_2O(l) \\]"
+    },
+    "topic": [
+      "Redox Reactions",
+      "Chemical Reactions",
+      "Acids and Bases"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2013/2014",
+    "Question": {
+      "content": "For the reaction:<br/>\\(3Ni^{2+}(aq) + 2Cr(OH)_3(s) + 10OH^-(aq) \\rightarrow 3Ni(s) + 2CrO_4^{2-}(aq) + 8H_2O(l)\\)<br/>(a) What is the number of electrons (n) transferred?<br/>(b) Calculate ΔG° given that E° = 0.15V",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) 6 electrons<br/>(b) -86,850 J/mol"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>(a) Determining number of electrons:</strong><br/>1. <strong>Oxidation half-reaction:</strong><br/>\\(2Cr(OH)_3 + 10OH^- \\rightarrow 2CrO_4^{2-} + 8H_2O + 6e^-\\) (Chromium goes from +3 to +6)<br/><br/>2. <strong>Reduction half-reaction:</strong><br/>\\(3Ni^{2+} + 6e^- \\rightarrow 3Ni\\) (Nickel goes from +2 to 0)<br/><br/>3. <strong>Balanced electrons:</strong> 6 electrons are transferred<br/><br/><strong>(b) Calculating ΔG°:</strong><br/>Using the formula:<br/>\\(ΔG° = -nFE°\\)<br/>Where:<br/>- \\(n = 6\\) (from part a)<br/>- \\(F = 96,500\\) C/mol (Faraday's constant)<br/>- \\(E° = 0.15\\) V<br/><br/>\\(ΔG° = -6 × 96,500 × 0.15 = -86,850\\) J/mol"
+    },
+    "topic": [
+      "Redox Reactions",
+      "Electrochemistry",
+      "Thermodynamics",
+      "Gibbs Free Energy",
+      "Chemical Reactions"
+    ]
+  }
+]
