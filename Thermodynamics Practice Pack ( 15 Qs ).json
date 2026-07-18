@@ -1,0 +1,360 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "General Chemistry II",
+    "code": "CHM_131.2",
+    "session": "Thermodynamics",
+    "time": 90,
+    "topics": [
+      "Acid-Base Chemistry",
+      "Aqueous Equilibria",
+      "Buffer Solutions",
+      "Chemical Equilibrium",
+      "Chemical Kinetics",
+      "Electrochemistry",
+      "Nuclear Chemistry",
+      "Redox Reactions",
+      "Solubility Equilibrium",
+      "Thermodynamics"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 11 @ 2024/2025",
+    "topic": [
+      "Chemical Equilibrium",
+      "Equilibrium Constant",
+      "Thermodynamics",
+      "Gas-Phase Equilibrium"
+    ],
+    "Question": {
+      "content": "The equilibrium constant Kp at 400°C and 450°C for the ammonia synthesis reaction are 1.64 × 10⁻⁴ and 4.56 × 10⁻⁵ respectively. Calculate the molar heat of reaction.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Van't Hoff Equation</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(\\ln\\dfrac{K_2}{K_1} = -\\dfrac{\\Delta H}{R}\\left(\\dfrac{1}{T_2} - \\dfrac{1}{T_1}\\right)\\)<br><br><strong style='color: var(--strongColor);'>Values:</strong> T₁ = 673 K, T₂ = 723 K<br>\\(\\ln\\dfrac{4.56 \\times 10^{-5}}{1.64 \\times 10^{-4}} = \\ln(0.278) = -1.281\\)<br><br>\\(\\dfrac{1}{T_2} - \\dfrac{1}{T_1} = -1.027 \\times 10^{-4}\\text{ K}^{-1}\\)<br><br>\\(\\Delta H = -\\dfrac{-1.281 \\times 8.314}{-1.027 \\times 10^{-4}} \\approx -103.7 \\text{ kJ/mol}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "ΔH ≈ −103.7 kJ/mol (exothermic)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13 @ 2024/2025",
+    "topic": [
+      "General Chemistry II",
+      "Thermodynamics",
+      "Zeroth Law of Thermodynamics"
+    ],
+    "Question": {
+      "content": "Which Law of Thermodynamics is often applicable in the concept of temperature and its measurement?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>The Zeroth Law</h4><strong style='color: var(--strongColor);'>Statement:</strong> If two systems are each in thermal equilibrium with a third, they are in equilibrium with each other.<br><br>This law <strong>defines temperature</strong> and is the basis of all thermometry — it tells us temperature can be measured consistently.<br><br>It is called the <strong>Zeroth Law of Thermodynamics</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The Zeroth Law of Thermodynamics"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14 @ 2024/2025",
+    "topic": [
+      "Thermodynamics",
+      "Spontaneity of Reactions",
+      "Gibbs Free Energy"
+    ],
+    "Question": {
+      "content": "Consider a process where the change in Gibbs free energy (ΔG) is related to the change in enthalpy (ΔH) and the change in entropy (ΔS) at a temperature of 273 K. If ΔH = −200 kJ/mol, write the expression and calculate the change in Gibbs Free Energy.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Gibbs Free Energy Equation</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(\\Delta G = \\Delta H - T\\Delta S\\)<br><br><strong style='color: var(--strongColor);'>Where:</strong><br>ΔH = −200 kJ/mol, T = 273 K<br><br>Without a given ΔS value, the expression stays as:<br>\\(\\Delta G = -200{,}000 - (273)(\\Delta S)\\text{ J/mol}\\)<br><br><strong style='color: var(--strongColor);'>Spontaneity check:</strong><br>If ΔG &lt; 0 → <strong>spontaneous</strong>. A negative ΔH already favors spontaneity; the sign of ΔG depends on the magnitude of TΔS.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "ΔG = ΔH − TΔS = −200 kJ/mol − (273)(ΔS)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2024/2025",
+    "topic": [
+      "Thermodynamics",
+      "Heat of Combustion"
+    ],
+    "Question": {
+      "content": "Given the reaction \\(CH_{4(g)} + 2O_{2(g)} \\rightarrow CO_{2(g)} + 2H_2O_{(l)}\\), calculate the heat of combustion of methane. Standard enthalpy of formation: \\(\\Delta H°_{CH_4} = -75.17\\) kJ/mol, \\(\\Delta H°_{CO_2} = 0\\) kJ/mol, \\(\\Delta H°_{H_2O} = -285.83\\) kJ/mol, \\(\\Delta H°_{CO_{2(g)}} = -393.5\\) kJ/mol.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Heat of Combustion via Hess's Law</h4><strong style='color: var(--strongColor);'>Formula:</strong><br>\\(\\Delta H°_{rxn} = \\sum \\Delta H°_f(\\text{products}) - \\sum \\Delta H°_f(\\text{reactants})\\)<br><br><strong style='color: var(--strongColor);'>Substitute:</strong><br>\\(\\Delta H°_{rxn} = [(-393.5) + 2(-285.83)] - [(-75.17) + 2(0)]\\)<br>\\(= [-393.5 - 571.66] - [-75.17]\\)<br>\\(= -965.16 + 75.17\\)<br>\\(= \\mathbf{-889.99 \\approx -890 \\text{ kJ/mol}}\\)<br><br>The negative sign confirms combustion is <strong>exothermic</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "ΔH°combustion ≈ −890 kJ/mol"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26 @ 2024/2025",
+    "topic": [
+      "Electrochemistry",
+      "Redox Reactions",
+      "Electrolysis",
+      "Spontaneity of Reactions",
+      "Thermodynamics"
+    ],
+    "Question": {
+      "content": "For a reaction to proceed in the non-spontaneous direction, what is the DC potential of the reaction called?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Non-Spontaneous Reactions</h4><strong style='color: var(--strongColor);'>Spontaneous:</strong> ΔG &lt; 0, positive Ecell → occurs naturally (galvanic cell).<br><strong style='color: var(--strongColor);'>Non-spontaneous:</strong> ΔG &gt; 0 → requires external electrical energy to force the reaction.<br><br>The required DC voltage applied to drive a non-spontaneous reaction is called the <strong>Overpotential</strong> (or decomposition potential / applied EMF).</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Overpotential (decomposition potential)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7 @ 2022/2023",
+    "Question": {
+      "content": "The enthalpy change for aluminum oxide formation is 3352 kJ/mol. What is the enthalpy change for aluminum dissociation?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Endothermic with ΔH = +3352 kJ/mol"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "By Hess's Law, the reverse process has equal magnitude but opposite sign: 4Al + 3O₂ → 2Al₂O₃ (ΔH = -3352 kJ/mol) implies 2Al₂O₃ → 4Al + 3O₂ (ΔH = +3352 kJ/mol). Aluminum dissociation is highly endothermic, requiring substantial energy to break strong Al-O bonds in the oxide lattice, which explains aluminum's stability as an oxide in nature."
+    },
+    "topic": [
+      "Thermodynamics",
+      "Inorganic Chemistry",
+      "Enthalpy"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 8 @ 2022/2023",
+    "Question": {
+      "content": "Calculate ΔG° for HNO₂ given [H⁺] = 0.030M, [NO₂⁻] = 0.0004M, [HNO₂] = 0.1026M at 298K",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "ΔG° ≈ +18.6 kJ/mol"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "First calculate Q = [H⁺][NO₂⁻]/[HNO₂] = (0.030)(0.0004)/0.1026 ≈ 1.17×10⁻⁴. Using ΔG = ΔG° + RTlnQ, and assuming equilibrium (ΔG = 0), ΔG° = -RTlnK. Without K provided, we cannot compute ΔG° definitively. However, using typical Ka ≈ 4.5×10⁻⁴ for HNO₂: ΔG° = -RTlnKa ≈ -8.314 × 298 × ln(4.5×10⁻⁴) ≈ +18.6 kJ/mol (endergonic dissociation)."
+    },
+    "topic": [
+      "Thermodynamics",
+      "Chemical Equilibrium",
+      "General Chemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 9 @ 2022/2023",
+    "Question": {
+      "content": "Which has lower entropy: water condensation or evaporation?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Condensation"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Condensation (gas → liquid) decreases entropy as molecules become more ordered in the liquid phase. The entropy change ΔS = q_rev/T is negative. Conversely, evaporation (liquid → gas) increases entropy. At equilibrium (e.g., boiling point), ΔS_system + ΔS_surroundings = 0. This exemplifies the Second Law: spontaneous processes (like evaporation below boiling point) increase total entropy of the universe."
+    },
+    "topic": [
+      "Thermodynamics",
+      "General Chemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 10 @ 2022/2023",
+    "Question": {
+      "content": "For a reversible process, the sum of entropy changes of system and surroundings is always _____",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Zero (ΔS_total = 0)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Reversible processes are idealized with no net entropy production (ΔS_total = 0), representing maximum thermodynamic efficiency. The system and surroundings exchange heat reversibly (ΔS_system = -ΔS_surroundings). Real irreversible processes always have ΔS_total > 0. This principle underlies Carnot cycle efficiency calculations and establishes the theoretical limits for heat engines and refrigerators."
+    },
+    "topic": [
+      "Thermodynamics",
+      "General Chemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2022/2023",
+    "Question": {
+      "content": "Calculate ΔS for heating 1mol H₂O from 0°C to 100°C (Cp=75.5 J/K/mol)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "ΔS = +23.5 J/K"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "**For constant pressure heating:**<br/>\\(\\Delta S = nC_p\\ln\\left(\\frac{T_2}{T_1}\\right)\\)<br/><br/>**Step 1:** Convert temperatures to Kelvin:<br/>\\(T_1 = 273\\text{K}\\), \\(T_2 = 373\\text{K}\\)<br/><br/>**Step 2:** Plug in values:<br/>\\(\\Delta S = (1\\text{mol})(75.5\\text{J/K/mol})\\ln\\left(\\frac{373}{273}\\right)\\)<br/>\\(= 75.5 \\times \\ln(1.366) = 75.5 \\times 0.311 = 23.5\\text{J/K}\\)<br/><br/>The positive entropy change reflects increased molecular disorder at higher temperatures. This calculation assumes Cp is constant (true for liquid water in this range) and ignores phase changes (would require additional terms for melting/vaporization)."
+    },
+    "topic": [
+      "Thermodynamics",
+      "Entropy"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 8 @ 2013/2014",
+    "Question": {
+      "content": "Which of these is not a state function?",
+      "type": "OBJ",
+      "options": [
+        "Entropy",
+        "Enthalpy",
+        "Work done",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Work done"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "State functions depend only on the initial and final states of a system, not on the path taken.<br/><br/>- <strong>Entropy (S)</strong> and <strong>Enthalpy (H)</strong> are state functions because their values are determined by the state of the system.<br/>- <strong>Work done</strong> is path-dependent (depends on how the change occurs) and therefore not a state function.<br/>- The correct answer is (c) Work done."
+    },
+    "topic": [
+      "Thermochemistry",
+      "Thermodynamics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 9 @ 2013/2014",
+    "Question": {
+      "content": "A thermodynamic property that measures the useful work obtainable from the system at constant temperature is?",
+      "type": "OBJ",
+      "options": [
+        "Gibbs free energy",
+        "Entropy",
+        "Internal energy",
+        "Enthalpy"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Gibbs free energy"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Gibbs free energy (G)</strong> is defined as \\(G = H - TS\\), where:<br/>- \\(H\\) = enthalpy<br/>- \\(T\\) = temperature<br/>- \\(S\\) = entropy<br/><br/>It represents the maximum reversible work that can be performed by a thermodynamic system at constant temperature and pressure.<br/>The correct answer is (a) Gibbs free energy."
+    },
+    "topic": [
+      "Thermodynamics",
+      "Thermochemistry",
+      "Gibbs Free Energy"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 12 @ 2013/2014",
+    "Question": {
+      "content": "Electrochemical cells that use a spontaneous reaction to provide electrical work are known as:",
+      "type": "OBJ",
+      "options": [
+        "Electrolytic cells",
+        "Voltaic cells",
+        "Corrosive cells",
+        "Daltonic cells"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Voltaic cells"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "There are two main types of electrochemical cells:<br/><br/>1. <strong>Voltaic (Galvanic) cells</strong>: Convert chemical energy to electrical energy through spontaneous redox reactions.<br/>2. <strong>Electrolytic cells</strong>: Use electrical energy to drive non-spontaneous reactions.<br/><br/>The correct answer is (b) Voltaic cells."
+    },
+    "topic": [
+      "Electrochemistry",
+      "Thermodynamics",
+      "Gibbs Free Energy",
+      "Chemical Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2013/2014",
+    "Question": {
+      "content": "For the reaction:<br/>\\(3Ni^{2+}(aq) + 2Cr(OH)_3(s) + 10OH^-(aq) \\rightarrow 3Ni(s) + 2CrO_4^{2-}(aq) + 8H_2O(l)\\)<br/>(a) What is the number of electrons (n) transferred?<br/>(b) Calculate ΔG° given that E° = 0.15V",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) 6 electrons<br/>(b) -86,850 J/mol"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>(a) Determining number of electrons:</strong><br/>1. <strong>Oxidation half-reaction:</strong><br/>\\(2Cr(OH)_3 + 10OH^- \\rightarrow 2CrO_4^{2-} + 8H_2O + 6e^-\\) (Chromium goes from +3 to +6)<br/><br/>2. <strong>Reduction half-reaction:</strong><br/>\\(3Ni^{2+} + 6e^- \\rightarrow 3Ni\\) (Nickel goes from +2 to 0)<br/><br/>3. <strong>Balanced electrons:</strong> 6 electrons are transferred<br/><br/><strong>(b) Calculating ΔG°:</strong><br/>Using the formula:<br/>\\(ΔG° = -nFE°\\)<br/>Where:<br/>- \\(n = 6\\) (from part a)<br/>- \\(F = 96,500\\) C/mol (Faraday's constant)<br/>- \\(E° = 0.15\\) V<br/><br/>\\(ΔG° = -6 × 96,500 × 0.15 = -86,850\\) J/mol"
+    },
+    "topic": [
+      "Redox Reactions",
+      "Electrochemistry",
+      "Thermodynamics",
+      "Gibbs Free Energy",
+      "Chemical Reactions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 8 @ 2013/2014",
+    "Question": {
+      "content": "Calculate \\(\\Delta G^\\circ\\) for the reaction \\(2\\text{NO}_{2(g)} \\rightarrow \\text{N}_2\\text{O}_{4(g)}\\) at 25°C and determine whether the reaction is spontaneous. Given: \\(\\Delta H^\\circ = -57\\text{ kJ mol}^{-1}\\) and \\(\\Delta S^\\circ = -176\\text{ J mol}^{-1} \\text{K}^{-1}\\).",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\Delta G^\\circ = -4.6\\text{ kJ mol}^{-1}\\). The reaction is spontaneous."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Convert units</strong><br/>\\(\\Delta H^\\circ = -57\\text{ kJ mol}^{-1} = -57000\\text{ J mol}^{-1}\\)<br/>\\(\\Delta S^\\circ = -176\\text{ J mol}^{-1} \\text{K}^{-1}\\)<br/>\\(T = 25 + 273 = 298\\text{ K}\\)<br/><br/><strong>Step 2: Calculate \\(\\Delta G^\\circ\\)</strong><br/>Using the Gibbs free energy equation:<br/>\\(\\Delta G^\\circ = \\Delta H^\\circ - T \\Delta S^\\circ\\)<br/>\\(\\Delta G^\\circ = -57000 - (298 \\times -176)\\)<br/>\\(\\Delta G^\\circ = -57000 + 52448\\)<br/>\\(\\Delta G^\\circ = -4552\\text{ J mol}^{-1} = -4.6\\text{ kJ mol}^{-1}\\)<br/><br/><strong>Step 3: Determine spontaneity</strong><br/>Since \\(\\Delta G^\\circ < 0\\), the reaction is <strong>spontaneous</strong> at 25°C."
+    },
+    "topic": [
+      "Thermodynamics",
+      "Gibbs Free Energy",
+      "Thermochemistry"
+    ]
+  }
+]
