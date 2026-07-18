@@ -1,0 +1,205 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "General Chemistry II",
+    "code": "CHM_131.2",
+    "session": "Buffer Solutions",
+    "time": 90,
+    "topics": [
+      "Acid-Base Chemistry",
+      "Aqueous Equilibria",
+      "Buffer Solutions",
+      "Chemical Equilibrium",
+      "Chemical Kinetics",
+      "Electrochemistry",
+      "Nuclear Chemistry",
+      "Redox Reactions",
+      "Solubility Equilibrium",
+      "Thermodynamics"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2024/2025",
+    "topic": [
+      "Buffer Solutions",
+      "Acid-Base Chemistry",
+      "Aqueous Equilibria",
+      "pH Calculations",
+      "Chemical Equilibrium"
+    ],
+    "Question": {
+      "content": "Calculate the [H₃O⁺] and pH of a buffer solution that is 0.20 M acetic acid and 0.15 M sodium acetate (Ka = 1.8 × 10⁻⁵).",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Buffer pH — Henderson-Hasselbalch</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(\\text{pH} = pK_a + \\log\\dfrac{[\\text{base}]}{[\\text{acid}]}\\)<br><br><strong style='color: var(--strongColor);'>Step 1:</strong> \\(pK_a = -\\log(1.8 \\times 10^{-5}) = 4.74\\)<br><strong style='color: var(--strongColor);'>Step 2:</strong> \\(\\text{pH} = 4.74 + \\log\\dfrac{0.15}{0.20} = 4.74 + (-0.125) = 4.62\\)<br><strong style='color: var(--strongColor);'>Step 3:</strong> \\([H_3O^+] = 10^{-4.62} \\approx 2.4 \\times 10^{-5} \\text{ M}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "[H₃O⁺] ≈ 2.4 × 10⁻⁵ M; pH ≈ 4.62"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24 @ 2024/2025",
+    "topic": [
+      "Buffer Solutions",
+      "pH Calculations",
+      "Acid-Base Chemistry",
+      "Aqueous Equilibria"
+    ],
+    "Question": {
+      "content": "A buffer solution was made by adding 3.28g of sodium ethanoate to 1 dm³ of 0.01M ethanoic acid. What is the pH of the resulting buffer? Given that [Ka(CH₃COOH)] = 1.7 × 10⁻⁵ mol/dm³.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Buffer pH Calculation</h4><strong style='color: var(--strongColor);'>Step 1 — Moles of sodium ethanoate:</strong><br>Molar mass CH₃COONa = 82 g/mol<br>\\(n = \\dfrac{3.28}{82} = 0.04 \\text{ mol}\\) → [salt] = 0.04 M<br><br><strong style='color: var(--strongColor);'>Step 2 — Henderson-Hasselbalch:</strong><br>\\(\\text{pH} = pK_a + \\log\\dfrac{[\\text{salt}]}{[\\text{acid}]}\\)<br>\\(pK_a = -\\log(1.7 \\times 10^{-5}) = 4.77\\)<br>\\(\\text{pH} = 4.77 + \\log\\dfrac{0.04}{0.01} = 4.77 + 0.60 = \\mathbf{5.37}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "pH ≈ 5.37"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18 @ 2023/2024",
+    "Question": {
+      "content": "Calculate the pH of a buffer that is 0.12M in lactic acid and 0.11M in sodium lactate ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3.83"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #4CAF50;'><p><strong>Henderson-Hasselbalch Equation:</strong></p><p>\\( \\text{pH} = \\text{p}K_a + \\log\\left(\\frac{[\\text{A}^-]}{[\\text{HA}]}\\right) \\)</p><p><strong>Step 1: Find \\( \\text{p}K_a \\)</strong></p><p>\\( \\text{p}K_a = -\\log(1.38 \\times 10^{-4}) = 3.86 \\)</p><p><strong>Step 2: Plug in values</strong></p><p>\\( \\text{pH} = 3.86 + \\log\\left(\\frac{0.11}{0.12}\\right) = 3.86 - 0.03 = 3.83 \\)</p></div>"
+    },
+    "topic": [
+      "Chemistry",
+      "Acid-Base Chemistry",
+      "Thermodynamics and Chemical Equilibrium",
+      "Analytical Chemistry Techniques",
+      "Buffer Solutions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2023/2024",
+    "Question": {
+      "content": "A buffer solution was obtained by diluting a mixture of 8.3g of ethanoic acid and 16.0g of sodium ethanoate to 1.00dm³. Calculate the pH of the buffer. ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "4.93"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #4CAF50;'><p><strong>Step 1: Calculate Molarities</strong></p><p>- Ethanoic acid (\\( CH_3COOH \\)): \\( \\frac{8.3 \\text{g}}{60 \\text{g/mol}} = 0.138 \\text{ mol} \\) → \\( 0.138 \\text{ M} \\).</p><p>- Sodium ethanoate (\\( CH_3COONa \\)): \\( \\frac{16.0 \\text{g}}{82 \\text{g/mol}} = 0.195 \\text{ mol} \\) → \\( 0.195 \\text{ M} \\).</p><p><strong>Step 2: Apply Henderson-Hasselbalch</strong></p><p>\\( \\text{pH} = 4.76 + \\log\\left(\\frac{0.195}{0.138}\\right) = 4.76 + 0.17 = 4.93 \\)</p><p><strong>Note:</strong> \\( \\text{p}K_a \\) of ethanoic acid = 4.76.</p></div>"
+    },
+    "topic": [
+      "Chemistry",
+      "Buffer Solutions",
+      "Acid-Base Chemistry",
+      "Thermodynamics and Chemical Equilibrium"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 @ 2023/2024",
+    "Question": {
+      "content": "The mathematical expression of Henderson-Hasselbalch equation is ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\text{pH} = \\text{p}K_a + \\log\\left(\\frac{[\\text{A}^-]}{[\\text{HA}]}\\right) \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #4CAF50;'><p><strong>Henderson-Hasselbalch Equation:</strong></p><p>Used to estimate the pH of a buffer solution. It relates the pH of a solution to the \\( \\text{p}K_a \\) (acid dissociation constant) and the ratio of the concentrations of the conjugate base (\\( [\\text{A}^-] \\)) and the weak acid (\\( [\\text{HA}] \\)).</p><p style='text-align: center; margin: 10px 0;'>\\( \\text{pH} = \\text{p}K_a + \\log\\left(\\frac{[\\text{A}^-]}{[\\text{HA}]}\\right) \\)</p></div>"
+    },
+    "topic": [
+      "Acid-Base Chemistry",
+      "Buffer Solutions",
+      "Thermodynamics and Chemical Equilibrium"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 21 @ 2019/2020",
+    "Question": {
+      "content": "Calculate [H₃O⁺] and pH for a buffer containing 0.20M CH₃COOH and 0.15M CH₃COONa (Ka = 1.8 × 10⁻⁵).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "[H₃O⁺] = 2.4 × 10⁻⁵ M, pH ≈ 4.62"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Using the Henderson-Hasselbalch equation: pH = pKa + log([A⁻]/[HA]). First, pKa = -log(1.8 × 10⁻⁵) ≈ 4.74. Then, pH = 4.74 + log(0.15/0.20) ≈ 4.74 - 0.12 ≈ 4.62. [H₃O⁺] = 10⁻pH ≈ 2.4 × 10⁻⁵ M. This demonstrates buffer action - the solution resists pH changes because the weak acid (CH₃COOH) and conjugate base (CH₃COO⁻) neutralize added H⁺ or OH⁻ through equilibrium shifts."
+    },
+    "topic": [
+      "Acids and Bases",
+      "Chemical Equilibrium",
+      "Equilibrium Constant Calculation",
+      "Buffer Solutions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 24 @ 2019/2020",
+    "Question": {
+      "content": "What combination makes a base buffer from NH₃?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "NH₃ + NH₄⁺ (e.g., NH₃ with NH₄Cl)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "Basic buffers require a weak base (NH₃) and its conjugate acid (NH₄⁺). Typically prepared by mixing NH₃ solution with NH₄Cl. The equilibrium NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ resists pH changes when small amounts of acid/base are added. For optimal buffering, the components should have similar concentrations (0.1-1M) with pH ≈ pKa (9.25 for NH₄⁺ at 25°C), giving effective range of pH 8.25-10.25."
+    },
+    "topic": [
+      "Acids and Bases",
+      "Buffer Solutions",
+      "Conjugate Acid-Base Pairs",
+      "Chemical Equilibrium",
+      "Inorganic Chemistry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2015/2016",
+    "Question": {
+      "content": "A buffer is made by adding 0.300 mol \\( CH_3COONa \\) to enough water to make 1.00 L of solution. The pH of the buffer is 4.74. Calculate the pH of this solution after 0.020 mol of \\( NaOH \\) is added. <br/>Given: \\( K_a = 1.8 \\times 10^{-5} \\)",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "pH = 4.80"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<strong>Step 1: Initial Buffer Composition</strong><br/>\\[ [CH_3COOH] = [CH_3COO^-] = 0.300 \\, M \\]<br/>\\[ \\text{pH} = \\text{p}K_a + \\log \\left( \\frac{[CH_3COO^-]}{[CH_3COOH]} \\right) = 4.74 + \\log(1) = 4.74 \\]<br/><br/><strong>Step 2: Reaction with NaOH</strong><br/>\\( NaOH \\) (0.020 mol) reacts with \\( CH_3COOH \\):<br/>\\[ CH_3COOH + OH^- \\rightarrow CH_3COO^- + H_2O \\]<br/>\\[ \\text{New } [CH_3COOH] = 0.300 - 0.020 = 0.280 \\, M \\]<br/>\\[ \\text{New } [CH_3COO^-] = 0.300 + 0.020 = 0.320 \\, M \\]<br/><br/><strong>Step 3: Calculate New pH</strong><br/>\\[ \\text{pH} = 4.74 + \\log \\left( \\frac{0.320}{0.280} \\right) = 4.74 + 0.058 = 4.80 \\]"
+    },
+    "topic": [
+      "Acids and Bases",
+      "Solutions",
+      "Chemical Equilibrium",
+      "Stoichiometry",
+      "Buffer Solutions"
+    ]
+  }
+]
