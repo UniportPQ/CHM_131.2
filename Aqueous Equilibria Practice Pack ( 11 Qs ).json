@@ -1,0 +1,275 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "General Chemistry II",
+    "code": "CHM_131.2",
+    "session": "Aqueous Equilibria",
+    "time": 90,
+    "topics": [
+      "Acid-Base Chemistry",
+      "Aqueous Equilibria",
+      "Buffer Solutions",
+      "Chemical Equilibrium",
+      "Chemical Kinetics",
+      "Electrochemistry",
+      "Nuclear Chemistry",
+      "Redox Reactions",
+      "Solubility Equilibrium",
+      "Thermodynamics"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 12 @ 2024/2025",
+    "topic": [
+      "Chemical Equilibrium",
+      "Aqueous Equilibria",
+      "Equilibrium Constant",
+      "Solubility Product Constant"
+    ],
+    "Question": {
+      "content": "Determine the solubility constant Ksp for Ca(OH)₂ whose molar concentration is 1.1 × 10⁻² M.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Ksp of Ca(OH)₂</h4><strong style='color: var(--strongColor);'>Dissolution:</strong> \\(Ca(OH)_2 \\rightleftharpoons Ca^{2+} + 2OH^-\\)<br><br><strong style='color: var(--strongColor);'>Concentrations:</strong><br>\\([Ca^{2+}] = 1.1 \\times 10^{-2}\\text{ M}\\)<br>\\([OH^-] = 2 \\times 1.1 \\times 10^{-2} = 2.2 \\times 10^{-2}\\text{ M}\\)<br><br><strong style='color: var(--strongColor);'>Ksp:</strong><br>\\(K_{sp} = [Ca^{2+}][OH^-]^2 = (1.1 \\times 10^{-2})(2.2 \\times 10^{-2})^2\\)<br>\\(= (1.1 \\times 10^{-2})(4.84 \\times 10^{-4}) \\approx 5.32 \\times 10^{-6}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ksp ≈ 5.32 × 10⁻⁶"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15 @ 2024/2025",
+    "topic": [
+      "General Chemistry II",
+      "Chemical Equilibrium",
+      "Equilibrium Constant",
+      "Acid-Base Chemistry",
+      "Aqueous Equilibria",
+      "Autoionization"
+    ],
+    "Question": {
+      "content": "Write the equilibrium constant expression for the auto-ionization of acetic acid (CH₃COOH).",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Auto-ionization of Acetic Acid</h4><strong style='color: var(--strongColor);'>Equation:</strong><br>\\(CH_3COOH + H_2O \\rightleftharpoons CH_3COO^- + H_3O^+\\)<br><br><strong style='color: var(--strongColor);'>Key Rule:</strong> Pure liquids (H₂O) are <strong>excluded</strong> from Ka expressions.<br><br><strong style='color: var(--strongColor);'>Ka expression:</strong><br>\\(K_a = \\dfrac{[CH_3COO^-][H_3O^+]}{[CH_3COOH]}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ka = [CH₃COO⁻][H₃O⁺] / [CH₃COOH]"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17 @ 2024/2025",
+    "topic": [
+      "Acid-Base Chemistry",
+      "Aqueous Equilibria",
+      "pH Calculations",
+      "General Chemistry II"
+    ],
+    "Question": {
+      "content": "A sample of freshly pressed breast milk has a pH of 3.76. Calculate [H⁺].",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Finding [H⁺] from pH</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\([H^+] = 10^{-\\text{pH}}\\)<br><br><strong style='color: var(--strongColor);'>Substitute:</strong><br>\\([H^+] = 10^{-3.76} \\approx 1.74 \\times 10^{-4} \\text{ mol/L}\\)<br><br>A pH of 3.76 is <strong>acidic</strong> (below 7), so [H⁺] is greater than 10⁻⁷.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "[H⁺] ≈ 1.74 × 10⁻⁴ mol/L"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2024/2025",
+    "topic": [
+      "Buffer Solutions",
+      "Acid-Base Chemistry",
+      "Aqueous Equilibria",
+      "pH Calculations",
+      "Chemical Equilibrium"
+    ],
+    "Question": {
+      "content": "Calculate the [H₃O⁺] and pH of a buffer solution that is 0.20 M acetic acid and 0.15 M sodium acetate (Ka = 1.8 × 10⁻⁵).",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Buffer pH — Henderson-Hasselbalch</h4><strong style='color: var(--strongColor);'>Formula:</strong> \\(\\text{pH} = pK_a + \\log\\dfrac{[\\text{base}]}{[\\text{acid}]}\\)<br><br><strong style='color: var(--strongColor);'>Step 1:</strong> \\(pK_a = -\\log(1.8 \\times 10^{-5}) = 4.74\\)<br><strong style='color: var(--strongColor);'>Step 2:</strong> \\(\\text{pH} = 4.74 + \\log\\dfrac{0.15}{0.20} = 4.74 + (-0.125) = 4.62\\)<br><strong style='color: var(--strongColor);'>Step 3:</strong> \\([H_3O^+] = 10^{-4.62} \\approx 2.4 \\times 10^{-5} \\text{ M}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "[H₃O⁺] ≈ 2.4 × 10⁻⁵ M; pH ≈ 4.62"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 @ 2024/2025",
+    "topic": [
+      "Acid-Base Chemistry",
+      "Aqueous Equilibria",
+      "pH Calculations",
+      "Acid-Base Indicators"
+    ],
+    "Question": {
+      "content": "What is the colour of phenolphthalein at pH 12?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Phenolphthalein Colour Range</h4><strong style='color: var(--strongColor);'>Below pH 8.2:</strong> Colourless<br><strong style='color: var(--strongColor);'>pH 8.2 – 10:</strong> Pink/Magenta transition<br><strong style='color: var(--strongColor);'>Above pH 10:</strong> <strong>Bright Pink / Fuchsia</strong><br><br>pH 12 is strongly alkaline, so phenolphthalein appears <strong>bright pink (magenta)</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Bright pink (magenta/fuchsia)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21 @ 2024/2025",
+    "topic": [
+      "General Chemistry II",
+      "Acid-Base Chemistry",
+      "Aqueous Equilibria",
+      "Autoionization"
+    ],
+    "Question": {
+      "content": "Identify the conjugate base of H₃O⁺ in the equation: \\(H_2O_{(l)} + H_2O_{(l)} \\rightarrow H_3O^+_{(aq)} + OH^-_{(aq)}\\)",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Conjugate Base Concept</h4><strong style='color: var(--strongColor);'>Rule:</strong> A conjugate base is formed when an acid <strong>donates a proton (H⁺)</strong>.<br><br>H₃O⁺ donates H⁺ → becomes <strong>H₂O</strong><br><br>Therefore, the conjugate base of H₃O⁺ is <strong>H₂O</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "H₂O"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22 @ 2024/2025",
+    "topic": [
+      "General Chemistry II",
+      "Acid-Base Chemistry",
+      "pH Calculations",
+      "Aqueous Equilibria",
+      "Acid Strength",
+      "Polyprotic Acids"
+    ],
+    "Question": {
+      "content": "What is the pH of 10⁻¹ M H₂SO₄?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>pH of H₂SO₄</h4><strong style='color: var(--strongColor);'>H₂SO₄ is diprotic</strong> — donates <strong>2 H⁺ ions</strong> per molecule.<br><br>\\([H^+] = 2 \\times 0.1 = 0.2 \\text{ M}\\)<br><br>\\(\\text{pH} = -\\log(0.2) = -\\log(2 \\times 10^{-1}) \\approx 0.70\\)<br><br>The pH is <strong>0.70</strong> — strongly acidic.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "pH ≈ 0.70"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24 @ 2024/2025",
+    "topic": [
+      "Buffer Solutions",
+      "pH Calculations",
+      "Acid-Base Chemistry",
+      "Aqueous Equilibria"
+    ],
+    "Question": {
+      "content": "A buffer solution was made by adding 3.28g of sodium ethanoate to 1 dm³ of 0.01M ethanoic acid. What is the pH of the resulting buffer? Given that [Ka(CH₃COOH)] = 1.7 × 10⁻⁵ mol/dm³.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Buffer pH Calculation</h4><strong style='color: var(--strongColor);'>Step 1 — Moles of sodium ethanoate:</strong><br>Molar mass CH₃COONa = 82 g/mol<br>\\(n = \\dfrac{3.28}{82} = 0.04 \\text{ mol}\\) → [salt] = 0.04 M<br><br><strong style='color: var(--strongColor);'>Step 2 — Henderson-Hasselbalch:</strong><br>\\(\\text{pH} = pK_a + \\log\\dfrac{[\\text{salt}]}{[\\text{acid}]}\\)<br>\\(pK_a = -\\log(1.7 \\times 10^{-5}) = 4.77\\)<br>\\(\\text{pH} = 4.77 + \\log\\dfrac{0.04}{0.01} = 4.77 + 0.60 = \\mathbf{5.37}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "pH ≈ 5.37"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27 @ 2024/2025",
+    "topic": [
+      "Common Ion Effect",
+      "Aqueous Equilibria",
+      "Chemical Equilibrium",
+      "Solubility Product Constant"
+    ],
+    "Question": {
+      "content": "The decrease in the solubility of a sparingly soluble salt due to the presence of a common ion in solution is called?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Common Ion Effect</h4>When an ion that is already part of the equilibrium is added from an external source, it <strong>shifts the equilibrium</strong> to oppose the change (Le Chatelier).<br><br>This reduces how much of the sparingly soluble salt dissolves — this phenomenon is called the <strong>Common Ion Effect</strong>.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The Common Ion Effect"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32 @ 2024/2025",
+    "topic": [
+      "General Chemistry II",
+      "Acid-Base Chemistry",
+      "Aqueous Equilibria",
+      "pH Calculations",
+      "Chemical Equilibrium",
+      "Acid Strength"
+    ],
+    "Question": {
+      "content": "Calculate the Ka of a 0.0033 M solution of benzoic acid, given that pOH = 10.70.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Ka from pOH</h4><strong style='color: var(--strongColor);'>Step 1:</strong> \\(\\text{pH} = 14 - \\text{pOH} = 14 - 10.70 = 3.30\\)<br><strong style='color: var(--strongColor);'>Step 2:</strong> \\([H^+] = 10^{-3.30} = 5.01 \\times 10^{-4} \\text{ M}\\)<br><strong style='color: var(--strongColor);'>Step 3:</strong> For weak acid: \\(K_a = \\dfrac{[H^+]^2}{C - [H^+]} \\approx \\dfrac{(5.01 \\times 10^{-4})^2}{0.0033}\\)<br>\\(K_a \\approx \\dfrac{2.51 \\times 10^{-7}}{0.0033} \\approx \\mathbf{7.6 \\times 10^{-5}}\\)</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ka ≈ 7.6 × 10⁻⁵"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 35 @ 2024/2025",
+    "topic": [
+      "Aqueous Equilibria",
+      "Chemical Equilibrium",
+      "Solubility Product Constant",
+      "Common Ion Effect"
+    ],
+    "Question": {
+      "content": "The solubility product of lead(II) sulphate in water is 1.6 × 10⁻⁸ mol² dm⁻⁶. Calculate the solubility of PbSO₄ in 0.1 M Pb(NO₃)₂ solution.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 10px;'>Solubility with Common Ion</h4><strong style='color: var(--strongColor);'>Ksp expression:</strong> \\(K_{sp} = [Pb^{2+}][SO_4^{2-}] = 1.6 \\times 10^{-8}\\)<br><br>Pb(NO₃)₂ already contributes 0.1 M Pb²⁺ (common ion).<br>Let solubility of PbSO₄ = s, so [SO₄²⁻] = s, [Pb²⁺] ≈ 0.1 + s ≈ 0.1 M<br><br>\\(1.6 \\times 10^{-8} = (0.1)(s)\\)<br>\\(s = \\dfrac{1.6 \\times 10^{-8}}{0.1} = \\mathbf{1.6 \\times 10^{-7} \\text{ mol/dm}^3}\\)<br><br>The solubility is <strong>greatly reduced</strong> due to the common ion effect.</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "s = 1.6 × 10⁻⁷ mol/dm³"
+    }
+  }
+]
